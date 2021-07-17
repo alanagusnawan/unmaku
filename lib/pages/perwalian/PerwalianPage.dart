@@ -21,7 +21,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
           Column(
             children: [
               Container(
-                height: _height / 3.5,
+                height: _height / 4.5,
                 width: _width,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -29,8 +29,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                       end: Alignment.bottomCenter,
                       colors: [Colors.blue, Colors.blueAccent]),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25)),
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
                 ),
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Row(
@@ -38,34 +38,35 @@ class _PerwalianPageState extends State<PerwalianPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0, bottom: 30.0),
+                      padding: const EdgeInsets.only(right: 10.0, bottom: 30.0),
                       child: Image.asset(
                         "assets/images/unmaku.png",
                         scale: 1.5,
                       ),
                     ),
                     SizedBox(
-                      width: _width / 5,
+                      width: _width / 6,
                     ),
-
-                    InkWell(
-                      onTap: () {
-                        Navigator.of(context).pushNamed(
-                            '/profile');
-                      },
-                      child: CircleAvatar(
-                        radius: 40,
-                        backgroundImage: NetworkImage(
-                            'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                    Padding(
+                      padding: EdgeInsets.only(right: 25.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/profile');
+                        },
+                        child: CircleAvatar(
+                          radius: 40,
+                          backgroundImage: NetworkImage(
+                              'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
                   Container(
                     padding: EdgeInsets.only(
                         top: _height / 20),
-                    width: _width / 1.3,
+                    width: _width / 1.2,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -77,7 +78,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),),
                         Container(
-                          width: _width / 1.3,
+                          width: _width,
                           child: Padding(
                             padding:
                             const EdgeInsets.only(top: 20.0, bottom: 10.0),
@@ -91,11 +92,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                 crossAxisAlignment: CrossAxisAlignment.stretch,
                                 children: <Widget>[
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10.0,
-                                        bottom: 10.0,
-                                        left: 5.0,
-                                        right: 5.0),
+                                    padding: const EdgeInsets.all(10.0),
                                     child: Column(
                                       crossAxisAlignment:
                                       CrossAxisAlignment.stretch,
@@ -115,9 +112,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                 children: [
                                                   Padding(
                                                     padding:
-                                                    const EdgeInsets.only(
-                                                        right: 10.0,
-                                                        left: 10.0),
+                                                    const EdgeInsets.all(10),
                                                     child: Icon(Icons.person,
                                                         size: _width / 10),
                                                   ),
@@ -134,7 +129,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                   Icon(
                                                       Icons
                                                           .arrow_forward_ios_rounded,
-                                                      size: _width / 15)
+                                                      size: _width / 25)
                                                 ],
                                               ),
                                             )),
@@ -153,9 +148,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                 children: [
                                                   Padding(
                                                     padding:
-                                                    const EdgeInsets.only(
-                                                        right: 10.0,
-                                                        left: 10.0),
+                                                    const EdgeInsets.all(10),
                                                     child: Icon(Icons.person,
                                                         size: _width / 10),
                                                   ),
@@ -172,7 +165,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                   Icon(
                                                       Icons
                                                           .arrow_forward_ios_rounded,
-                                                      size: _width / 15)
+                                                      size: _width / 25)
                                                 ],
                                               ),
                                             )),
@@ -186,8 +179,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                             MainAxisAlignment.spaceBetween,
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.only(
-                                                    right: 10.0, left: 10.0),
+                                                padding:
+                                                const EdgeInsets.all(10),
                                                 child: Icon(
                                                     Icons.wysiwyg_rounded,
                                                     size: _width / 10),
@@ -205,7 +198,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                               Icon(
                                                   Icons
                                                       .arrow_forward_ios_rounded,
-                                                  size: _width / 15)
+                                                  size: _width / 25)
                                             ],
                                           ),
                                         ),

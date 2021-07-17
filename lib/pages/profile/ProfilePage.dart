@@ -29,6 +29,7 @@ class _ProfilePageState extends State<ProfilePage>
     final _height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      bottomNavigationBar: menuBawah(),
       backgroundColor: Colors.white,
       body: Container(
         height: _height,
@@ -37,7 +38,7 @@ class _ProfilePageState extends State<ProfilePage>
           clipBehavior: Clip.none,
           children: <Widget>[
             Container(
-              height: _height / 3.5,
+              height: _height / 4.5,
               width: _width,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -64,7 +65,7 @@ class _ProfilePageState extends State<ProfilePage>
               ),
             ),
             Positioned(
-              top: _height / 4.0,
+              top: _height / 6,
               right: 0.0,
               left: 0.0,
               bottom: 5.0,
@@ -77,7 +78,7 @@ class _ProfilePageState extends State<ProfilePage>
                       children: <Widget>[
                         Container(
                           height: _height / 3.5,
-                          width: _width / 1.3,
+                          width: _width / 1.1,
                           child: Card(
                             elevation: 8.0,
                             shape: RoundedRectangleBorder(
@@ -108,7 +109,7 @@ class _ProfilePageState extends State<ProfilePage>
                           ),
                         ),
                         Container(
-                          width: _width / 1.3,
+                          width: _width / 1.1,
                           child: Padding(
                             padding:
                                 const EdgeInsets.only(top: 20.0, bottom: 10.0),
@@ -259,7 +260,7 @@ class _ProfilePageState extends State<ProfilePage>
                                 child: Container(
                                   key: _globalKey,
                                   height: 48,
-                                  width: _width,
+                                  width: _width / 1.1,
                                   child: RaisedButton(
                                     animationDuration:
                                         Duration(milliseconds: 1000),
@@ -344,4 +345,26 @@ class _ProfilePageState extends State<ProfilePage>
       });
     });
   }
+}
+
+Widget menuBawah() {
+  final menu = BottomNavigationBar(
+    type: BottomNavigationBarType.fixed,
+    items: [
+      BottomNavigationBarItem(
+          icon: Icon(Icons.home), title: Text("Dashboard")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
+    ],
+  );
+
+  return menu;
 }

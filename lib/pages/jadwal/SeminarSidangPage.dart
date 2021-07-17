@@ -7,10 +7,10 @@ class SeminarSidangPage extends StatefulWidget {
 
 class _SeminarSidangPageState extends State<SeminarSidangPage> {
   bool isJadwal = true;
-  bool isTerbooking = true;
+  bool isTerbooking = false;
   bool is1 = true;
-  bool is2 = true;
-  bool is3 = true;
+  bool is2 = false;
+  bool is3 = false;
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +18,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
     final _height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      bottomNavigationBar: menuBawah(),
       backgroundColor: Colors.white,
       body: Stack(
         overflow: Overflow.visible,
@@ -27,7 +28,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
           Column(
             children: [
               Container(
-                height: _height / 3.5,
+                height: _height / 4.5,
                 width: _width,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -35,8 +36,8 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                       end: Alignment.bottomCenter,
                       colors: [Colors.blue, Colors.blueAccent]),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25)),
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
                 ),
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Row(
@@ -44,41 +45,56 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0, bottom: 30.0),
+                      padding: const EdgeInsets.only(right: 10.0, bottom: 30.0),
                       child: Image.asset(
                         "assets/images/unmaku.png",
                         scale: 1.5,
                       ),
                     ),
                     SizedBox(
-                      width: _width / 5,
+                      width: _width / 6,
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.of(context).pushNamed('/profile');
-                      },
-                      child: CircleAvatar(
-                        radius: 40,
-                        backgroundImage: NetworkImage(
-                            'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                    Padding(
+                      padding: EdgeInsets.only(right: 25.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/profile');
+                        },
+                        child: CircleAvatar(
+                          radius: 40,
+                          backgroundImage: NetworkImage(
+                              'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(top: _height / 20, left: _width / 10),
+                padding: EdgeInsets.only(top: _height / 30, left: _width / 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      'SEMINAR/SIDANG',
-                      style: TextStyle(
-                          fontFamily: 'Segoe UI',
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),
+                    Row(
+                      children: [
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                '/menu', (Route<dynamic> route) => false);
+                          },
+                          child: Icon(Icons.arrow_back_ios_rounded,
+                              size: _width / 15),
+                        ),
+                        Text(
+                          'SEMINAR / SIDANG',
+                          style: TextStyle(
+                              fontFamily: 'Segoe UI',
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                              fontSize: _width / 18),
+                        ),
+                      ],
                     ),
                     Container(
                       width: _width,
@@ -94,7 +110,6 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                       Container(
                                         padding:
                                         const EdgeInsets.only(right: 10.0),
-                                        width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: isJadwal
@@ -107,7 +122,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                             ),
                                           )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.blue,
+                                            backgroundColor: Colors.grey,
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                               BorderRadius.circular(
@@ -131,7 +146,6 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                       Container(
                                         padding:
                                         const EdgeInsets.only(right: 10.0),
-                                        width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: isTerbooking
@@ -144,7 +158,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                             ),
                                           )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.blue,
+                                            backgroundColor: Colors.grey,
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                               BorderRadius.circular(
@@ -1529,14 +1543,18 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           ),
                                           child: TextButton(
                                             style: is1
-                                                ? TextButton.styleFrom(
+                                                    ? TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             )
                                                 : TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.white,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             ),
                                             onPressed: () {
-                                              is1 = !is1;
+                                              is1 = true;
                                               is2 = false;
                                               is3 = false;
                                               setState(() {});
@@ -1559,10 +1577,14 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           child: TextButton(
                                             style: is2
                                                 ? TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             )
                                                 : TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.white,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             ),
                                             onPressed: () {
                                               is1 = false;
@@ -1588,10 +1610,14 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           child: TextButton(
                                             style: is3
                                                 ? TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             )
                                                 : TextButton.styleFrom(
+                                              elevation: 0,
                                               backgroundColor: Colors.white,
+                                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                             ),
                                             onPressed: () {
                                               is1 = false;
@@ -1645,4 +1671,26 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
       ),
     );
   }
+}
+
+Widget menuBawah() {
+  final menu = BottomNavigationBar(
+    type: BottomNavigationBarType.fixed,
+    items: [
+      BottomNavigationBarItem(
+          icon: Icon(Icons.home), title: Text("Dashboard")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
+    ],
+  );
+
+  return menu;
 }

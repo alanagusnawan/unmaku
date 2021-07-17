@@ -7,8 +7,8 @@ class HistoriPembayaranPage extends StatefulWidget {
 
 class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
   bool is1 = true;
-  bool is2 = true;
-  bool is3 = true;
+  bool is2 = false;
+  bool is3 = false;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
           Column(
             children: [
               Container(
-                height: _height / 3.5,
+                height: _height / 4.5,
                 width: _width,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -33,8 +33,8 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                       end: Alignment.bottomCenter,
                       colors: [Colors.blue, Colors.blueAccent]),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25)),
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
                 ),
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Row(
@@ -42,25 +42,28 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0, bottom: 30.0),
+                      padding: const EdgeInsets.only(right: 10.0, bottom: 30.0),
                       child: Image.asset(
                         "assets/images/unmaku.png",
                         scale: 1.5,
                       ),
                     ),
                     SizedBox(
-                      width: _width / 5,
+                      width: _width / 6,
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.of(context).pushNamed('/menu');
-                      },
-                      child: CircleAvatar(
-                        radius: 40,
-                        backgroundImage: NetworkImage(
-                            'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                    Padding(
+                      padding: EdgeInsets.only(right: 25.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/profile');
+                        },
+                        child: CircleAvatar(
+                          radius: 40,
+                          backgroundImage: NetworkImage(
+                              'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
@@ -1239,13 +1242,17 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                 child: TextButton(
                                   style: is1
                                       ? TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   )
                                       : TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   ),
                                   onPressed: () {
-                                    is1 = !is1;
+                                    is1 = true;
                                     is2 = false;
                                     is3 = false;
                                     setState(() {});
@@ -1268,10 +1275,14 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                 child: TextButton(
                                   style: is2
                                       ? TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   )
                                       : TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   ),
                                   onPressed: () {
                                     is1 = false;
@@ -1297,10 +1308,14 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                 child: TextButton(
                                   style: is3
                                       ? TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   )
                                       : TextButton.styleFrom(
+                                    elevation: 0,
                                     backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                                   ),
                                   onPressed: () {
                                     is1 = false;

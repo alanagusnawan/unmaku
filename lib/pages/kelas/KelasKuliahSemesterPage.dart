@@ -7,11 +7,11 @@ class KelasKuliahSemester extends StatefulWidget {
 
 class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
   bool isSenin = true;
-  bool isSelasa = true;
-  bool isRabu = true;
-  bool isKamis = true;
-  bool isJumat = true;
-  bool isSabtu = true;
+  bool isSelasa = false;
+  bool isRabu = false;
+  bool isKamis = false;
+  bool isJumat = false;
+  bool isSabtu = false;
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +19,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
     final _height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      bottomNavigationBar: menuBawah(),
       backgroundColor: Colors.white,
       body: Stack(
         overflow: Overflow.visible,
@@ -28,7 +29,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
           Column(
             children: [
               Container(
-                height: _height / 3.5,
+                height: _height / 4.5,
                 width: _width,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -36,8 +37,8 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                       end: Alignment.bottomCenter,
                       colors: [Colors.blue, Colors.blueAccent]),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25)),
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
                 ),
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Row(
@@ -45,25 +46,28 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0, bottom: 30.0),
+                      padding: const EdgeInsets.only(right: 10.0, bottom: 30.0),
                       child: Image.asset(
                         "assets/images/unmaku.png",
                         scale: 1.5,
                       ),
                     ),
                     SizedBox(
-                      width: _width / 5,
+                      width: _width / 6,
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.of(context).pushNamed('/profile');
-                      },
-                      child: CircleAvatar(
-                        radius: 40,
-                        backgroundImage: NetworkImage(
-                            'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                    Padding(
+                      padding: EdgeInsets.only(right: 25.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/profile');
+                        },
+                        child: CircleAvatar(
+                          radius: 40,
+                          backgroundImage: NetworkImage(
+                              'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
@@ -73,13 +77,25 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      'KELAS KULIAH SEMESTER',
-                      style: TextStyle(
-                          fontFamily: 'Segoe UI',
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),
+                    Row(
+                      children: [
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                '/menu', (Route<dynamic> route) => false);
+                          },
+                          child: Icon(Icons.arrow_back_ios_rounded,
+                              size: _width / 15),
+                        ),
+                        Text(
+                          'KELAS KULIAH SEMESTER',
+                          style: TextStyle(
+                              fontFamily: 'Segoe UI',
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                              fontSize: _width / 18),
+                        ),
+                      ],
                     ),
                     Container(
                       width: _width,
@@ -90,7 +106,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: const EdgeInsets.only(bottom: 10.0),
+                                padding: EdgeInsets.only(bottom: _height /50),
                                 child: SingleChildScrollView(
                                   scrollDirection: Axis.horizontal,
                                   child: Row(
@@ -111,7 +127,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -152,7 +168,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -193,7 +209,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -234,7 +250,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -275,7 +291,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -316,7 +332,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   ),
                                                 )
                                               : TextButton.styleFrom(
-                                                  backgroundColor: Colors.blue,
+                                                  backgroundColor: Colors.grey,
                                                   shape: RoundedRectangleBorder(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -346,19 +362,19 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                 ),
                               ),
                               Container(
-                                width: _width / 1.3,
+                                width: _width / 1.2,
                                 child: Column(
                                   children: [
-                                    Card(
+                                    Padding(padding: EdgeInsets.only(bottom: _height /50), child: Card(
                                       elevation: 8.0,
                                       shape: RoundedRectangleBorder(
                                           borderRadius:
-                                              BorderRadius.circular(8.0)),
+                                          BorderRadius.circular(8.0)),
                                       child: Column(
                                         mainAxisAlignment:
-                                            MainAxisAlignment.spaceAround,
+                                        MainAxisAlignment.end,
                                         crossAxisAlignment:
-                                            CrossAxisAlignment.stretch,
+                                        CrossAxisAlignment.end,
                                         children: <Widget>[
                                           Padding(
                                               padding: const EdgeInsets.only(
@@ -367,59 +383,59 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   left: 5.0,
                                                   right: 5.0),
                                               child: Row(
-                                                children: [
+                                                mainAxisAlignment:
+                                                MainAxisAlignment.spaceAround,
+                                                crossAxisAlignment:
+                                                CrossAxisAlignment.end,
+                                                children: <Widget>[
                                                   Column(
                                                     mainAxisAlignment:
-                                                        MainAxisAlignment.start,
+                                                    MainAxisAlignment.start,
                                                     crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .start,
+                                                    CrossAxisAlignment
+                                                        .start,
                                                     children: [
                                                       Text(
                                                         "Desain Dan Pemrograman\nBerorientasi Objek A",
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight
-                                                                    .bold),
+                                                            FontWeight
+                                                                .bold),
                                                       ),
                                                       Text('Ruang : 304')
                                                     ],
                                                   ),
-                                                  Expanded(
-                                                    flex: 1,
-                                                    child: Container(
-                                                      width: _width / 3.5,
-                                                      height: _height / 20,
-                                                      child: TextButton(
-                                                        style: TextButton
-                                                            .styleFrom(
-                                                          backgroundColor:
-                                                              Colors.green,
-                                                          shape:
-                                                              RoundedRectangleBorder(
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        20),
-                                                          ),
+                                                  Container(
+                                                    width: _width / 3.5,
+                                                    height: _height / 20,
+                                                    child: TextButton(
+                                                      style:
+                                                      TextButton.styleFrom(
+                                                        backgroundColor:
+                                                        Colors.green,
+                                                        shape:
+                                                        RoundedRectangleBorder(
+                                                          borderRadius:
+                                                          BorderRadius
+                                                              .circular(20),
                                                         ),
-                                                        onPressed: () {},
-                                                        child: Text(
-                                                          "08:00-10:30",
-                                                          style: TextStyle(
-                                                            fontSize: 16,
-                                                            color: Color(
-                                                                0xffffffff),
-                                                          ),
+                                                      ),
+                                                      onPressed: () {},
+                                                      child: Text(
+                                                        "08:00-10:30",
+                                                        style: TextStyle(
+                                                          fontSize: 16,
+                                                          color:
+                                                          Color(0xffffffff),
                                                         ),
                                                       ),
                                                     ),
-                                                  )
+                                                  ),
                                                 ],
                                               )),
                                         ],
                                       ),
-                                    ),
+                                    ),),
                                     Card(
                                       elevation: 8.0,
                                       shape: RoundedRectangleBorder(
@@ -427,9 +443,9 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                           BorderRadius.circular(8.0)),
                                       child: Column(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.spaceAround,
+                                        MainAxisAlignment.end,
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.stretch,
+                                        CrossAxisAlignment.end,
                                         children: <Widget>[
                                           Padding(
                                               padding: const EdgeInsets.only(
@@ -438,8 +454,14 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   left: 5.0,
                                                   right: 5.0),
                                               child: Row(
-                                                children: [
+                                                mainAxisAlignment:
+                                                MainAxisAlignment.spaceAround,
+                                                crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                                children: <Widget>[
                                                   Column(
+                                                    mainAxisAlignment:
+                                                    MainAxisAlignment.start,
                                                     crossAxisAlignment:
                                                     CrossAxisAlignment
                                                         .start,
@@ -454,35 +476,32 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                       Text('Ruang : 303')
                                                     ],
                                                   ),
-                                                  Expanded(
-                                                    child: Container(
-                                                      width: _width / 3.5,
-                                                      height: _height / 20,
-                                                      child: TextButton(
-                                                        style: TextButton
-                                                            .styleFrom(
-                                                          backgroundColor:
-                                                          Colors.blue,
-                                                          shape:
-                                                          RoundedRectangleBorder(
-                                                            borderRadius:
-                                                            BorderRadius
-                                                                .circular(
-                                                                20),
-                                                          ),
+                                                  Container(
+                                                    width: _width / 3.5,
+                                                    height: _height / 20,
+                                                    child: TextButton(
+                                                      style:
+                                                      TextButton.styleFrom(
+                                                        backgroundColor:
+                                                        Colors.grey,
+                                                        shape:
+                                                        RoundedRectangleBorder(
+                                                          borderRadius:
+                                                          BorderRadius
+                                                              .circular(20),
                                                         ),
-                                                        onPressed: () {},
-                                                        child: Text(
-                                                          "08:00-10:30",
-                                                          style: TextStyle(
-                                                            fontSize: 16,
-                                                            color: Color(
-                                                                0xffffffff),
-                                                          ),
+                                                      ),
+                                                      onPressed: () {},
+                                                      child: Text(
+                                                        "11:30-13:30",
+                                                        style: TextStyle(
+                                                          fontSize: 16,
+                                                          color:
+                                                          Color(0xffffffff),
                                                         ),
                                                       ),
                                                     ),
-                                                  )
+                                                  ),
                                                 ],
                                               )),
                                         ],
@@ -503,4 +522,25 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
       ),
     );
   }
+}
+
+Widget menuBawah() {
+  final menu = BottomNavigationBar(
+    type: BottomNavigationBarType.fixed,
+    items: [
+      BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Dashboard")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
+      BottomNavigationBarItem(
+          icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
+    ],
+  );
+
+  return menu;
 }

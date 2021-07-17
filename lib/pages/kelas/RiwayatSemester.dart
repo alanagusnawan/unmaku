@@ -7,8 +7,8 @@ class RiwayatSemesterPage extends StatefulWidget {
 
 class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
   bool is2019ganjil = true;
-  bool is2019genap = true;
-  bool is2020ganjil = true;
+  bool is2019genap = false;
+  bool is2020ganjil = false;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
           Column(
             children: [
               Container(
-                height: _height / 3.5,
+                height: _height / 4.5,
                 width: _width,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -33,8 +33,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                       end: Alignment.bottomCenter,
                       colors: [Colors.blue, Colors.blueAccent]),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25)),
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
                 ),
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Row(
@@ -42,25 +42,28 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0, bottom: 30.0),
+                      padding: const EdgeInsets.only(right: 10.0, bottom: 30.0),
                       child: Image.asset(
                         "assets/images/unmaku.png",
                         scale: 1.5,
                       ),
                     ),
                     SizedBox(
-                      width: _width / 5,
+                      width: _width / 6,
                     ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.of(context).pushNamed('/profile');
-                      },
-                      child: CircleAvatar(
-                        radius: 40,
-                        backgroundImage: NetworkImage(
-                            'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                    Padding(
+                      padding: EdgeInsets.only(right: 25.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed('/profile');
+                        },
+                        child: CircleAvatar(
+                          radius: 40,
+                          backgroundImage: NetworkImage(
+                              'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
@@ -108,7 +111,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                             ),
                                           )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.blue,
+                                            backgroundColor: Colors.grey,
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                               BorderRadius.circular(
@@ -146,7 +149,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                             ),
                                           )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.blue,
+                                            backgroundColor: Colors.grey,
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                               BorderRadius.circular(
@@ -184,7 +187,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                             ),
                                           )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.blue,
+                                            backgroundColor: Colors.grey,
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                               BorderRadius.circular(
