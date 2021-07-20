@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:animated_splash/animated_splash.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:unmaku/pages/NavBar.dart';
+import 'package:unmaku/pages/home/UjianPage.dart';
 import 'package:unmaku/pages/jadwal/JadwalKuliahPage.dart';
 import 'package:unmaku/pages/jadwal/SeminarSidangPage.dart';
+import 'package:unmaku/pages/kelas/DaftarPertemuanPage.dart';
 import 'package:unmaku/pages/kelas/KelasKuliahSemesterPage.dart';
+import 'package:unmaku/pages/kelas/MasukPertemuanPage.dart';
 import 'package:unmaku/pages/kelas/RiwayatSemester.dart';
 import 'package:unmaku/pages/keuangan/HistoriPembayaranPage.dart';
 import 'package:unmaku/pages/keuangan/HistoriTagihanPage.dart';
@@ -56,7 +59,10 @@ void main() {
       '/seminarsidang': (BuildContext context) => new SeminarSidangPage(),
       '/historitagihan': (BuildContext context) => new HistoriTagianPage(),
       '/historipembayaran': (BuildContext context) => new HistoriPembayaranPage(),
-      '/invoice': (BuildContext context) => new InvoicePage()
+      '/invoice': (BuildContext context) => new InvoicePage(),
+      '/ujian': (BuildContext context) => new UjianPage(),
+      '/pertemuan': (BuildContext context) => new DaftarPertemuanPage(),
+      '/masuk': (BuildContext context) => new MasukPertemuanPage(),
     },
   ));
 }

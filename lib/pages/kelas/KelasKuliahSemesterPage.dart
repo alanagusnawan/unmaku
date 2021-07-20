@@ -420,7 +420,9 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                               .circular(20),
                                                         ),
                                                       ),
-                                                      onPressed: () {},
+                                                      onPressed: () {
+                                                        Navigator.of(context).pushNamed('/pertemuan');
+                                                      },
                                                       child: Text(
                                                         "08:00-10:30",
                                                         style: TextStyle(

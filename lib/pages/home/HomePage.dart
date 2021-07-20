@@ -78,88 +78,95 @@ class _HomePageState extends State<HomePage> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.only(bottom: _height / 50),
-                          child: Card(
-                            elevation: 8.0,
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15.0)),
-                            child: Container(
-                              height: _height / 7,
-                              width: _width / 1.3,
-                              foregroundDecoration:
-                                  const RotatedCornerDecoration(
-                                color: Colors.lightGreen,
-                                geometry: const BadgeGeometry(
-                                    width: 120,
-                                    height: 60,
-                                    alignment: BadgeAlignment.bottomRight),
-                              ),
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: <Widget>[
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                        right: 8.0, left: 8.0),
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: <Widget>[
-                                        Icon(
-                                          Icons.assignment_rounded,
-                                          color: Colors.green,
-                                          size: _height / 12,
-                                        ),
-                                        Column(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.start,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: <Widget>[
-                                            Padding(
-                                              padding: const EdgeInsets.only(
-                                                  bottom: 8.0),
-                                              child: Text(
-                                                "UTS",
-                                                textAlign: TextAlign.start,
-                                                style: TextStyle(
-                                                    color: Colors.black,
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: _width / 16),
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                '/ujian', (Route<dynamic> route) => false);
+                          },
+                          child: Padding(
+                            padding: EdgeInsets.only(bottom: _height / 50),
+                            child: Card(
+                              elevation: 8.0,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(15.0)),
+                              child: Container(
+                                height: _height / 7,
+                                width: _width / 1.3,
+                                foregroundDecoration:
+                                    const RotatedCornerDecoration(
+                                  color: Colors.lightGreen,
+                                  geometry: const BadgeGeometry(
+                                      width: 120,
+                                      height: 60,
+                                      alignment: BadgeAlignment.bottomRight),
+                                ),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(
+                                          right: 8.0, left: 8.0),
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: <Widget>[
+                                          Icon(
+                                            Icons.assignment_rounded,
+                                            color: Colors.green,
+                                            size: _height / 12,
+                                          ),
+                                          Column(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: <Widget>[
+                                              Padding(
+                                                padding: const EdgeInsets.only(
+                                                    bottom: 8.0),
+                                                child: Text(
+                                                  "UTS",
+                                                  textAlign: TextAlign.start,
+                                                  style: TextStyle(
+                                                      color: Colors.black,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: _width / 16),
+                                                ),
                                               ),
-                                            ),
-                                            Padding(
-                                              padding: const EdgeInsets.only(
-                                                  bottom: 5.0),
-                                              child: Text(
-                                                "Semester ganjil 2021-2022",
+                                              Padding(
+                                                padding: const EdgeInsets.only(
+                                                    bottom: 5.0),
+                                                child: Text(
+                                                  "Semester ganjil 2021-2022",
+                                                  textAlign: TextAlign.start,
+                                                  style: TextStyle(
+                                                      color: Colors.black,
+                                                      fontSize: _width / 35),
+                                                ),
+                                              ),
+                                              Text(
+                                                "UTS akan dilaksanakan :",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
                                                     fontSize: _width / 35),
                                               ),
-                                            ),
-                                            Text(
-                                              "UTS akan dilaksanakan :",
-                                              textAlign: TextAlign.start,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontSize: _width / 35),
-                                            ),
-                                            Text(
-                                              "14-Maret-2021 s.d 30-Maret-2021",
-                                              textAlign: TextAlign.start,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontSize: _width / 35),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
+                                              Text(
+                                                "14-Maret-2021 s.d 30-Maret-2021",
+                                                textAlign: TextAlign.start,
+                                                style: TextStyle(
+                                                    color: Colors.black,
+                                                    fontSize: _width / 35),
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ),
                           ),

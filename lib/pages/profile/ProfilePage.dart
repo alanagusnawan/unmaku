@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
@@ -352,17 +354,17 @@ Widget menuBawah() {
     type: BottomNavigationBarType.fixed,
     items: [
       BottomNavigationBarItem(
-          icon: Icon(Icons.home), title: Text("Dashboard")),
+          icon: Icon(Icons.home, color: Colors.grey,), title: Text("Dashboard", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
       BottomNavigationBarItem(
-          icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
+          icon: Icon(Icons.assignment_rounded, color: Colors.grey,), title: Text("Perwalian", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
       BottomNavigationBarItem(
-          icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
+          icon: Icon(Icons.laptop_mac, color: Colors.grey,), title: Text("Kelas", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
       BottomNavigationBarItem(
-          icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
+          icon: Icon(Icons.library_books_outlined, color: Colors.grey,), title: Text("Transkrip", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
       BottomNavigationBarItem(
-          icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
+          icon: Icon(Icons.date_range_rounded, color: Colors.grey,), title: Text("Jadwal", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
       BottomNavigationBarItem(
-          icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
+          icon: Icon(Icons.payment_rounded, color: Colors.grey,), title: Text("Keuangan", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
     ],
   );
 
