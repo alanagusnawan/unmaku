@@ -36,30 +36,30 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
   }
 
   Widget radioButton(bool isSelected) => Container(
-    width: 16.0,
-    height: 16.0,
-    padding: EdgeInsets.all(2.0),
-    decoration: BoxDecoration(
-        shape: BoxShape.rectangle,
-        border: Border.all(width: 2.0, color: Colors.black)),
-    child: isSelected
-        ? Container(
-      width: double.infinity,
-      height: double.infinity,
-      decoration:
-      BoxDecoration(shape: BoxShape.circle, color: Colors.black),
-    )
-        : Container(),
-  );
+        width: 16.0,
+        height: 16.0,
+        padding: EdgeInsets.all(2.0),
+        decoration: BoxDecoration(
+            shape: BoxShape.rectangle,
+            border: Border.all(width: 2.0, color: Colors.black)),
+        child: isSelected
+            ? Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration:
+                    BoxDecoration(shape: BoxShape.circle, color: Colors.black),
+              )
+            : Container(),
+      );
 
   Widget horizontalLine() => Padding(
-    padding: EdgeInsets.symmetric(horizontal: 16.0),
-    child: Container(
-      width: ScreenUtil.getInstance().setWidth(120),
-      height: 1.0,
-      color: Colors.black26.withOpacity(.2),
-    ),
-  );
+        padding: EdgeInsets.symmetric(horizontal: 16.0),
+        child: Container(
+          width: ScreenUtil.getInstance().setWidth(120),
+          height: 1.0,
+          color: Colors.black26.withOpacity(.2),
+        ),
+      );
 
   @override
   void dispose() {
@@ -109,13 +109,15 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                   ),
                   child: Padding(
                     padding:
-                    EdgeInsets.only(left: 10.0, right: 10.0, top: 16.0),
+                        EdgeInsets.only(left: 10.0, right: 10.0, top: 16.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         TextFormField(
-                          style:
-                          TextStyle(color: Color(0xff696969), fontSize: 14),
+                          style: TextStyle(
+                              color: Color(0xff696969),
+                              fontSize: 14,
+                              fontFamily: 'Poppins-regular'),
                           controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Nama Pengguna",
@@ -123,13 +125,13 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               fillColor: Color(0xfffafafa),
                               enabledBorder: const OutlineInputBorder(
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(15.0)),
+                                    BorderRadius.all(Radius.circular(15.0)),
                                 borderSide: const BorderSide(
-                                    color: Colors.black, width: 1),
+                                    color: Colors.black38, width: 1),
                               ),
                               border: const OutlineInputBorder(
                                   borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0))),
+                                      BorderRadius.all(Radius.circular(15.0))),
                               contentPadding: EdgeInsets.symmetric(
                                   vertical: 12, horizontal: 16)),
                         ),
@@ -140,8 +142,10 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           obscuringCharacter: '*',
                           obscureText: _isHidePassword,
                           controller: cPassword,
-                          style:
-                          TextStyle(color: Color(0xff696969), fontSize: 14),
+                          style: TextStyle(
+                              color: Color(0xff696969),
+                              fontSize: 14,
+                              fontFamily: 'Poppins-regular'),
                           decoration: InputDecoration(
                               suffixIcon: GestureDetector(
                                 onTap: () {
@@ -161,13 +165,13 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               fillColor: Color(0xfffafafa),
                               enabledBorder: const OutlineInputBorder(
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(15.0)),
+                                    BorderRadius.all(Radius.circular(15.0)),
                                 borderSide: const BorderSide(
-                                    color: Colors.black, width: 1),
+                                    color: Colors.black38, width: 1),
                               ),
                               border: const OutlineInputBorder(
                                   borderRadius:
-                                  BorderRadius.all(Radius.circular(15))),
+                                      BorderRadius.all(Radius.circular(15))),
                               contentPadding: EdgeInsets.symmetric(
                                   vertical: 12, horizontal: 16)),
                         ),
@@ -176,8 +180,10 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                         ),
                         TextFormField(
                           keyboardType: TextInputType.number,
-                          style:
-                          TextStyle(color: Color(0xff696969), fontSize: 14),
+                          style: TextStyle(
+                              color: Color(0xff696969),
+                              fontSize: 14,
+                              fontFamily: 'Poppins-regular'),
                           controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Masukan Teks Dibawah",
@@ -185,13 +191,13 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               fillColor: Color(0xfffafafa),
                               enabledBorder: const OutlineInputBorder(
                                 borderRadius:
-                                BorderRadius.all(Radius.circular(15.0)),
+                                    BorderRadius.all(Radius.circular(15.0)),
                                 borderSide: const BorderSide(
-                                    color: Colors.black, width: 1),
+                                    color: Colors.black38, width: 1),
                               ),
                               border: const OutlineInputBorder(
                                   borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0))),
+                                      BorderRadius.all(Radius.circular(15.0))),
                               contentPadding: EdgeInsets.symmetric(
                                   vertical: 12, horizontal: 16)),
                         ),
@@ -210,75 +216,80 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                     ),
                   ),
                 ),
-                Container(width: _width / 1.2, child:
-                Row(
-                  children: <Widget>[
-                    InkWell(
-                      onTap: () {
-                        setState(() {
-                          if (_state == 0) {
-                            animateButton();
-                          }
-                        });
-                      },
-                      child: Container(
-                        alignment: Alignment.center,
-                        key: _globalKey,
-                        width: _width / 1.2,
-                        height: ScreenUtil.getInstance().setHeight(100),
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(15.0),),
-                          child: setUpButtonChild()
+                Container(
+                  width: _width / 1.2,
+                  child: Row(
+                    children: <Widget>[
+                      InkWell(
+                        onTap: () {
+                          setState(() {
+                            if (_state == 0) {
+                              animateButton();
+                            }
+                          });
+                        },
+                        child: Container(
+                            alignment: Alignment.center,
+                            key: _globalKey,
+                            width: _width / 1.2,
+                            height: ScreenUtil.getInstance().setHeight(100),
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: setUpButtonChild()),
                       ),
-                    ),
-                    SizedBox(
-                      height: 20.0,
-                    ),
-                  ],
-                ),),
-                Container(width: _width / 1.2,child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    SizedBox(
-                      height: 15.0,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        GestureDetector(
-                          onTap: _radio,
-                          child: radioButton(_isSelected),
-                        ),
-                        SizedBox(
-                          width: 10.0,
-                        ),
-                        Text("Biarkan tetap masuk",
-                            style: TextStyle(
-                              fontFamily: 'Segoe UI',
-                              fontSize: 13,
-                              color: const Color(0xff0d0d0d),
-                            )),
-                        SizedBox(
-                          width: 12.0,
-                        ),
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        SizedBox(
-                          height: 20.0,
-                        ),
-                        Text("Lupa Kata Sandi?",
-                            style: TextStyle(
-                                color: Colors.blue,
-                                fontFamily: "Poppins-Medium",
-                                fontSize: 13))
-                      ],
-                    ),
-                  ],
-                ),),
+                      SizedBox(
+                        height: 20.0,
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  width: _width / 1.2,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: <Widget>[
+                      SizedBox(
+                        height: 15.0,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          GestureDetector(
+                            onTap: _radio,
+                            child: radioButton(_isSelected),
+                          ),
+                          SizedBox(
+                            width: 10.0,
+                          ),
+                          Text("Biarkan tetap masuk",
+                              style: TextStyle(
+                                fontFamily: 'Poppins',
+                                fontSize: 13,
+                                color: const Color(0xff0d0d0d),
+                              )),
+                          SizedBox(
+                            width: 12.0,
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text("Lupa Kata Sandi?",
+                              style: TextStyle(
+                                  color: Colors.blue,
+                                  fontFamily: "Poppins",
+                                  fontSize: 13))
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
                 SizedBox(
                   height: ScreenUtil.getInstance().setHeight(40),
                 ),
@@ -289,14 +300,13 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
       ),
     );
   }
+
   setUpButtonChild() {
     if (_state == 0) {
       return Text(
         "Masuk",
         style: const TextStyle(
-          color: Colors.white,
-          fontSize: 16,
-        ),
+            color: Colors.white, fontSize: 16, fontFamily: 'Poppins-Semi-Bold'),
       );
     } else if (_state == 1) {
       return SizedBox(
@@ -333,8 +343,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
     Timer(Duration(milliseconds: 3300), () {
       setState(() {
         _state = 2;
-        Navigator.of(context).pushNamed(
-            '/menu');
+        Navigator.of(context).pushNamed('/menu');
       });
     });
   }

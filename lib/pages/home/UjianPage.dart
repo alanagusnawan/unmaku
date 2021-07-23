@@ -98,7 +98,9 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                 children: [
                                   InkWell(
                                     onTap: () {
-                                      Navigator.of(context).pushNamedAndRemoveUntil('/menu', (Route<dynamic> route) => false);
+                                      Navigator.of(context)
+                                          .pushNamedAndRemoveUntil('/menu',
+                                              (Route<dynamic> route) => false);
                                     },
                                     child: Icon(Icons.arrow_back_ios_rounded,
                                         size: _width / 15),
@@ -106,7 +108,7 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                   Text(
                                     'UJIAN DARING',
                                     style: TextStyle(
-                                        fontFamily: 'Segoe UI',
+                                        fontFamily: 'Poppins-Bold',
                                         color: Colors.black,
                                         fontWeight: FontWeight.bold,
                                         fontSize: _width / 18),
@@ -114,36 +116,66 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                 ],
                               ),
                               Column(
-                                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceAround,
                                 crossAxisAlignment: CrossAxisAlignment.stretch,
                                 children: [
                                   Container(
                                     width: _width / 1.3,
                                     child: Padding(
-                                      padding: const EdgeInsets.only(top: 10.0, bottom: 5.0),
+                                      padding: const EdgeInsets.only(
+                                          top: 10.0, bottom: 5.0),
                                       child: Card(
                                         elevation: 8.0,
-                                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(8.0)),
                                         child: Column(
-                                          mainAxisAlignment: MainAxisAlignment.start,
-                                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.stretch,
                                           children: <Widget>[
                                             Padding(
-                                              padding: const EdgeInsets.only(top: 10.0, bottom: 10.0, left: 5.0, right: 5.0),
+                                              padding: const EdgeInsets.only(
+                                                  top: 10.0,
+                                                  bottom: 10.0,
+                                                  left: 5.0,
+                                                  right: 5.0),
                                               child: Column(
-                                                crossAxisAlignment: CrossAxisAlignment.stretch,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.stretch,
                                                 children: <Widget>[
                                                   Container(
                                                     width: _width / 1.3,
-                                                    child: Padding(padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                                                    child: Padding(
+                                                      padding:
+                                                          const EdgeInsets.only(
+                                                              top: 20.0,
+                                                              bottom: 10.0),
                                                       child: Column(
-                                                        mainAxisAlignment: MainAxisAlignment.start,
-                                                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .start,
+                                                        crossAxisAlignment:
+                                                            CrossAxisAlignment
+                                                                .stretch,
                                                         children: <Widget>[
-                                                          Padding(padding: const EdgeInsets.only(top: 10.0, bottom: 5.0, left: 5.0, right: 5.0),
+                                                          Padding(
+                                                            padding:
+                                                                const EdgeInsets
+                                                                        .only(
+                                                                    top: 10.0,
+                                                                    bottom: 5.0,
+                                                                    left: 5.0,
+                                                                    right: 5.0),
                                                             child: Column(
-                                                              mainAxisAlignment: MainAxisAlignment.start,
-                                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                                              mainAxisAlignment:
+                                                                  MainAxisAlignment
+                                                                      .start,
+                                                              crossAxisAlignment:
+                                                                  CrossAxisAlignment
+                                                                      .start,
                                                               children: [
                                                                 Row(
                                                                   children: [
@@ -274,43 +306,104 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                                                   ],
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsets.only(bottom: 30),
+                                                                  padding: EdgeInsets
+                                                                      .only(
+                                                                          bottom:
+                                                                              30),
                                                                   child: Row(
                                                                     children: [
                                                                       Expanded(
-                                                                        child: Text('Tahun Akademik'),
+                                                                        child: Text(
+                                                                            'Tahun Akademik'),
                                                                       ),
                                                                       Expanded(
-                                                                          flex: 0,
-                                                                          child: Text(":")),
+                                                                          flex:
+                                                                              0,
+                                                                          child:
+                                                                              Text(":")),
                                                                       Expanded(
-                                                                        child: Text(' 2020 / 2021 Genap'),
+                                                                        child: Text(
+                                                                            ' 2020 / 2021 Genap'),
                                                                       )
                                                                     ],
                                                                   ),
                                                                 ),
                                                                 Container(
-                                                                  width: _width / 1.3,
-                                                                  height: _height / 14,
-                                                                  padding: EdgeInsets.only(top: 5, bottom: 5),
+                                                                  width:
+                                                                      _width /
+                                                                          1.3,
+                                                                  height:
+                                                                      _height /
+                                                                          14,
+                                                                  padding: EdgeInsets
+                                                                      .only(
+                                                                          top:
+                                                                              5,
+                                                                          bottom:
+                                                                              5),
                                                                   child:
-                                                                      TextButton(style: TextButton.styleFrom(backgroundColor: Colors.blue, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15),
+                                                                      TextButton(
+                                                                    style: TextButton
+                                                                        .styleFrom(
+                                                                      backgroundColor:
+                                                                          Colors
+                                                                              .blue,
+                                                                      shape:
+                                                                          RoundedRectangleBorder(
+                                                                        borderRadius:
+                                                                            BorderRadius.circular(15),
                                                                       ),
                                                                     ),
-                                                                    onPressed: () {},
-                                                                    child: Text("Unduh Soal Ujian", style: TextStyle(fontSize: 16, color: Color(0xffffffff),
+                                                                    onPressed:
+                                                                        () {},
+                                                                    child: Text(
+                                                                      "Unduh Soal Ujian",
+                                                                      style:
+                                                                          TextStyle(
+                                                                        fontSize:
+                                                                            16,
+                                                                        color: Color(
+                                                                            0xffffffff),
                                                                       ),
                                                                     ),
                                                                   ),
                                                                 ),
                                                                 Container(
-                                                                  width: _width / 1.3,
-                                                                  height: _height / 14,
-                                                                  padding: EdgeInsets.only(top: 5, bottom: 5),
-                                                                  child: TextButton(
-                                                                    style: TextButton.styleFrom(backgroundColor: Colors.blue, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15),),),
-                                                                    onPressed: () {},
-                                                                    child: Text("Unduh Lembar Jawaban", style: TextStyle(fontSize: 16, color: Color(0xffffffff),
+                                                                  width:
+                                                                      _width /
+                                                                          1.3,
+                                                                  height:
+                                                                      _height /
+                                                                          14,
+                                                                  padding: EdgeInsets
+                                                                      .only(
+                                                                          top:
+                                                                              5,
+                                                                          bottom:
+                                                                              5),
+                                                                  child:
+                                                                      TextButton(
+                                                                    style: TextButton
+                                                                        .styleFrom(
+                                                                      backgroundColor:
+                                                                          Colors
+                                                                              .blue,
+                                                                      shape:
+                                                                          RoundedRectangleBorder(
+                                                                        borderRadius:
+                                                                            BorderRadius.circular(15),
+                                                                      ),
+                                                                    ),
+                                                                    onPressed:
+                                                                        () {},
+                                                                    child: Text(
+                                                                      "Unduh Lembar Jawaban",
+                                                                      style:
+                                                                          TextStyle(
+                                                                        fontSize:
+                                                                            16,
+                                                                        color: Color(
+                                                                            0xffffffff),
                                                                       ),
                                                                     ),
                                                                   ),
@@ -333,7 +426,8 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                   Container(
                                     width: _width / 1.3,
                                     child: Padding(
-                                      padding: const EdgeInsets.only(top: 10.0, bottom: 5.0),
+                                      padding: const EdgeInsets.only(
+                                          top: 10.0, bottom: 5.0),
                                       child: Card(
                                         elevation: 8.0,
                                         shape: RoundedRectangleBorder(
@@ -341,52 +435,67 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                               color: Colors.white,
                                               width: 2.0,
                                             ),
-                                            borderRadius: BorderRadius.circular(8.0)),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0)),
                                         child: Column(
                                           children: [
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.rotate_left_rounded)),
+                                                    child: Icon(Icons
+                                                        .rotate_left_rounded)),
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.rotate_right_rounded)),
+                                                    child: Icon(Icons
+                                                        .rotate_right_rounded)),
                                                 Container(
                                                     width: _width / 11,
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             left: BorderSide(
                                                                 width: 1.0,
-                                                                color: Colors.black))),
-                                                    child: Icon(Icons.format_bold_rounded)),
+                                                                color: Colors
+                                                                    .black))),
+                                                    child: Icon(Icons
+                                                        .format_bold_rounded)),
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.format_underline_rounded)),
+                                                    child: Icon(Icons
+                                                        .format_underline_rounded)),
                                                 Container(
                                                     width: _width / 11,
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             right: BorderSide(
                                                                 width: 1.0,
-                                                                color: Colors.black))),
-                                                    child: Icon(Icons.format_italic_rounded)),
+                                                                color: Colors
+                                                                    .black))),
+                                                    child: Icon(Icons
+                                                        .format_italic_rounded)),
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.format_align_left_rounded)),
+                                                    child: Icon(Icons
+                                                        .format_align_left_rounded)),
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.format_align_center_rounded)),
+                                                    child: Icon(Icons
+                                                        .format_align_center_rounded)),
                                                 Container(
                                                     width: _width / 11,
-                                                    child: Icon(Icons.format_align_justify_rounded)),
+                                                    child: Icon(Icons
+                                                        .format_align_justify_rounded)),
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 1.35,
@@ -394,22 +503,30 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                                   decoration: BoxDecoration(
                                                       border: Border.all(
                                                           width: 1.0,
-                                                          color: Colors.black)),
+                                                          color:
+                                                              Colors.black38)),
                                                   child: TextFormField(
                                                       decoration: InputDecoration(
-                                                          border: InputBorder.none,
-                                                          focusedBorder: InputBorder.none,
-                                                          enabledBorder: InputBorder.none,
-                                                          errorBorder: InputBorder.none,
-                                                          disabledBorder: InputBorder.none,
-                                                          hintText: "Tulis Jawaban Kamu Disini...")),
+                                                          border:
+                                                              InputBorder.none,
+                                                          focusedBorder:
+                                                              InputBorder.none,
+                                                          enabledBorder:
+                                                              InputBorder.none,
+                                                          errorBorder:
+                                                              InputBorder.none,
+                                                          disabledBorder:
+                                                              InputBorder.none,
+                                                          hintText:
+                                                              "Tulis Jawaban Kamu Disini...")),
                                                 ),
                                               ],
                                             ),
                                             Container(
                                               width: _width / 1.5,
                                               height: _height / 15,
-                                              padding: EdgeInsets.only(top: 5, bottom: 5),
+                                              padding: EdgeInsets.only(
+                                                  top: 5, bottom: 5),
                                               child: Row(
                                                 children: [
                                                   Container(
@@ -417,21 +534,48 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                                     decoration: BoxDecoration(
                                                         border: Border.all(
                                                             width: 1.0,
-                                                            color: Colors.black),
-                                                      borderRadius: BorderRadius.horizontal(left: Radius.circular(15.0))),
+                                                            color:
+                                                                Colors.black38),
+                                                        borderRadius: BorderRadius
+                                                            .horizontal(
+                                                                left: Radius
+                                                                    .circular(
+                                                                        15.0))),
                                                     child: TextFormField(
                                                         decoration: InputDecoration(
-                                                            border: InputBorder.none,
-                                                            focusedBorder: InputBorder.none,
-                                                            enabledBorder: InputBorder.none,
-                                                            errorBorder: InputBorder.none,
-                                                            disabledBorder: InputBorder.none,
-                                                            hintText: "  Pilih File")),
+                                                            border: InputBorder
+                                                                .none,
+                                                            focusedBorder:
+                                                                InputBorder
+                                                                    .none,
+                                                            enabledBorder:
+                                                                InputBorder
+                                                                    .none,
+                                                            errorBorder:
+                                                                InputBorder
+                                                                    .none,
+                                                            disabledBorder:
+                                                                InputBorder
+                                                                    .none,
+                                                            hintText:
+                                                                "  Pilih File")),
                                                   ),
                                                   TextButton(
                                                     style: TextButton.styleFrom(
-                                                      backgroundColor: Colors.blue,
-                                                      shape: RoundedRectangleBorder(side: BorderSide.none, borderRadius: BorderRadius.only(topRight: Radius.circular(15), bottomRight: Radius.circular(15),),
+                                                      backgroundColor:
+                                                          Colors.blue,
+                                                      shape:
+                                                          RoundedRectangleBorder(
+                                                        side: BorderSide.none,
+                                                        borderRadius:
+                                                            BorderRadius.only(
+                                                          topRight:
+                                                              Radius.circular(
+                                                                  15),
+                                                          bottomRight:
+                                                              Radius.circular(
+                                                                  15),
+                                                        ),
                                                       ),
                                                     ),
                                                     onPressed: () {},
@@ -450,12 +594,15 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                             Container(
                                               width: _width / 1.4,
                                               height: _height / 14,
-                                              padding: EdgeInsets.only(top: 5, bottom: 5),
+                                              padding: EdgeInsets.only(
+                                                  top: 5, bottom: 5),
                                               child: TextButton(
                                                 style: TextButton.styleFrom(
                                                   backgroundColor: Colors.blue,
                                                   shape: RoundedRectangleBorder(
-                                                    borderRadius: BorderRadius.circular(15),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            15),
                                                   ),
                                                 ),
                                                 onPressed: () {},

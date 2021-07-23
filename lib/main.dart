@@ -35,6 +35,7 @@ void main() {
   Map<int, Widget> op = {1: Login()};
 
   runApp(MaterialApp(
+    theme: ThemeData(fontFamily: 'Poppins-Regular'),
     home: AnimatedSplash(
       imagePath: 'assets/images/logo.png',
       home: Login(),
@@ -43,9 +44,9 @@ void main() {
       type: AnimatedSplashType.BackgroundProcess,
       outputAndHome: op,
     ),
-    routes: <String, WidgetBuilder> {
-      '/login' : (BuildContext context) => new Login(),
-      '/menu' : (BuildContext context) => new MenuBawah(),
+    routes: <String, WidgetBuilder>{
+      '/login': (BuildContext context) => new Login(),
+      '/menu': (BuildContext context) => new MenuBawah(),
       '/profile': (BuildContext context) => new ProfilePage(),
       '/datadiri': (BuildContext context) => new DataDiriPage(),
       '/akademik': (BuildContext context) => new AkademikPage(),
@@ -54,11 +55,13 @@ void main() {
       '/kks': (BuildContext context) => new KelasKuliahSemester(),
       '/jadwal': (BuildContext context) => new JadwalKuliahPage(),
       '/perwalianonline': (BuildContext context) => new PerwalianOnlinePage(),
-      '/riwayatkrs': (BuildContext context) => new RiwayatKartuRencanaStudiPage(),
+      '/riwayatkrs': (BuildContext context) =>
+          new RiwayatKartuRencanaStudiPage(),
       '/riwayatsemester': (BuildContext context) => new RiwayatSemesterPage(),
       '/seminarsidang': (BuildContext context) => new SeminarSidangPage(),
       '/historitagihan': (BuildContext context) => new HistoriTagianPage(),
-      '/historipembayaran': (BuildContext context) => new HistoriPembayaranPage(),
+      '/historipembayaran': (BuildContext context) =>
+          new HistoriPembayaranPage(),
       '/invoice': (BuildContext context) => new InvoicePage(),
       '/ujian': (BuildContext context) => new UjianPage(),
       '/pertemuan': (BuildContext context) => new DaftarPertemuanPage(),

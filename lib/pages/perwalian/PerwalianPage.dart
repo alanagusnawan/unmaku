@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class PerwalianPage extends StatefulWidget {
   @override
@@ -63,135 +64,65 @@ class _PerwalianPageState extends State<PerwalianPage> {
                   ],
                 ),
               ),
-                  Container(
-                    padding: EdgeInsets.only(
-                        top: _height / 20),
-                    width: _width / 1.2,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Text('PERWALIAN',
-                          style: TextStyle(
-                              fontFamily: 'Segoe UI',
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontSize: _width / 18),),
-                        Container(
-                          width: _width,
-                          child: Padding(
-                            padding:
-                            const EdgeInsets.only(top: 20.0, bottom: 10.0),
-                            child: Card(
-                              elevation: 8.0,
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8.0)),
-                              child: Column(
-                                mainAxisAlignment:
-                                MainAxisAlignment.spaceAround,
-                                crossAxisAlignment: CrossAxisAlignment.stretch,
-                                children: <Widget>[
-                                  Padding(
-                                    padding: const EdgeInsets.all(10.0),
-                                    child: Column(
-                                      crossAxisAlignment:
+              Container(
+                padding: EdgeInsets.only(top: _height / 20),
+                width: _width / 1.2,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      'PERWALIAN',
+                      style: TextStyle(
+                          fontFamily: 'Poppins-Bold',
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: _width / 18),
+                    ),
+                    Container(
+                      width: _width,
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                        child: Card(
+                          elevation: 8.0,
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8.0)),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: <Widget>[
+                              Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Column(
+                                  crossAxisAlignment:
                                       CrossAxisAlignment.stretch,
-                                      children: <Widget>[
-                                        InkWell(
-                                            onTap: () {
-                                              Navigator.of(context)
-                                                  .pushNamed('/krs');
-                                            },
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                  border: Border(
-                                                      bottom: BorderSide(
-                                                          color: Colors.black,
-                                                          width: 0.1))),
-                                              child: Row(
-                                                children: [
-                                                  Padding(
-                                                    padding:
-                                                    const EdgeInsets.all(10),
-                                                    child: Icon(Icons.person,
-                                                        size: _width / 10),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text(
-                                                      "Kartu Rencana Studi",
-                                                      style: TextStyle(
-                                                          fontFamily: 'Segoe UI',
-                                                          color: Colors.black,
-                                                          fontWeight: FontWeight.w600,
-                                                          fontSize: _width / 22),
-                                                    ),
-                                                  ),
-                                                  Icon(
-                                                      Icons
-                                                          .arrow_forward_ios_rounded,
-                                                      size: _width / 25)
-                                                ],
-                                              ),
-                                            )),
-                                        InkWell(
-                                            onTap: () {
-                                              Navigator.of(context)
-                                                  .pushNamed('/riwayatkrs');
-                                            },
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                  border: Border(
-                                                      bottom: BorderSide(
-                                                          color: Colors.black,
-                                                          width: 0.1))),
-                                              child: Row(
-                                                children: [
-                                                  Padding(
-                                                    padding:
-                                                    const EdgeInsets.all(10),
-                                                    child: Icon(Icons.person,
-                                                        size: _width / 10),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text(
-                                                      "Riwayat Krs",
-                                                      style: TextStyle(
-                                                          fontFamily: 'Segoe UI',
-                                                          color: Colors.black,
-                                                          fontWeight: FontWeight.w600,
-                                                          fontSize: _width / 22),
-                                                    ),
-                                                  ),
-                                                  Icon(
-                                                      Icons
-                                                          .arrow_forward_ios_rounded,
-                                                      size: _width / 25)
-                                                ],
-                                              ),
-                                            )),
-                                        InkWell(
-                                          onTap: () {
-                                            Navigator.of(context)
-                                                .pushNamed('/perwalianonline');
-                                          },
+                                  children: <Widget>[
+                                    InkWell(
+                                        onTap: () {
+                                          Navigator.of(context)
+                                              .pushNamed('/krs');
+                                        },
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                              border: Border(
+                                                  bottom: BorderSide(
+                                                      color: Colors.black,
+                                                      width: 0.1))),
                                           child: Row(
-                                            mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
                                             children: [
                                               Padding(
                                                 padding:
-                                                const EdgeInsets.all(10),
-                                                child: Icon(
-                                                    Icons.wysiwyg_rounded,
+                                                    const EdgeInsets.all(10),
+                                                child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
                                               Expanded(
                                                 child: Text(
-                                                  "Perwalian Online",
+                                                  "Kartu Rencana Studi",
                                                   style: TextStyle(
-                                                      fontFamily: 'Segoe UI',
+                                                      fontFamily:
+                                                          'Poppins-Regular',
                                                       color: Colors.black,
-                                                      fontWeight: FontWeight.w600,
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -201,22 +132,86 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                   size: _width / 25)
                                             ],
                                           ),
-                                        ),
-                                      ],
+                                        )),
+                                    InkWell(
+                                        onTap: () {
+                                          Navigator.of(context)
+                                              .pushNamed('/riwayatkrs');
+                                        },
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                              border: Border(
+                                                  bottom: BorderSide(
+                                                      color: Colors.black,
+                                                      width: 0.1))),
+                                          child: Row(
+                                            children: [
+                                              Padding(
+                                                padding:
+                                                    const EdgeInsets.all(10),
+                                                child: Icon(Icons.person,
+                                                    size: _width / 10),
+                                              ),
+                                              Expanded(
+                                                child: Text(
+                                                  "Riwayat Krs",
+                                                  style: TextStyle(
+                                                      fontFamily:
+                                                          'Poppins-Regular',
+                                                      color: Colors.black,
+                                                      fontSize: _width / 22),
+                                                ),
+                                              ),
+                                              Icon(
+                                                  FaIcon(
+                                                      FontAwesomeIcons.gamepad),
+                                                  size: _width / 25)
+                                            ],
+                                          ),
+                                        )),
+                                    InkWell(
+                                      onTap: () {
+                                        Navigator.of(context)
+                                            .pushNamed('/perwalianonline');
+                                      },
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Padding(
+                                            padding: const EdgeInsets.all(10),
+                                            child: Icon(Icons.wysiwyg_rounded,
+                                                size: _width / 10),
+                                          ),
+                                          Expanded(
+                                            child: Text(
+                                              "Perwalian Online",
+                                              style: TextStyle(
+                                                  fontFamily: 'Poppins-Regular',
+                                                  color: Colors.black,
+                                                  fontSize: _width / 22),
+                                            ),
+                                          ),
+                                          Icon(Icons.arrow_forward_ios_rounded,
+                                              size: _width / 25)
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
-                            ),
+                            ],
                           ),
                         ),
-                      ],
+                      ),
                     ),
-                  )
-                ],
-              ),
+                  ],
+                ),
+              )
             ],
           ),
+        ],
+      ),
     );
   }
 }

@@ -90,8 +90,8 @@ class _HomePageState extends State<HomePage> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(15.0)),
                               child: Container(
-                                height: _height / 6,
-                                width: _width / 1.3,
+                                height: _height / 5,
+                                width: _width / 1.2,
                                 foregroundDecoration:
                                     const RotatedCornerDecoration(
                                   color: Colors.lightGreen,
@@ -114,7 +114,7 @@ class _HomePageState extends State<HomePage> {
                                           Icon(
                                             Icons.assignment_rounded,
                                             color: Colors.green,
-                                            size: _height / 12,
+                                            size: _width / 6.5,
                                           ),
                                           Column(
                                             mainAxisAlignment:
@@ -130,6 +130,8 @@ class _HomePageState extends State<HomePage> {
                                                   textAlign: TextAlign.start,
                                                   style: TextStyle(
                                                       color: Colors.black,
+                                                      fontFamily:
+                                                          'Poppins-Bold',
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       fontSize: _width / 16),
@@ -143,7 +145,7 @@ class _HomePageState extends State<HomePage> {
                                                   textAlign: TextAlign.start,
                                                   style: TextStyle(
                                                       color: Colors.black,
-                                                      fontSize: _width / 35),
+                                                      fontSize: _width / 30),
                                                 ),
                                               ),
                                               Text(
@@ -151,14 +153,14 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
-                                                    fontSize: _width / 35),
+                                                    fontSize: _width / 30),
                                               ),
                                               Text(
                                                 "14-Maret-2021 s.d 30-Maret-2021",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
-                                                    fontSize: _width / 35),
+                                                    fontSize: _width / 30),
                                               ),
                                             ],
                                           ),
@@ -178,8 +180,8 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0)),
                             child: Container(
-                              height: _height / 6,
-                              width: _width / 1.3,
+                              height: _height / 5,
+                              width: _width / 1.2,
                               foregroundDecoration:
                                   const RotatedCornerDecoration(
                                 color: Colors.grey,
@@ -202,7 +204,7 @@ class _HomePageState extends State<HomePage> {
                                         Icon(
                                           Icons.assignment_rounded,
                                           color: Colors.grey,
-                                          size: _height / 12,
+                                          size: _width / 6.5,
                                         ),
                                         Column(
                                           mainAxisAlignment:
@@ -214,10 +216,11 @@ class _HomePageState extends State<HomePage> {
                                               padding: const EdgeInsets.only(
                                                   bottom: 8.0),
                                               child: Text(
-                                                "PRAKTIKUM",
+                                                "Praktikum",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
+                                                    fontFamily: 'Poppins-Bold',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
                                               ),
@@ -230,7 +233,8 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
-                                                    fontSize: _width / 35),
+                                                    fontFamily: 'Poppins-Bold',
+                                                    fontSize: _width / 30),
                                               ),
                                             ),
                                             Text(
@@ -238,14 +242,16 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,
-                                                  fontSize: _width / 35),
+                                                  fontFamily: 'Poppins-Bold',
+                                                  fontSize: _width / 30),
                                             ),
                                             Text(
                                               "14-Mei-2021 s.d 30-Mei-2021",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,
-                                                  fontSize: _width / 35),
+                                                  fontFamily: 'Poppins-Bold',
+                                                  fontSize: _width / 30),
                                             ),
                                           ],
                                         ),
@@ -264,8 +270,8 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0)),
                             child: Container(
-                              height: _height / 6,
-                              width: _width / 1.3,
+                              height: _height / 5,
+                              width: _width / 1.2,
                               foregroundDecoration:
                                   const RotatedCornerDecoration(
                                 color: Colors.grey,
@@ -288,7 +294,7 @@ class _HomePageState extends State<HomePage> {
                                         Icon(
                                           Icons.assignment_rounded,
                                           color: Colors.grey,
-                                          size: _height / 12,
+                                          size: _width / 6.5,
                                         ),
                                         Column(
                                           mainAxisAlignment:
@@ -304,6 +310,7 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
+                                                    fontFamily: 'Poppins-Bold',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
                                               ),
@@ -316,7 +323,8 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Colors.black,
-                                                    fontSize: _width / 35),
+                                                    fontFamily: 'Poppins-Bold',
+                                                    fontSize: _width / 30),
                                               ),
                                             ),
                                             Text(
@@ -324,14 +332,16 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,
-                                                  fontSize: _width / 35),
+                                                  fontFamily: 'Poppins-Bold',
+                                                  fontSize: _width / 30),
                                             ),
                                             Text(
                                               "14-Juni-2021 s.d 30-Juni-2021",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,
-                                                  fontSize: _width / 35),
+                                                  fontFamily: 'Poppins-Bold',
+                                                  fontSize: _width / 30),
                                             ),
                                           ],
                                         ),
