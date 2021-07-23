@@ -76,7 +76,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                     Text(
                       'RIWAYAT SEMESTER',
                       style: TextStyle(
-                          fontFamily: 'Segoe UI',
+                          fontFamily: 'Poppins-Bold',
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
@@ -85,7 +85,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                       width: _width,
                       child: Padding(
                           padding:
-                          const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                              const EdgeInsets.only(top: 20.0, bottom: 10.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -97,27 +97,27 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                     children: [
                                       Container(
                                         padding:
-                                        const EdgeInsets.only(right: 10.0),
+                                            const EdgeInsets.only(right: 10.0),
                                         width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2019ganjil
                                               ? TextButton.styleFrom(
-                                            backgroundColor: Colors.green,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          )
+                                                  backgroundColor: Colors.green,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.grey,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          ),
+                                                  backgroundColor: Colors.grey,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                ),
                                           onPressed: () {
                                             is2019ganjil = !is2019ganjil;
                                             is2019genap = false;
@@ -135,27 +135,27 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                       ),
                                       Container(
                                         padding:
-                                        const EdgeInsets.only(right: 10.0),
+                                            const EdgeInsets.only(right: 10.0),
                                         width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2019genap
                                               ? TextButton.styleFrom(
-                                            backgroundColor: Colors.green,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          )
+                                                  backgroundColor: Colors.green,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.grey,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          ),
+                                                  backgroundColor: Colors.grey,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                ),
                                           onPressed: () {
                                             is2019ganjil = false;
                                             is2019genap = !is2019genap;
@@ -173,27 +173,27 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                       ),
                                       Container(
                                         padding:
-                                        const EdgeInsets.only(right: 10.0),
+                                            const EdgeInsets.only(right: 10.0),
                                         width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2020ganjil
                                               ? TextButton.styleFrom(
-                                            backgroundColor: Colors.green,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          )
+                                                  backgroundColor: Colors.green,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                )
                                               : TextButton.styleFrom(
-                                            backgroundColor: Colors.grey,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                              BorderRadius.circular(
-                                                  20),
-                                            ),
-                                          ),
+                                                  backgroundColor: Colors.grey,
+                                                  shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20),
+                                                  ),
+                                                ),
                                           onPressed: () {
                                             is2019ganjil = false;
                                             is2019genap = false;
@@ -216,16 +216,18 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                               Container(
                                 width: _width / 1.3,
                                 child: Padding(
-                                  padding:
-                                  const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                                  padding: const EdgeInsets.only(
+                                      top: 20.0, bottom: 10.0),
                                   child: Card(
                                     elevation: 8.0,
                                     shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(8.0)),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0)),
                                     child: Column(
                                       mainAxisAlignment:
-                                      MainAxisAlignment.spaceAround,
-                                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                                          MainAxisAlignment.spaceAround,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.stretch,
                                       children: <Widget>[
                                         Padding(
                                           padding: const EdgeInsets.only(
@@ -235,7 +237,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                               right: 5.0),
                                           child: Column(
                                             crossAxisAlignment:
-                                            CrossAxisAlignment.stretch,
+                                                CrossAxisAlignment.stretch,
                                             children: <Widget>[
                                               InkWell(
                                                   onTap: () {
@@ -246,7 +248,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             bottom: BorderSide(
-                                                                color: Colors.black,
+                                                                color: Colors
+                                                                    .black,
                                                                 width: 0.1))),
                                                     child: Row(
                                                       children: [
@@ -254,10 +257,14 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Algoritma & Pemrograman A",
                                                             style: TextStyle(
-                                                                fontFamily: 'Segoe UI',
-                                                                color: Colors.black,
-                                                                fontWeight: FontWeight.w600,
-                                                                fontSize: _width / 25),
+                                                                color: Colors
+                                                                    .black,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600,
+                                                                fontSize:
+                                                                    _width /
+                                                                        25),
                                                           ),
                                                         ),
                                                         Icon(
@@ -276,7 +283,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             bottom: BorderSide(
-                                                                color: Colors.black,
+                                                                color: Colors
+                                                                    .black,
                                                                 width: 0.1))),
                                                     child: Row(
                                                       children: [
@@ -284,10 +292,14 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Pendidikan Pancasila A",
                                                             style: TextStyle(
-                                                                fontFamily: 'Segoe UI',
-                                                                color: Colors.black,
-                                                                fontWeight: FontWeight.w600,
-                                                                fontSize: _width / 25),
+                                                                color: Colors
+                                                                    .black,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600,
+                                                                fontSize:
+                                                                    _width /
+                                                                        25),
                                                           ),
                                                         ),
                                                         Icon(
@@ -306,7 +318,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             bottom: BorderSide(
-                                                                color: Colors.black,
+                                                                color: Colors
+                                                                    .black,
                                                                 width: 0.1))),
                                                     child: Row(
                                                       children: [
@@ -314,10 +327,14 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Kalkulus I",
                                                             style: TextStyle(
-                                                                fontFamily: 'Segoe UI',
-                                                                color: Colors.black,
-                                                                fontWeight: FontWeight.w600,
-                                                                fontSize: _width / 25),
+                                                                color: Colors
+                                                                    .black,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600,
+                                                                fontSize:
+                                                                    _width /
+                                                                        25),
                                                           ),
                                                         ),
                                                         Icon(

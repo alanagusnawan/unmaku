@@ -16,9 +16,8 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Transkrip",
                   style: TextStyle(
-                      fontFamily: 'Segoe UI',
+                      fontFamily: 'Poppins-Semi-Bold',
                       color: Colors.black,
-                      fontWeight: FontWeight.w600,
                       fontSize: 20),
                 ),
                 onTap: () {
@@ -33,9 +32,8 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Transkrip Per Semester",
                   style: TextStyle(
-                      fontFamily: 'Segoe UI',
+                      fontFamily: 'Poppins-Semi-Bold',
                       color: Colors.black,
-                      fontWeight: FontWeight.w600,
                       fontSize: 20),
                 ),
                 onTap: () {
@@ -50,9 +48,8 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Riwayat Nilai",
                   style: TextStyle(
-                      fontFamily: 'Segoe UI',
+                      fontFamily: 'Poppins-Semi-Bold',
                       color: Colors.black,
-                      fontWeight: FontWeight.w600,
                       fontSize: 20),
                 ),
               ),
@@ -67,9 +64,8 @@ class _TranskripPageState extends State<TranskripPage> {
             child: Text("Pilih Jenis Transkrip",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    fontFamily: 'Segoe UI',
+                    fontFamily: 'Poppins-Bold',
                     color: Colors.black,
-                    fontWeight: FontWeight.w600,
                     fontSize: 20)),
           ));
 
@@ -138,9 +134,9 @@ class _TranskripPageState extends State<TranskripPage> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
                     Text(
-                      'KELAS KULIAH',
+                      'TRANSKIP',
                       style: TextStyle(
-                          fontFamily: 'Segoe UI',
+                          fontFamily: 'Poppins-Bold',
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
@@ -175,62 +171,70 @@ class _TranskripPageState extends State<TranskripPage> {
                 width: _width / 1.3,
                 child: Row(
                   children: [
-                    Expanded(child:
-                    Container(
-                      padding: EdgeInsets.only(right: _height / 50),
-                      width: _width / 3,
-                      height: _height/15,
-                      child: TextButton(
-                        style: TextButton.styleFrom(
-                          backgroundColor: Colors.blue,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                        ),
-                        onPressed: () {},
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(Icons.remove_red_eye_rounded, color: Colors.white,),
-                            Text(
-                              "Lihat",
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: Color(0xffffffff),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.only(right: _height / 50),
+                        width: _width / 3,
+                        height: _height / 15,
+                        child: TextButton(
+                            style: TextButton.styleFrom(
+                              backgroundColor: Colors.blue,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
                               ),
                             ),
-                          ],
-                        )
+                            onPressed: () {},
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  Icons.remove_red_eye_rounded,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Lihat",
+                                  style: TextStyle(
+                                    fontFamily: 'Poppins-Semi-Bold',
+                                    fontSize: 16,
+                                    color: Color(0xffffffff),
+                                  ),
+                                ),
+                              ],
+                            )),
                       ),
-                    ),),
-                    Expanded(child:
-                    Container(
-                      padding: EdgeInsets.only(left: _height / 50),
-                      width: _width / 3,
-                      height: _height/15,
-                      child: TextButton(
-                        style: TextButton.styleFrom(
-                          backgroundColor: Colors.blue,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                        ),
-                        onPressed: () {},
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(Icons.print,color: Colors.white,),
-                            Text(
-                              "Cetak",
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: Color(0xffffffff),
+                    ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.only(left: _height / 50),
+                        width: _width / 3,
+                        height: _height / 15,
+                        child: TextButton(
+                            style: TextButton.styleFrom(
+                              backgroundColor: Colors.blue,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
                               ),
                             ),
-                          ],
-                        )
+                            onPressed: () {},
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  Icons.print,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cetak",
+                                  style: TextStyle(
+                                    fontFamily: 'Poppins-Semi-Bold',
+                                    fontSize: 16,
+                                    color: Color(0xffffffff),
+                                  ),
+                                ),
+                              ],
+                            )),
                       ),
-                    ),),
+                    ),
                   ],
                 ),
               )

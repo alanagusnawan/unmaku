@@ -84,7 +84,7 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                           Text(
                             'STATUS KULIAH : SEDANG BERJALAN',
                             style: TextStyle(
-                                fontFamily: 'Segoe UI',
+                                fontFamily: 'Poppins-Bold',
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
                                 fontSize: _width / 18),
@@ -265,2159 +265,1909 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                             ),
                             SingleChildScrollView(
                                 child: Column(
+                              children: [
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
                                     ),
-                                    Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
                                     ),
-                                    Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
                                     ),
-                                    Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                      MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "19.14.1.0005",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "Aa Herdi Prayoga",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "H",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        Container(
-                                          width: _width / 5,
-                                          decoration: BoxDecoration(
-                                              border: Border(
-                                                right: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                                bottom: BorderSide(
-                                                    width: 1.0,
-                                                    color: Colors.black),
-                                              )),
-                                          child: Text(
-                                            "100",
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.normal,
-                                                fontSize: 13.5),
-                                            textAlign: TextAlign.center,
-                                            maxLines: 1,
-                                          ),
-                                        ),
-                                      ],
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
                                     ),
                                   ],
-                                )),
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "19.14.1.0005",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "Aa Herdi Prayoga",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "H",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 5,
+                                      decoration: BoxDecoration(
+                                          border: Border(
+                                        right: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                        bottom: BorderSide(
+                                            width: 1.0, color: Colors.black),
+                                      )),
+                                      child: Text(
+                                        "100",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.normal,
+                                            fontSize: 13.5),
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            )),
                           ],
                         ),
                       ),

@@ -65,31 +65,30 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(
-                    top: _height / 20),
+                padding: EdgeInsets.only(top: _height / 20),
                 width: _width / 1.3,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text('KELAS KULIAH',
+                    Text(
+                      'KELAS KULIAH',
                       style: TextStyle(
-                          fontFamily: 'Segoe UI',
+                          fontFamily: 'Poppins-Bold',
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),),
+                          fontSize: _width / 18),
+                    ),
                     Container(
                       width: _width / 1.3,
                       child: Padding(
-                        padding:
-                        const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
                         child: Card(
                           elevation: 8.0,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0)),
                           child: Column(
-                            mainAxisAlignment:
-                            MainAxisAlignment.spaceAround,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: <Widget>[
                               Padding(
@@ -100,7 +99,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                     right: 5.0),
                                 child: Column(
                                   crossAxisAlignment:
-                                  CrossAxisAlignment.stretch,
+                                      CrossAxisAlignment.stretch,
                                   children: <Widget>[
                                     InkWell(
                                         onTap: () {
@@ -116,10 +115,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding:
-                                                const EdgeInsets.only(
-                                                    right: 10.0,
-                                                    left: 10.0),
+                                                padding: const EdgeInsets.only(
+                                                    right: 10.0, left: 10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -127,9 +124,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                                 child: Text(
                                                   "Kelas Kuliah Semester",
                                                   style: TextStyle(
-                                                      fontFamily: 'Segoe UI',
                                                       color: Colors.black,
-                                                      fontWeight: FontWeight.w600,
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -147,28 +142,23 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                       },
                                       child: Row(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.only(
                                                 right: 10.0, left: 10.0),
-                                            child: Icon(
-                                                Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.wysiwyg_rounded,
                                                 size: _width / 10),
                                           ),
                                           Expanded(
                                             child: Text(
                                               "Riwayat Kartu Rencana Studi",
                                               style: TextStyle(
-                                                  fontFamily: 'Segoe UI',
                                                   color: Colors.black,
-                                                  fontWeight: FontWeight.w600,
                                                   fontSize: _width / 22),
                                             ),
                                           ),
-                                          Icon(
-                                              Icons
-                                                  .arrow_forward_ios_rounded,
+                                          Icon(Icons.arrow_forward_ios_rounded,
                                               size: _width / 15)
                                         ],
                                       ),

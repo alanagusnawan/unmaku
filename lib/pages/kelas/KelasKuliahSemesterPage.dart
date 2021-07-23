@@ -90,7 +90,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                         Text(
                           'KELAS KULIAH SEMESTER',
                           style: TextStyle(
-                              fontFamily: 'Segoe UI',
+                              fontFamily: 'Poppins-Bold',
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
@@ -106,7 +106,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: EdgeInsets.only(bottom: _height /50),
+                                padding: EdgeInsets.only(bottom: _height / 50),
                                 child: SingleChildScrollView(
                                   scrollDirection: Axis.horizontal,
                                   child: Row(
@@ -365,89 +365,98 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                 width: _width / 1.2,
                                 child: Column(
                                   children: [
-                                    Padding(padding: EdgeInsets.only(bottom: _height /50), child: Card(
-                                      elevation: 8.0,
-                                      shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                          BorderRadius.circular(8.0)),
-                                      child: Column(
-                                        mainAxisAlignment:
-                                        MainAxisAlignment.end,
-                                        crossAxisAlignment:
-                                        CrossAxisAlignment.end,
-                                        children: <Widget>[
-                                          Padding(
-                                              padding: const EdgeInsets.only(
-                                                  top: 10.0,
-                                                  bottom: 10.0,
-                                                  left: 5.0,
-                                                  right: 5.0),
-                                              child: Row(
-                                                mainAxisAlignment:
-                                                MainAxisAlignment.spaceAround,
-                                                crossAxisAlignment:
-                                                CrossAxisAlignment.end,
-                                                children: <Widget>[
-                                                  Column(
-                                                    mainAxisAlignment:
-                                                    MainAxisAlignment.start,
-                                                    crossAxisAlignment:
-                                                    CrossAxisAlignment
-                                                        .start,
-                                                    children: [
-                                                      Text(
-                                                        "Desain Dan Pemrograman\nBerorientasi Objek A",
-                                                        style: TextStyle(
-                                                            fontWeight:
-                                                            FontWeight
-                                                                .bold),
-                                                      ),
-                                                      Text('Ruang : 304')
-                                                    ],
-                                                  ),
-                                                  Container(
-                                                    width: _width / 3.5,
-                                                    height: _height / 20,
-                                                    child: TextButton(
-                                                      style:
-                                                      TextButton.styleFrom(
-                                                        backgroundColor:
-                                                        Colors.green,
-                                                        shape:
-                                                        RoundedRectangleBorder(
-                                                          borderRadius:
-                                                          BorderRadius
-                                                              .circular(20),
+                                    Padding(
+                                      padding:
+                                          EdgeInsets.only(bottom: _height / 50),
+                                      child: Card(
+                                        elevation: 8.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(8.0)),
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.end,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.end,
+                                          children: <Widget>[
+                                            Padding(
+                                                padding: const EdgeInsets.only(
+                                                    top: 10.0,
+                                                    bottom: 10.0,
+                                                    left: 5.0,
+                                                    right: 5.0),
+                                                child: Row(
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment
+                                                          .spaceAround,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.end,
+                                                  children: <Widget>[
+                                                    Column(
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Desain Dan Pemrograman\nBerorientasi Objek A",
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold),
                                                         ),
-                                                      ),
-                                                      onPressed: () {
-                                                        Navigator.of(context).pushNamed('/pertemuan');
-                                                      },
-                                                      child: Text(
-                                                        "08:00-10:30",
-                                                        style: TextStyle(
-                                                          fontSize: 16,
-                                                          color:
-                                                          Color(0xffffffff),
+                                                        Text('Ruang : 304')
+                                                      ],
+                                                    ),
+                                                    Container(
+                                                      width: _width / 3.5,
+                                                      height: _height / 20,
+                                                      child: TextButton(
+                                                        style: TextButton
+                                                            .styleFrom(
+                                                          backgroundColor:
+                                                              Colors.green,
+                                                          shape:
+                                                              RoundedRectangleBorder(
+                                                            borderRadius:
+                                                                BorderRadius
+                                                                    .circular(
+                                                                        20),
+                                                          ),
+                                                        ),
+                                                        onPressed: () {
+                                                          Navigator.of(context)
+                                                              .pushNamed(
+                                                                  '/pertemuan');
+                                                        },
+                                                        child: Text(
+                                                          "08:00-10:30",
+                                                          style: TextStyle(
+                                                            fontSize: 16,
+                                                            color: Color(
+                                                                0xffffffff),
+                                                          ),
                                                         ),
                                                       ),
                                                     ),
-                                                  ),
-                                                ],
-                                              )),
-                                        ],
+                                                  ],
+                                                )),
+                                          ],
+                                        ),
                                       ),
-                                    ),),
+                                    ),
                                     Card(
                                       elevation: 8.0,
                                       shape: RoundedRectangleBorder(
                                           borderRadius:
-                                          BorderRadius.circular(8.0)),
+                                              BorderRadius.circular(8.0)),
                                       child: Column(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.end,
+                                            MainAxisAlignment.end,
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.end,
+                                            CrossAxisAlignment.end,
                                         children: <Widget>[
                                           Padding(
                                               padding: const EdgeInsets.only(
@@ -457,23 +466,24 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                   right: 5.0),
                                               child: Row(
                                                 mainAxisAlignment:
-                                                MainAxisAlignment.spaceAround,
+                                                    MainAxisAlignment
+                                                        .spaceAround,
                                                 crossAxisAlignment:
-                                                CrossAxisAlignment.start,
+                                                    CrossAxisAlignment.start,
                                                 children: <Widget>[
                                                   Column(
                                                     mainAxisAlignment:
-                                                    MainAxisAlignment.start,
+                                                        MainAxisAlignment.start,
                                                     crossAxisAlignment:
-                                                    CrossAxisAlignment
-                                                        .start,
+                                                        CrossAxisAlignment
+                                                            .start,
                                                     children: [
                                                       Text(
                                                         "Statistika & Probabilitas C",
                                                         style: TextStyle(
                                                             fontWeight:
-                                                            FontWeight
-                                                                .bold),
+                                                                FontWeight
+                                                                    .bold),
                                                       ),
                                                       Text('Ruang : 303')
                                                     ],
@@ -483,14 +493,14 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                     height: _height / 20,
                                                     child: TextButton(
                                                       style:
-                                                      TextButton.styleFrom(
+                                                          TextButton.styleFrom(
                                                         backgroundColor:
-                                                        Colors.grey,
+                                                            Colors.grey,
                                                         shape:
-                                                        RoundedRectangleBorder(
+                                                            RoundedRectangleBorder(
                                                           borderRadius:
-                                                          BorderRadius
-                                                              .circular(20),
+                                                              BorderRadius
+                                                                  .circular(20),
                                                         ),
                                                       ),
                                                       onPressed: () {},
@@ -499,7 +509,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                         style: TextStyle(
                                                           fontSize: 16,
                                                           color:
-                                                          Color(0xffffffff),
+                                                              Color(0xffffffff),
                                                         ),
                                                       ),
                                                     ),

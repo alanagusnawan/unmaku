@@ -238,7 +238,7 @@ class _HomePageState extends State<HomePage> {
                                               ),
                                             ),
                                             Text(
-                                              "UTS akan dilaksanakan :",
+                                              "Praktikum akan dilaksanakan :",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,
@@ -328,7 +328,7 @@ class _HomePageState extends State<HomePage> {
                                               ),
                                             ),
                                             Text(
-                                              "UTS akan dilaksanakan :",
+                                              "UAS akan dilaksanakan :",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Colors.black,

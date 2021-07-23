@@ -6,7 +6,6 @@ class JadwalKuliahPage extends StatefulWidget {
 }
 
 class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
-
   @override
   Widget build(BuildContext context) {
     final _width = MediaQuery.of(context).size.width;
@@ -83,7 +82,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                         Text(
                           'JADWAL KULIAH',
                           style: TextStyle(
-                              fontFamily: 'Segoe UI',
+                              fontFamily: 'Poppins-Bold',
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
@@ -93,546 +92,685 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Card(
-                      elevation: 8.0,
-                      shape: RoundedRectangleBorder(
-                          side: BorderSide(
-                            color: Colors.black,
-                            width: 2.0,
-                          ),
-                          borderRadius: BorderRadius.circular(8.0)),
-                      child: Column(
-                        children: [
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                        elevation: 8.0,
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(
+                              color: Colors.black,
+                              width: 2.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0)),
+                        child: Column(
+                          children: [
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "SENIN",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "SELASA",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "RABU",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "KAMIS",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "JUMAT",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Container(
+                                  width: _width / 1.6,
+                                  decoration: BoxDecoration(
+                                      border: Border(
+                                    right: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                    bottom: BorderSide(
+                                        width: 1.0, color: Colors.black),
+                                  )),
+                                  child: Text(
+                                    "SABTU",
+                                    style: TextStyle(
+                                        fontFamily: 'Poppins-Semi-Bold',
+                                        fontWeight: FontWeight.bold),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "SENIN",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "DESAIN DAN PEMROGRAMAN\nBERORIENTASI OBJEK (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "08:00:00 - 10:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "DEFFY SUSANTI",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "SELASA",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "GRAFIKA KOMPUTER (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "08:00:00 - 10:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "TRI FERGA PRASETYO",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "RABU",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "DESAIN UI/UX (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "08:00:00 - 10:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "SUHENDRI",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "KAMIS",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "SISTEM OPERASI (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "08:00:00 - 09:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "DEFFY SUSANTI",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "JUMAT",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              Container(
-                                width: _width / 1.6,
-                                decoration: BoxDecoration(
-                                    border: Border(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
                                       right: BorderSide(
                                           width: 1.0, color: Colors.black),
                                       bottom: BorderSide(
                                           width: 1.0, color: Colors.black),
                                     )),
-                                child: Text(
-                                  "SABTU",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("DESAIN DAN PEMROGRAMAN\nBERORIENTASI OBJEK (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("08:00:00 - 10:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("DEFFY SUSANTI",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("GRAFIKA KOMPUTER (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("08:00:00 - 10:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("TRI FERGA PRASETYO",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("DESAIN UI/UX (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("08:00:00 - 10:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("SUHENDRI",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("SISTEM OPERASI (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("08:00:00 - 09:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("DEFFY SUSANTI",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                            ],
-                          ),
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("STATISTIKA & PROBABILITAS (C)",
-                                        textAlign: TextAlign.center,),
-                                      Text("11:30:00 - 13:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("DADAN ZALILUDDIN",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("METODE NUMERIK (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("10:30:00 - 12:00:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("BUDIMAN",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("MATEMATIKA DISKRIT (C)",
-                                        textAlign: TextAlign.center,),
-                                      Text("11:00:00 - 12:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("II SUPIANDI",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("TATA TULIS & KOMUNIKASI ILMIAH (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("10:00:00 - 12:30:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("DADAN ZALILUDDIN",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                            ],
-                          ),
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text("SISTEM CERDAS (A)",
-                                        textAlign: TextAlign.center,),
-                                      Text("13:00:00 - 15:00:00 WIB",
-                                        textAlign: TextAlign.center,),
-                                      Text("ARDI MARDIANA",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                              Container(
-                                  width: _width / 1.6,
-                                  height: _height / 8,
-                                  decoration: BoxDecoration(
-                                      border: Border(
-                                        right: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                        bottom: BorderSide(
-                                            width: 1.0, color: Colors.black),
-                                      )),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                      Text(" ",
-                                        textAlign: TextAlign.center,),
-                                    ],
-                                  )
-                              ),
-                            ],
-                          ),
-                        ],
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "STATISTIKA & PROBABILITAS (C)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "11:30:00 - 13:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "DADAN ZALILUDDIN",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "METODE NUMERIK (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "10:30:00 - 12:00:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "BUDIMAN",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "MATEMATIKA DISKRIT (C)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "11:00:00 - 12:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "II SUPIANDI",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "TATA TULIS & KOMUNIKASI ILMIAH (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "10:00:00 - 12:30:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "DADAN ZALILUDDIN",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "SISTEM CERDAS (A)",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "13:00:00 - 15:00:00 WIB",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "ARDI MARDIANA",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                                Container(
+                                    width: _width / 1.6,
+                                    height: _height / 8,
+                                    decoration: BoxDecoration(
+                                        border: Border(
+                                      right: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                      bottom: BorderSide(
+                                          width: 1.0, color: Colors.black),
+                                    )),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " ",
+                                          textAlign: TextAlign.center,
+                                        ),
+                                      ],
+                                    )),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
-                    ),)
+                    )
                   ],
                 ),
               )
