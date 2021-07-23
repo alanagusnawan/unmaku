@@ -117,9 +117,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                             children: [
                                               Padding(
                                                 padding:
-                                                const EdgeInsets.only(
-                                                    right: 10.0,
-                                                    left: 10.0),
+                                                const EdgeInsets.all(10),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -150,8 +148,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                         MainAxisAlignment.spaceBetween,
                                         children: [
                                           Padding(
-                                            padding: const EdgeInsets.only(
-                                                right: 10.0, left: 10.0),
+                                            padding:
+                                            const EdgeInsets.all(10),
                                             child: Icon(
                                                 Icons.wysiwyg_rounded,
                                                 size: _width / 10),

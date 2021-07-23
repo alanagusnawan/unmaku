@@ -67,7 +67,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
               Container(
                 padding: EdgeInsets.only(
                     top: _height / 20),
-                width: _width / 1.3,
+                width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -80,7 +80,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                           fontSize: _width / 18),),
 
                     Container(
-                      width: _width / 1.3,
+                      width: _width ,
                       child: Padding(
                         padding:
                         const EdgeInsets.only(top: 20.0, bottom: 10.0),
@@ -94,11 +94,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: <Widget>[
                               Padding(
-                                padding: const EdgeInsets.only(
-                                    top: 10.0,
-                                    bottom: 10.0,
-                                    left: 5.0,
-                                    right: 5.0),
+                                padding: const EdgeInsets.all(10.0),
                                 child: Column(
                                   crossAxisAlignment:
                                   CrossAxisAlignment.stretch,
@@ -118,9 +114,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                             children: [
                                               Padding(
                                                 padding:
-                                                const EdgeInsets.only(
-                                                    right: 10.0,
-                                                    left: 10.0),
+                                                const EdgeInsets.all(10),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -151,8 +145,8 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                         MainAxisAlignment.spaceBetween,
                                         children: [
                                           Padding(
-                                            padding: const EdgeInsets.only(
-                                                right: 10.0, left: 10.0),
+                                            padding:
+                                            const EdgeInsets.all(10),
                                             child: Icon(
                                                 Icons.wysiwyg_rounded,
                                                 size: _width / 10),

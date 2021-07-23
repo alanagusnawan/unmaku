@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(15.0)),
                               child: Container(
-                                height: _height / 7,
+                                height: _height / 6,
                                 width: _width / 1.3,
                                 foregroundDecoration:
                                     const RotatedCornerDecoration(
@@ -178,7 +178,7 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0)),
                             child: Container(
-                              height: _height / 7,
+                              height: _height / 6,
                               width: _width / 1.3,
                               foregroundDecoration:
                                   const RotatedCornerDecoration(
@@ -264,7 +264,7 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0)),
                             child: Container(
-                              height: _height / 7,
+                              height: _height / 6,
                               width: _width / 1.3,
                               foregroundDecoration:
                                   const RotatedCornerDecoration(
