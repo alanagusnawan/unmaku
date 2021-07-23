@@ -117,7 +117,7 @@ class _TranskripPageState extends State<TranskripPage> {
                           Navigator.of(context).pushNamed('/profile');
                         },
                         child: CircleAvatar(
-                          radius: 40,
+                          radius: _width / 11,
                           backgroundImage: NetworkImage(
                               'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                         ),

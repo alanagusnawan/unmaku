@@ -67,7 +67,7 @@ class _RiwayatKartuRencanaStudiPageState
               ),
               Container(
                 padding: EdgeInsets.only(top: _height / 20),
-                width: _width / 1.3,
+                width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,

@@ -55,7 +55,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                           Navigator.of(context).pushNamed('/profile');
                         },
                         child: CircleAvatar(
-                          radius: 40,
+                          radius: _width / 11,
                           backgroundImage: NetworkImage(
                               'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                         ),
@@ -66,7 +66,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
               ),
               Container(
                 padding: EdgeInsets.only(top: _height / 20),
-                width: _width / 1.3,
+                width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -80,7 +80,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                           fontSize: _width / 18),
                     ),
                     Container(
-                      width: _width / 1.3,
+                      width: _width,
                       child: Padding(
                         padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
                         child: Card(
@@ -115,8 +115,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.only(
-                                                    right: 10.0, left: 10.0),
+                                                padding: const EdgeInsets.all(10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -145,8 +144,7 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Padding(
-                                            padding: const EdgeInsets.only(
-                                                right: 10.0, left: 10.0),
+                                            padding: const EdgeInsets.all(10.0),
                                             child: Icon(Icons.wysiwyg_rounded,
                                                 size: _width / 10),
                                           ),

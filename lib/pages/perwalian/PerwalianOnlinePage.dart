@@ -76,7 +76,7 @@ class _PerwalianOnlinePageState extends State<PerwalianOnlinePage> {
               Container(
                 padding: EdgeInsets.only(
                     top: _height / 20),
-                width: _width / 1.1,
+                width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -105,7 +105,7 @@ class _PerwalianOnlinePageState extends State<PerwalianOnlinePage> {
                       ],
                     ),
                     Container(
-                      width: _width / 1.1,
+                      width: _width ,
                       child: Padding(
                         padding:
                         const EdgeInsets.only(top: 20.0, bottom: 10.0),
@@ -125,8 +125,8 @@ class _PerwalianOnlinePageState extends State<PerwalianOnlinePage> {
                                   CrossAxisAlignment.stretch,
                                   children: <Widget>[
                                     Container(
-                                      height: _height / 3,
-                                      width: _width / 1.3,
+                                      height: _height / 2.75,
+                                      width: _width ,
                                       child: Card(
                                         elevation: 8.0,
                                         shape: RoundedRectangleBorder(

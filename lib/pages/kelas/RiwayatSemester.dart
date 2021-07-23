@@ -214,7 +214,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                 ),
                               ),
                               Container(
-                                width: _width / 1.3,
+                                width: _width / 1.2,
                                 child: Padding(
                                   padding: const EdgeInsets.only(
                                       top: 20.0, bottom: 10.0),

@@ -5,19 +5,7 @@ class UjianPage extends StatefulWidget {
   _UjianPageState createState() => _UjianPageState();
 }
 
-class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
-  int _state = 0;
-  Animation _animation;
-  AnimationController _controller;
-  GlobalKey _globalKey = GlobalKey();
-  double _width2 = double.maxFinite;
-
-  @override
-  void dispose() {
-    super.dispose();
-    _controller.dispose();
-  }
-
+class _UjianPageState extends State<UjianPage> {
   @override
   Widget build(BuildContext context) {
     final _width = MediaQuery.of(context).size.width;
@@ -89,7 +77,7 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                       children: <Widget>[
                         Container(
                           padding: EdgeInsets.only(top: _height / 50),
-                          width: _width / 1.3,
+                          width: _width / 1.2,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.start,
@@ -424,7 +412,7 @@ class _UjianPageState extends State<UjianPage> with TickerProviderStateMixin {
                                     ),
                                   ),
                                   Container(
-                                    width: _width / 1.3,
+                                    width: _width,
                                     child: Padding(
                                       padding: const EdgeInsets.only(
                                           top: 10.0, bottom: 5.0),

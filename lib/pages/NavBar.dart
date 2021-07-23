@@ -31,7 +31,7 @@ class _MenuBawahState extends State<MenuBawah> {
         KelasKuliahDaringPage(),
         TranskripPage(),
         PenjadwalanPage(),
-        KeuanganPage()
+        KeuanganPage(),
       ];
 
       controllerPage = PageController(

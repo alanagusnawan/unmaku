@@ -148,10 +148,7 @@ class _ProfilePageState extends State<ProfilePage>
                                               child: Row(
                                                 children: [
                                                   Padding(
-                                                    padding:
-                                                        const EdgeInsets.only(
-                                                            right: 10.0,
-                                                            left: 10.0),
+                                                    padding: const EdgeInsets.all(5.0),
                                                     child: Icon(Icons.person,
                                                         size: _width / 10),
                                                   ),
@@ -187,10 +184,7 @@ class _ProfilePageState extends State<ProfilePage>
                                                       .spaceBetween,
                                               children: [
                                                 Padding(
-                                                  padding:
-                                                      const EdgeInsets.only(
-                                                          right: 10.0,
-                                                          left: 10.0),
+                                                  padding: const EdgeInsets.all(5.0),
                                                   child: Icon(Icons.work_sharp,
                                                       size: _width / 10),
                                                 ),
@@ -219,8 +213,7 @@ class _ProfilePageState extends State<ProfilePage>
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.only(
-                                                    right: 10.0, left: 10.0),
+                                                padding: const EdgeInsets.all(5.0),
                                                 child: Icon(
                                                     Icons.wysiwyg_rounded,
                                                     size: _width / 10),

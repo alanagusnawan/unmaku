@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:rotated_corner_decoration/rotated_corner_decoration.dart';
-import 'package:unmaku/pages/profile/ProfilePage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -57,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                         Navigator.of(context).pushNamed('/profile');
                       },
                       child: CircleAvatar(
-                        radius: 40,
+                        radius: _width / 11,
                         backgroundImage: NetworkImage(
                             'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                       ),

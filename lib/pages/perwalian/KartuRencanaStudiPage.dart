@@ -70,21 +70,33 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
               ),
               Container(
                 padding: EdgeInsets.only(top: _height / 20),
-                width: _width / 1.3,
+                width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      'KARTU RENCANA STUDI',
-                      style: TextStyle(
-                          fontFamily: 'Segoe UI',
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),
-                    ),
+                    Row(
+                    children: [
+                      InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamedAndRemoveUntil(
+                              '/menu', (Route<dynamic> route) => false);
+                        },
+                        child: Icon(Icons.arrow_back_ios_rounded,
+                            size: _width / 15),
+                      ),
+                      Text(
+                        'KARTU RENCANA STUDI',
+                        style: TextStyle(
+                            fontFamily: 'Segoe UI',
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: _width / 18),
+                      ),
+                    ],
+                  ),
                     Container(
-                      width: _width / 1.3,
+                      width: _width,
                       child: Padding(
                         padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
                         child: Card(
@@ -242,8 +254,8 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                       ),
                     ),
                     Container(
-                      width: _width / 1.3,
-                      height: _height/14,
+                      width: _width / 1.2,
+                      height: _height / 14,
                       child: TextButton(
                         style: TextButton.styleFrom(
                           backgroundColor: Colors.blue,
