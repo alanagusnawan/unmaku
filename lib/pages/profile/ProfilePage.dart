@@ -100,9 +100,15 @@ class _ProfilePageState extends State<ProfilePage>
                                         backgroundImage: NetworkImage(
                                             'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                                       ),
-                                      Text('Rifa Nurfalah'),
-                                      Text('19.14.1.0012'),
-                                      Text('Semester Aktif : 2020/2021 Genap'),
+                                      Text('Rifa Nurfalah',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('19.14.1.0012',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('Semester Aktif : 2020/2021 Genap',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
                                     ],
                                   ),
                                 ),
@@ -148,7 +154,9 @@ class _ProfilePageState extends State<ProfilePage>
                                               child: Row(
                                                 children: [
                                                   Padding(
-                                                    padding: const EdgeInsets.all(5.0),
+                                                    padding:
+                                                        const EdgeInsets.all(
+                                                            5.0),
                                                     child: Icon(Icons.person,
                                                         size: _width / 10),
                                                   ),
@@ -156,8 +164,9 @@ class _ProfilePageState extends State<ProfilePage>
                                                     child: Text(
                                                       'Data Diri',
                                                       style: TextStyle(
-                                                          fontSize:
-                                                              _width / 20),
+                                                          fontSize: _width / 20,
+                                                          color: Color(
+                                                              0xff4e4e4e)),
                                                     ),
                                                   ),
                                                   Icon(
@@ -184,7 +193,8 @@ class _ProfilePageState extends State<ProfilePage>
                                                       .spaceBetween,
                                               children: [
                                                 Padding(
-                                                  padding: const EdgeInsets.all(5.0),
+                                                  padding:
+                                                      const EdgeInsets.all(5.0),
                                                   child: Icon(Icons.work_sharp,
                                                       size: _width / 10),
                                                 ),
@@ -192,7 +202,9 @@ class _ProfilePageState extends State<ProfilePage>
                                                   child: Text(
                                                     'Akademik',
                                                     style: TextStyle(
-                                                        fontSize: _width / 20),
+                                                        fontSize: _width / 20,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                   ),
                                                 ),
                                                 Icon(
@@ -213,7 +225,8 @@ class _ProfilePageState extends State<ProfilePage>
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.all(5.0),
+                                                padding:
+                                                    const EdgeInsets.all(5.0),
                                                 child: Icon(
                                                     Icons.wysiwyg_rounded,
                                                     size: _width / 10),
@@ -222,7 +235,8 @@ class _ProfilePageState extends State<ProfilePage>
                                                 child: Text(
                                                   'Dokumen',
                                                   style: TextStyle(
-                                                      fontSize: _width / 20),
+                                                      fontSize: _width / 20,
+                                                      color: Color(0xff4e4e4e)),
                                                 ),
                                               ),
                                               Icon(
@@ -347,17 +361,65 @@ Widget menuBawah() {
     type: BottomNavigationBarType.fixed,
     items: [
       BottomNavigationBarItem(
-          icon: Icon(Icons.home, color: Colors.grey,), title: Text("Dashboard", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.home,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Dashboard",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
       BottomNavigationBarItem(
-          icon: Icon(Icons.assignment_rounded, color: Colors.grey,), title: Text("Perwalian", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.assignment_rounded,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Perwalian",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
       BottomNavigationBarItem(
-          icon: Icon(Icons.laptop_mac, color: Colors.grey,), title: Text("Kelas", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.laptop_mac,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Kelas",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
       BottomNavigationBarItem(
-          icon: Icon(Icons.library_books_outlined, color: Colors.grey,), title: Text("Transkrip", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.library_books_outlined,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Transkrip",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
       BottomNavigationBarItem(
-          icon: Icon(Icons.date_range_rounded, color: Colors.grey,), title: Text("Jadwal", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.date_range_rounded,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Jadwal",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
       BottomNavigationBarItem(
-          icon: Icon(Icons.payment_rounded, color: Colors.grey,), title: Text("Keuangan", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),),),
+        icon: Icon(
+          Icons.payment_rounded,
+          color: Colors.grey,
+        ),
+        title: Text(
+          "Keuangan",
+          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
+        ),
+      ),
     ],
   );
 

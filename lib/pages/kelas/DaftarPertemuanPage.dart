@@ -83,7 +83,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                           'DAFTAR PERTEMUAN',
                           style: TextStyle(
                               fontFamily: 'Poppins-Bold',
-                              color: Colors.black,
+                              color: Color(0xff4e4e4e),
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
                         ),
@@ -123,7 +123,9 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                         color: Colors.blue,
                                         child: Text(
                                           "Pertemuan #1",
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(
+                                            color: Color(0xff4e4e4e),
+                                          ),
                                         ),
                                       ),
                                       Padding(
@@ -133,51 +135,80 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Tanggal'),
+                                                  child: Text('Tanggal',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child:
-                                                      Text('14 Januari 2021'),
+                                                  child: Text('14 Januari 2021',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jenis'),
+                                                  child: Text('Jenis',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Kuliah'),
+                                                  child: Text('Kuliah',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Mulai'),
+                                                  child: Text('Jam Mulai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('13:33:46'),
+                                                  child: Text('13:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Selesai'),
+                                                  child: Text('Jam Selesai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('15:33:46'),
+                                                  child: Text('15:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Ringkasan'),
+                                                  child: Text('Ringkasan',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Struct'),
+                                                  child: Text('Struct',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
@@ -202,7 +233,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                               "Detail",
                                               style: TextStyle(
                                                 fontSize: 16,
-                                                color: Color(0xffffffff),
+                                                color: Color(0xff4e4e4e),
                                               ),
                                             ),
                                           ),
@@ -241,7 +272,8 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                         color: Colors.blue,
                                         child: Text(
                                           "Pertemuan #1",
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ),
                                       Padding(
@@ -251,51 +283,100 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Tanggal'),
+                                                  child: Text(
+                                                    'Tanggal',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 ),
                                                 Expanded(
-                                                  child:
-                                                      Text('14 Januari 2021'),
+                                                  child: Text(
+                                                    '14 Januari 2021',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jenis'),
+                                                  child: Text(
+                                                    'Jenis',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Kuliah'),
+                                                  child: Text(
+                                                    'Kuliah',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Mulai'),
+                                                  child: Text(
+                                                    'Jam Mulai',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 ),
                                                 Expanded(
-                                                  child: Text('13:33:46'),
+                                                  child: Text(
+                                                    '13:33:46',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Selesai'),
+                                                  child: Text(
+                                                    'Jam Selesai',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 ),
                                                 Expanded(
-                                                  child: Text('15:33:46'),
+                                                  child: Text(
+                                                    '15:33:46',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Ringkasan'),
+                                                  child: Text(
+                                                    'Ringkasan',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Struct'),
+                                                  child: Text(
+                                                    'Struct',
+                                                    style: TextStyle(
+                                                        color:
+                                                            Color(0xff4e4e4e)),
+                                                  ),
                                                 )
                                               ],
                                             ),
@@ -320,7 +401,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                               "Detail",
                                               style: TextStyle(
                                                 fontSize: 16,
-                                                color: Color(0xffffffff),
+                                                color: Color(0xff4e4e4e),
                                               ),
                                             ),
                                           ),
@@ -359,7 +440,8 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                         color: Colors.blue,
                                         child: Text(
                                           "Pertemuan #1",
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ),
                                       Padding(
@@ -369,51 +451,80 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Tanggal'),
+                                                  child: Text('Tanggal',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child:
-                                                      Text('14 Januari 2021'),
+                                                  child: Text('14 Januari 2021',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jenis'),
+                                                  child: Text('Jenis',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Kuliah'),
+                                                  child: Text('Kuliah',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Mulai'),
+                                                  child: Text('Jam Mulai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('13:33:46'),
+                                                  child: Text('13:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Jam Selesai'),
+                                                  child: Text('Jam Selesai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('15:33:46'),
+                                                  child: Text('15:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
                                             Row(
                                               children: [
                                                 Expanded(
-                                                  child: Text('Ringkasan'),
+                                                  child: Text('Ringkasan',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Struct'),
+                                                  child: Text('Struct',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                 )
                                               ],
                                             ),
@@ -438,7 +549,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                               "Detail",
                                               style: TextStyle(
                                                 fontSize: 16,
-                                                color: Color(0xffffffff),
+                                                color: Color(0xff4e4e4e),
                                               ),
                                             ),
                                           ),
@@ -479,8 +590,8 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                           color: Colors.blue,
                                           child: Text(
                                             "Pertemuan #1",
-                                            style:
-                                                TextStyle(color: Colors.white),
+                                            style: TextStyle(
+                                                color: Color(0xff4e4e4e)),
                                           ),
                                         ),
                                         Padding(
@@ -490,51 +601,81 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                               Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Text('Tanggal'),
+                                                    child: Text('Tanggal',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   ),
                                                   Expanded(
-                                                    child:
-                                                        Text('14 Januari 2021'),
+                                                    child: Text(
+                                                        '14 Januari 2021',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   )
                                                 ],
                                               ),
                                               Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Text('Jenis'),
+                                                    child: Text('Jenis',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   ),
                                                   Expanded(
-                                                    child: Text('Kuliah'),
+                                                    child: Text('Kuliah',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   )
                                                 ],
                                               ),
                                               Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Text('Jam Mulai'),
+                                                    child: Text('Jam Mulai',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   ),
                                                   Expanded(
-                                                    child: Text('13:33:46'),
+                                                    child: Text('13:33:46',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   )
                                                 ],
                                               ),
                                               Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Text('Jam Selesai'),
+                                                    child: Text('Jam Selesai',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   ),
                                                   Expanded(
-                                                    child: Text('15:33:46'),
+                                                    child: Text('15:33:46',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   )
                                                 ],
                                               ),
                                               Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Text('Ringkasan'),
+                                                    child: Text('Ringkasan',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   ),
                                                   Expanded(
-                                                    child: Text('Struct'),
+                                                    child: Text('Struct',
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e))),
                                                   )
                                                 ],
                                               ),
@@ -559,7 +700,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                                 "Detail",
                                                 style: TextStyle(
                                                   fontSize: 16,
-                                                  color: Color(0xffffffff),
+                                                  color: Color(0xff4e4e4e),
                                                 ),
                                               ),
                                             ),
@@ -571,7 +712,8 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                         ],
                       ),
                     ),
-                    Text("Pertemuan Hari Ini"),
+                    Text("Pertemuan Hari Ini",
+                        style: TextStyle(color: Color(0xff4e4e4e))),
                     Container(
                       width: _width / 1.3,
                       height: _height / 14,
@@ -589,7 +731,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                           "Masuk Pertemuan Kuliah",
                           style: TextStyle(
                             fontSize: 16,
-                            color: Color(0xffffffff),
+                            color: Color(0xff4e4e4e),
                           ),
                         ),
                       ),

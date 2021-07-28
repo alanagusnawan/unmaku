@@ -73,8 +73,8 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                     Text(
                       'JADWAL',
                       style: TextStyle(
-                          fontFamily: 'Poppins-Bold',
-                          color: Colors.black,
+                          fontFamily: 'Poppins',
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
                     ),
@@ -114,7 +114,8 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.all(10.0),
+                                                padding:
+                                                    const EdgeInsets.all(10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -122,6 +123,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                                 child: Text(
                                                   "Jadwal Kuliah",
                                                   style: TextStyle(
+                                                      fontFamily: 'Poppins',
                                                       color: Colors.black,
                                                       fontSize: _width / 22),
                                                 ),
@@ -151,7 +153,8 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                             child: Text(
                                               "Seminar / Sidang",
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  fontFamily: 'Poppins',
+                                                  color: Color(0xff4e4e4e),
                                                   fontSize: _width / 22),
                                             ),
                                           ),

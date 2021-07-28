@@ -117,7 +117,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           style: TextStyle(
                               color: Color(0xff696969),
                               fontSize: 14,
-                              fontFamily: 'Poppins-regular'),
+                              fontFamily: 'Poppins'),
                           controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Nama Pengguna",
@@ -145,7 +145,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           style: TextStyle(
                               color: Color(0xff696969),
                               fontSize: 14,
-                              fontFamily: 'Poppins-regular'),
+                              fontFamily: 'Poppins'),
                           decoration: InputDecoration(
                               suffixIcon: GestureDetector(
                                 onTap: () {
@@ -156,7 +156,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                                       ? Icons.visibility_off
                                       : Icons.visibility,
                                   color: _isHidePassword
-                                      ? Colors.black
+                                      ? Color(0xff4e4e4e)
                                       : Colors.blueAccent,
                                 ),
                               ),
@@ -183,7 +183,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           style: TextStyle(
                               color: Color(0xff696969),
                               fontSize: 14,
-                              fontFamily: 'Poppins-regular'),
+                              fontFamily: 'Poppins'),
                           controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Masukan Teks Dibawah",
@@ -267,7 +267,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               style: TextStyle(
                                 fontFamily: 'Poppins',
                                 fontSize: 13,
-                                color: const Color(0xff0d0d0d),
+                                color: const Color(0xff4e4e4e),
                               )),
                           SizedBox(
                             width: 12.0,
@@ -282,7 +282,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           ),
                           Text("Lupa Kata Sandi?",
                               style: TextStyle(
-                                  color: Colors.blue,
+                                  color: Color(0xff4e4e4e),
                                   fontFamily: "Poppins",
                                   fontSize: 13))
                         ],

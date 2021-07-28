@@ -95,9 +95,15 @@ class _AkademikPageState extends State<AkademikPage>
                                         backgroundImage: NetworkImage(
                                             'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                                       ),
-                                      Text('Rifa Nurfalah'),
-                                      Text('19.14.1.0012'),
-                                      Text('Semester Aktif : 2020/2021 Genap'),
+                                      Text('Rifa Nurfalah',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('19.14.1.0012',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('Semester Aktif : 2020/2021 Genap',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
                                     ],
                                   ),
                                 ),
@@ -126,8 +132,8 @@ class _AkademikPageState extends State<AkademikPage>
                                   Text(
                                     'AKADEMIK',
                                     style: TextStyle(
-                                        fontFamily: 'Segoe UI',
-                                        color: Colors.black,
+                                        fontFamily: 'Poppins-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold,
                                         fontSize: _width / 18),
                                   ),
@@ -197,16 +203,25 @@ class _AkademikPageState extends State<AkademikPage>
                                                                       .start,
                                                               children: [
                                                                 Text(
-                                                                    "DATA AJAR MAHASISWA"),
+                                                                    "DATA AJAR MAHASISWA",
+                                                                    style: TextStyle(
+                                                                        fontFamily:
+                                                                            'Poppins-Semi-Bold',
+                                                                        color: Color(
+                                                                            0xff4e4e4e))),
                                                                 Row(
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'ID Mahasiswa'),
+                                                                          'ID Mahasiswa',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '19.14.1.0005'),
+                                                                          '19.14.1.0005',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -214,7 +229,9 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Fakultas - Prodi'),
+                                                                          'Fakultas - Prodi',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
@@ -226,11 +243,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Semester Diterima'),
+                                                                          'Semester Diterima',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '1'),
+                                                                          '1',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -238,11 +259,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Dosen Wali'),
+                                                                          'Dosen Wali',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Nunu Nurdiana'),
+                                                                          'Nunu Nurdiana',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 )
@@ -319,16 +344,25 @@ class _AkademikPageState extends State<AkademikPage>
                                                                       .start,
                                                               children: [
                                                                 Text(
-                                                                    "DATA AJAR DETAIL"),
+                                                                    "DATA AJAR DETAIL",
+                                                                    style: TextStyle(
+                                                                        fontFamily:
+                                                                            'Poppins-Semi-Bold',
+                                                                        color: Color(
+                                                                            0xff4e4e4e))),
                                                                 Row(
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'ID MHS'),
+                                                                          'ID MHS',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '190118'),
+                                                                          '190118',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -336,11 +370,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'TGL MASUK SP'),
+                                                                          'TGL MASUK SP',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '2019-03-05'),
+                                                                          '2019-03-05',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -348,11 +386,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'MULAI SMT'),
+                                                                          'MULAI SMT',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '20191'),
+                                                                          '20191',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -360,11 +402,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'SKS DIAKUI'),
+                                                                          'SKS DIAKUI',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '68'),
+                                                                          '68',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -372,11 +418,15 @@ class _AkademikPageState extends State<AkademikPage>
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'IPK'),
+                                                                          'IPK',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          '3.91'),
+                                                                          '3.91',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 )
@@ -411,6 +461,7 @@ class _AkademikPageState extends State<AkademikPage>
       ),
     );
   }
+
   Widget menuBawah() {
     final menu = BottomNavigationBar(
       type: BottomNavigationBarType.fixed,

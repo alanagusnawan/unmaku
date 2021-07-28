@@ -82,8 +82,8 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                         Text(
                           'JADWAL KULIAH',
                           style: TextStyle(
-                              fontFamily: 'Poppins-Bold',
-                              color: Colors.black,
+                              fontFamily: 'Poppins',
+                              color: Color(0xff4e4e4e),
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
                         ),
@@ -118,6 +118,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "SENIN",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -135,6 +136,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "SELASA",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -152,6 +154,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "RABU",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -169,6 +172,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "KAMIS",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -186,6 +190,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "JUMAT",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -203,6 +208,7 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                     "SABTU",
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Semi-Bold',
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold),
                                     textAlign: TextAlign.center,
                                   ),
@@ -232,6 +238,8 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "DESAIN DAN PEMROGRAMAN\nBERORIENTASI OBJEK (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "08:00:00 - 10:30:00 WIB",
@@ -240,6 +248,8 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "DEFFY SUSANTI",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -262,14 +272,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "GRAFIKA KOMPUTER (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "08:00:00 - 10:30:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "TRI FERGA PRASETYO",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -292,14 +308,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "DESAIN UI/UX (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "08:00:00 - 10:30:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "SUHENDRI",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -322,14 +344,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "SISTEM OPERASI (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "08:00:00 - 09:30:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "DEFFY SUSANTI",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -418,6 +446,8 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "STATISTIKA & PROBABILITAS (C)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "11:30:00 - 13:30:00 WIB",
@@ -426,6 +456,8 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "DADAN ZALILUDDIN",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -448,14 +480,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "METODE NUMERIK (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "10:30:00 - 12:00:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "BUDIMAN",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -478,14 +516,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "MATEMATIKA DISKRIT (C)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "11:00:00 - 12:30:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "II SUPIANDI",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -508,14 +552,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "TATA TULIS & KOMUNIKASI ILMIAH (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "10:00:00 - 12:30:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "DADAN ZALILUDDIN",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),
@@ -604,14 +654,20 @@ class _JadwalKuliahPageState extends State<JadwalKuliahPage> {
                                         Text(
                                           "SISTEM CERDAS (A)",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "13:00:00 - 15:00:00 WIB",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                         Text(
                                           "ARDI MARDIANA",
                                           textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ],
                                     )),

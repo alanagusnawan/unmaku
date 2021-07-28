@@ -91,7 +91,7 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                           'KELAS KULIAH SEMESTER',
                           style: TextStyle(
                               fontFamily: 'Poppins-Bold',
-                              color: Colors.black,
+                              color: Color(0xff4e4e4e),
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
                         ),
@@ -482,10 +482,14 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
                                                         "Statistika & Probabilitas C",
                                                         style: TextStyle(
                                                             fontWeight:
-                                                                FontWeight
-                                                                    .bold),
+                                                                FontWeight.bold,
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
-                                                      Text('Ruang : 303')
+                                                      Text('Ruang : 303',
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)))
                                                     ],
                                                   ),
                                                   Container(

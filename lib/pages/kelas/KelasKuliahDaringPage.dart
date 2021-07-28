@@ -74,8 +74,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                     Text(
                       'KELAS KULIAH',
                       style: TextStyle(
-                          fontFamily: 'Poppins-Bold',
-                          color: Colors.black,
+                          fontFamily: 'Poppins',
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
                     ),
@@ -115,7 +115,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.all(10.0),
+                                                padding:
+                                                    const EdgeInsets.all(10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -123,7 +124,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                                 child: Text(
                                                   "Kelas Kuliah Semester",
                                                   style: TextStyle(
-                                                      color: Colors.black,
+                                                      fontFamily: 'Poppins',
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -152,7 +154,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                             child: Text(
                                               "Riwayat Kartu Rencana Studi",
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  fontFamily: 'Poppins',
+                                                  color: Color(0xff4e4e4e),
                                                   fontSize: _width / 22),
                                             ),
                                           ),

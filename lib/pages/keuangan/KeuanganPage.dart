@@ -65,31 +65,30 @@ class _KeuanganPageState extends State<KeuanganPage> {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(
-                    top: _height / 20),
+                padding: EdgeInsets.only(top: _height / 20),
                 width: _width / 1.2,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text('KEUANGAN',
+                    Text(
+                      'KEUANGAN',
                       style: TextStyle(
-                          fontFamily: 'Segoe UI',
-                          color: Colors.black,
+                          fontFamily: 'Poppins',
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),),
+                          fontSize: _width / 18),
+                    ),
                     Container(
                       width: _width,
                       child: Padding(
-                        padding:
-                        const EdgeInsets.only(top: 20.0, bottom: 10.0),
+                        padding: const EdgeInsets.only(top: 20.0, bottom: 10.0),
                         child: Card(
                           elevation: 8.0,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0)),
                           child: Column(
-                            mainAxisAlignment:
-                            MainAxisAlignment.spaceAround,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: <Widget>[
                               Padding(
@@ -100,7 +99,7 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                     right: 5.0),
                                 child: Column(
                                   crossAxisAlignment:
-                                  CrossAxisAlignment.stretch,
+                                      CrossAxisAlignment.stretch,
                                   children: <Widget>[
                                     InkWell(
                                         onTap: () {
@@ -116,7 +115,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.all(10.0),
+                                                padding:
+                                                    const EdgeInsets.all(10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -124,9 +124,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                                 child: Text(
                                                   "Histori Tagihan",
                                                   style: TextStyle(
-                                                      fontFamily: 'Segoe UI',
+                                                      fontFamily: 'Poppins',
                                                       color: Colors.black,
-                                                      fontWeight: FontWeight.w600,
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -151,7 +150,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                           child: Row(
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsets.all(10.0),
+                                                padding:
+                                                    const EdgeInsets.all(10.0),
                                                 child: Icon(Icons.person,
                                                     size: _width / 10),
                                               ),
@@ -159,9 +159,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                                 child: Text(
                                                   "Invoice",
                                                   style: TextStyle(
-                                                      fontFamily: 'Segoe UI',
+                                                      fontFamily: 'Poppins',
                                                       color: Colors.black,
-                                                      fontWeight: FontWeight.w600,
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -179,27 +178,22 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                       },
                                       child: Row(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(10.0),
-                                            child: Icon(
-                                                Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.wysiwyg_rounded,
                                                 size: _width / 10),
                                           ),
                                           Expanded(
                                             child: Text(
                                               "Histori Pembayaran",
                                               style: TextStyle(
-                                                  fontFamily: 'Segoe UI',
                                                   color: Colors.black,
-                                                  fontWeight: FontWeight.w600,
                                                   fontSize: _width / 22),
                                             ),
                                           ),
-                                          Icon(
-                                              Icons
-                                                  .arrow_forward_ios_rounded,
+                                          Icon(Icons.arrow_forward_ios_rounded,
                                               size: _width / 15)
                                         ],
                                       ),

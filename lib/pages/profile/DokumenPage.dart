@@ -95,9 +95,15 @@ class _DokumenPageState extends State<DokumenPage> {
                                         backgroundImage: NetworkImage(
                                             'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                                       ),
-                                      Text('Rifa Nurfalah'),
-                                      Text('19.14.1.0012'),
-                                      Text('Semester Aktif : 2020/2021 Genap'),
+                                      Text('Rifa Nurfalah',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('19.14.1.0012',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('Semester Aktif : 2020/2021 Genap',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
                                     ],
                                   ),
                                 ),
@@ -121,8 +127,8 @@ class _DokumenPageState extends State<DokumenPage> {
                               Text(
                                 'DOKUMEN',
                                 style: TextStyle(
-                                    fontFamily: 'Segoe UI',
-                                    color: Colors.black,
+                                    fontFamily: 'Poppins-Bold',
+                                    color: Color(0xff4e4e4e),
                                     fontWeight: FontWeight.bold,
                                     fontSize: _width / 18),
                               ),
@@ -160,14 +166,18 @@ class _DokumenPageState extends State<DokumenPage> {
                                             children: [
                                               Column(
                                                 children: [
-                                                  Text("PAS FOTO"),
+                                                  Text("PAS FOTO",
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                   Container(
                                                     width: _width / 3,
                                                     height: _height / 5,
                                                     decoration: BoxDecoration(
                                                       border: Border.all(
                                                           width: 2.0,
-                                                          color: Colors.black),
+                                                          color:
+                                                              Colors.black38),
                                                       borderRadius:
                                                           BorderRadius.all(
                                                         Radius.circular(25),
@@ -197,14 +207,18 @@ class _DokumenPageState extends State<DokumenPage> {
                                               ),
                                               Column(
                                                 children: [
-                                                  Text("KTP"),
+                                                  Text("KTP",
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                   Container(
                                                     width: _width / 3,
                                                     height: _height / 5,
                                                     decoration: BoxDecoration(
                                                       border: Border.all(
                                                           width: 2.0,
-                                                          color: Colors.black),
+                                                          color:
+                                                              Colors.black38),
                                                       borderRadius:
                                                           BorderRadius.all(
                                                         Radius.circular(25),
@@ -235,14 +249,18 @@ class _DokumenPageState extends State<DokumenPage> {
                                             children: [
                                               Column(
                                                 children: [
-                                                  Text("KARTU KELUARGA"),
+                                                  Text("KARTU KELUARGA",
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                   Container(
                                                     width: _width / 3,
                                                     height: _height / 5,
                                                     decoration: BoxDecoration(
                                                       border: Border.all(
                                                           width: 2.0,
-                                                          color: Colors.black),
+                                                          color:
+                                                              Colors.black38),
                                                       borderRadius:
                                                           BorderRadius.all(
                                                         Radius.circular(25),
@@ -272,14 +290,18 @@ class _DokumenPageState extends State<DokumenPage> {
                                               ),
                                               Column(
                                                 children: [
-                                                  Text("SKCK"),
+                                                  Text("SKCK",
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
                                                   Container(
                                                     width: _width / 3,
                                                     height: _height / 5,
                                                     decoration: BoxDecoration(
                                                       border: Border.all(
                                                           width: 2.0,
-                                                          color: Colors.black),
+                                                          color:
+                                                              Colors.black38),
                                                       borderRadius:
                                                           BorderRadius.all(
                                                         Radius.circular(25),

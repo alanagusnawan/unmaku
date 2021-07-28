@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                                                   "UTS",
                                                   textAlign: TextAlign.start,
                                                   style: TextStyle(
-                                                      color: Colors.black,
+                                                      color: Color(0xff4e4e4e),
                                                       fontFamily:
                                                           'Poppins-Bold',
                                                       fontWeight:
@@ -143,7 +143,7 @@ class _HomePageState extends State<HomePage> {
                                                   "Semester ganjil 2021-2022",
                                                   textAlign: TextAlign.start,
                                                   style: TextStyle(
-                                                      color: Colors.black,
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 30),
                                                 ),
                                               ),
@@ -151,14 +151,14 @@ class _HomePageState extends State<HomePage> {
                                                 "UTS akan dilaksanakan :",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontSize: _width / 30),
                                               ),
                                               Text(
                                                 "14-Maret-2021 s.d 30-Maret-2021",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontSize: _width / 30),
                                               ),
                                             ],
@@ -218,7 +218,7 @@ class _HomePageState extends State<HomePage> {
                                                 "Praktikum",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontFamily: 'Poppins-Bold',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
@@ -231,7 +231,7 @@ class _HomePageState extends State<HomePage> {
                                                 "Semester ganjil 2021-2022",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontFamily: 'Poppins-Bold',
                                                     fontSize: _width / 30),
                                               ),
@@ -240,7 +240,7 @@ class _HomePageState extends State<HomePage> {
                                               "Praktikum akan dilaksanakan :",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  color: Color(0xff4e4e4e),
                                                   fontFamily: 'Poppins-Bold',
                                                   fontSize: _width / 30),
                                             ),
@@ -248,7 +248,7 @@ class _HomePageState extends State<HomePage> {
                                               "14-Mei-2021 s.d 30-Mei-2021",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  color: Color(0xff4e4e4e),
                                                   fontFamily: 'Poppins-Bold',
                                                   fontSize: _width / 30),
                                             ),
@@ -308,7 +308,7 @@ class _HomePageState extends State<HomePage> {
                                                 "UAS",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontFamily: 'Poppins-Bold',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
@@ -321,7 +321,7 @@ class _HomePageState extends State<HomePage> {
                                                 "Semester ganjil 2021-2022",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
-                                                    color: Colors.black,
+                                                    color: Color(0xff4e4e4e),
                                                     fontFamily: 'Poppins-Bold',
                                                     fontSize: _width / 30),
                                               ),
@@ -330,7 +330,7 @@ class _HomePageState extends State<HomePage> {
                                               "UAS akan dilaksanakan :",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  color: Color(0xff4e4e4e),
                                                   fontFamily: 'Poppins-Bold',
                                                   fontSize: _width / 30),
                                             ),
@@ -338,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                                               "14-Juni-2021 s.d 30-Juni-2021",
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
-                                                  color: Colors.black,
+                                                  color: Color(0xff4e4e4e),
                                                   fontFamily: 'Poppins-Bold',
                                                   fontSize: _width / 30),
                                             ),

@@ -96,9 +96,15 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                         backgroundImage: NetworkImage(
                                             'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg'),
                                       ),
-                                      Text('Rifa Nurfalah'),
-                                      Text('19.14.1.0012'),
-                                      Text('Semester Aktif : 2020/2021 Genap'),
+                                      Text('Rifa Nurfalah',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('19.14.1.0012',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
+                                      Text('Semester Aktif : 2020/2021 Genap',
+                                          style: TextStyle(
+                                              color: Color(0xff4e4e4e))),
                                     ],
                                   ),
                                 ),
@@ -132,8 +138,8 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                     Text(
                                       'DATA DIRI',
                                       style: TextStyle(
-                                          fontFamily: 'Segoe UI',
-                                          color: Colors.black,
+                                          fontFamily: 'Poppins-Bold',
+                                          color: Color(0xff4e4e4e),
                                           fontWeight: FontWeight.bold,
                                           fontSize: _width / 18),
                                     ),
@@ -171,7 +177,10 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                       child: Text(
                                                         'ID MAHASISWA',
                                                         style: TextStyle(
-                                                            fontSize: 13),
+                                                          fontSize: 13,
+                                                          color:
+                                                              Color(0xff4e4e4e),
+                                                        ),
                                                       ),
                                                     ),
                                                     Expanded(
@@ -196,7 +205,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                                               15.0)),
                                                                   borderSide: const BorderSide(
                                                                       color: Colors
-                                                                          .black,
+                                                                          .black38,
                                                                       width: 1),
                                                                 ),
                                                                 border: const OutlineInputBorder(
@@ -223,7 +232,10 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                       child: Text(
                                                         'NAMA',
                                                         style: TextStyle(
-                                                            fontSize: 13),
+                                                          fontSize: 13,
+                                                          color:
+                                                              Color(0xff4e4e4e),
+                                                        ),
                                                       ),
                                                     ),
                                                     Expanded(
@@ -248,7 +260,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                                               15.0)),
                                                                   borderSide: const BorderSide(
                                                                       color: Colors
-                                                                          .black,
+                                                                          .black38,
                                                                       width: 1),
                                                                 ),
                                                                 border: const OutlineInputBorder(
@@ -275,33 +287,42 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                       child: Text(
                                                         'JENIS KELAMIN',
                                                         style: TextStyle(
-                                                            fontSize: 13),
+                                                          fontSize: 13,
+                                                          color:
+                                                              Color(0xff4e4e4e),
+                                                        ),
                                                       ),
                                                     ),
-                                                    Row(children: [
-                                                      Radio(
-                                                        value: 1,
-                                                        groupValue: selectedRadio,
-                                                        activeColor: Colors.green,
-                                                        onChanged: (val) {
-                                                          print("Radio $val");
-                                                          setSelectedRadio(val);
-                                                        },
-                                                      ),
-                                                      Text("Male"),
-                                                      Radio(
-                                                        value: 2,
-                                                        groupValue: selectedRadio,
-                                                        activeColor: Colors.blue,
-                                                        onChanged: (val) {
-                                                          print("Radio $val");
-                                                          setSelectedRadio(val);
-                                                        },
-                                                      ),
-                                                      Text("Female"),
-                                                    ],)
-
-
+                                                    Row(
+                                                      children: [
+                                                        Radio(
+                                                          value: 1,
+                                                          groupValue:
+                                                              selectedRadio,
+                                                          activeColor:
+                                                              Colors.green,
+                                                          onChanged: (val) {
+                                                            print("Radio $val");
+                                                            setSelectedRadio(
+                                                                val);
+                                                          },
+                                                        ),
+                                                        Text("Male"),
+                                                        Radio(
+                                                          value: 2,
+                                                          groupValue:
+                                                              selectedRadio,
+                                                          activeColor:
+                                                              Colors.blue,
+                                                          onChanged: (val) {
+                                                            print("Radio $val");
+                                                            setSelectedRadio(
+                                                                val);
+                                                          },
+                                                        ),
+                                                        Text("Female"),
+                                                      ],
+                                                    )
                                                   ],
                                                 ),
                                               ),
@@ -314,12 +335,17 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                       child: Text(
                                                         'NO HP',
                                                         style: TextStyle(
-                                                            fontSize: 13),
+                                                          fontSize: 13,
+                                                          color:
+                                                              Color(0xff4e4e4e),
+                                                        ),
                                                       ),
                                                     ),
                                                     Expanded(
                                                       child: TextFormField(
-                                                        keyboardType: TextInputType.number,
+                                                        keyboardType:
+                                                            TextInputType
+                                                                .number,
                                                         style: TextStyle(
                                                             color: Color(
                                                                 0xff696969),
@@ -339,7 +365,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                                               15.0)),
                                                                   borderSide: const BorderSide(
                                                                       color: Colors
-                                                                          .black,
+                                                                          .black38,
                                                                       width: 1),
                                                                 ),
                                                                 border: const OutlineInputBorder(
@@ -366,7 +392,10 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                       child: Text(
                                                         'EMAIL',
                                                         style: TextStyle(
-                                                            fontSize: 13),
+                                                          fontSize: 13,
+                                                          color:
+                                                              Color(0xff4e4e4e),
+                                                        ),
                                                       ),
                                                     ),
                                                     Expanded(
@@ -390,7 +419,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
                                                                               15.0)),
                                                                   borderSide: const BorderSide(
                                                                       color: Colors
-                                                                          .black,
+                                                                          .black38,
                                                                       width: 1),
                                                                 ),
                                                                 border: const OutlineInputBorder(
@@ -430,6 +459,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
       ),
     );
   }
+
   Widget menuBawah() {
     final menu = BottomNavigationBar(
       type: BottomNavigationBarType.fixed,

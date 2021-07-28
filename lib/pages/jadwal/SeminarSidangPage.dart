@@ -90,7 +90,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                           'SEMINAR / SIDANG',
                           style: TextStyle(
                               fontFamily: 'Poppins-Bold',
-                              color: Colors.black,
+                              color: Color(0xff4e4e4e),
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
                         ),
@@ -136,7 +136,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           "2019 / 2020 Ganjil",
                                           style: TextStyle(
                                             fontSize: 16,
-                                            color: Color(0xffffffff),
+                                            color: Color(0xff4e4e4e),
                                           ),
                                         ),
                                       ),
@@ -170,7 +170,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           "2019 / 2020 Genap",
                                           style: TextStyle(
                                             fontSize: 16,
-                                            color: Color(0xffffffff),
+                                            color: Color(0xff4e4e4e),
                                           ),
                                         ),
                                       ),
@@ -220,6 +220,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -241,6 +242,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -262,6 +264,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -283,6 +286,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -304,6 +308,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -325,6 +330,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -346,6 +352,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                   style: TextStyle(
                                                       fontFamily:
                                                           'Poppins-Semi-Bold',
+                                                      color: Color(0xff4e4e4e),
                                                       fontWeight:
                                                           FontWeight.bold),
                                                   textAlign: TextAlign.center,
@@ -382,6 +389,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Seminar Draft Penelitian",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -416,6 +426,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                     children: [
                                                       Text(
                                                         "Informatika",
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                         textAlign:
                                                             TextAlign.center,
                                                       ),
@@ -454,11 +467,17 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Prototype Satu Unma",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "Berbasis Android",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -490,6 +509,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Ruang Sidang / Daring",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "",
@@ -526,6 +548,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "21/8/2021",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -562,6 +587,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "08:00 WIB - 10:00 WIB",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -691,6 +719,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Informatika",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -727,6 +758,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Prototype Satu Unma",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "Berbasis Android",
@@ -761,6 +795,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                     children: [
                                                       Text(
                                                         "Ruang Sidang / Daring",
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                         textAlign:
                                                             TextAlign.center,
                                                       ),
@@ -799,6 +836,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "21/8/2021",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -835,6 +875,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "08:00 WIB - 10:00 WIB",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -928,6 +971,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Seminar Draft Penelitian",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -964,6 +1010,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Informatika",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1000,11 +1049,17 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Prototype Satu Unma",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "Berbasis Android",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1036,6 +1091,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Ruang Sidang / Daring",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "",
@@ -1072,6 +1130,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "21/8/2021",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1108,6 +1169,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "08:00 WIB - 10:00 WIB",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1201,6 +1265,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Seminar Draft Penelitian",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1237,6 +1304,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Informatika",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1273,11 +1343,17 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Prototype Satu Unma",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "Berbasis Android",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1309,6 +1385,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Ruang Sidang / Daring",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "",
@@ -1345,6 +1424,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "21/8/2021",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1381,6 +1463,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "08:00 WIB - 10:00 WIB",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1474,6 +1559,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Seminar Draft Penelitian",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1510,6 +1598,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Informatika",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1546,11 +1637,17 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Prototype Satu Unma",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "Berbasis Android",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1582,6 +1679,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "Ruang Sidang / Daring",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         "",
@@ -1618,6 +1718,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "21/8/2021",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1654,6 +1757,9 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                                         "08:00 WIB - 10:00 WIB",
                                                         textAlign:
                                                             TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Color(
+                                                                0xff4e4e4e)),
                                                       ),
                                                       Text(
                                                         " ",
@@ -1778,7 +1884,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                             "1",
                                             style: TextStyle(
                                               fontSize: 16,
-                                              color: Colors.black,
+                                              color: Color(0xff4e4e4e),
                                             ),
                                           ),
                                         ),
@@ -1814,9 +1920,8 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           child: Text(
                                             "2",
                                             style: TextStyle(
-                                              fontSize: 16,
-                                              color: Colors.black,
-                                            ),
+                                                fontSize: 16,
+                                                color: Color(0xff4e4e4e)),
                                           ),
                                         ),
                                       ),
@@ -1851,9 +1956,8 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                           child: Text(
                                             "3",
                                             style: TextStyle(
-                                              fontSize: 16,
-                                              color: Colors.black,
-                                            ),
+                                                fontSize: 16,
+                                                color: Color(0xff4e4e4e)),
                                           ),
                                         ),
                                       ),

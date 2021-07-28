@@ -97,7 +97,7 @@ class _UjianPageState extends State<UjianPage> {
                                     'UJIAN DARING',
                                     style: TextStyle(
                                         fontFamily: 'Poppins-Bold',
-                                        color: Colors.black,
+                                        color: Color(0xff4e4e4e),
                                         fontWeight: FontWeight.bold,
                                         fontSize: _width / 18),
                                   ),
@@ -169,7 +169,9 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Mata Kuliah'),
+                                                                          'Mata Kuliah',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
@@ -177,7 +179,9 @@ class _UjianPageState extends State<UjianPage> {
                                                                             ":")),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' Algoritma dan \n Pemrograman A'),
+                                                                          ' Algoritma dan \n Pemrograman A',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -185,15 +189,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Tanggal'),
+                                                                          'Tanggal',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' 14 Januari 2021'),
+                                                                          ' 14 Januari 2021',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -201,15 +211,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Jam Server Mulai'),
+                                                                          'Jam Server Mulai',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' 08:00:00'),
+                                                                          ' 08:00:00',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -217,15 +233,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Jam Server Selesai'),
+                                                                          'Jam Server Selesai',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' 09:00:00'),
+                                                                          ' 09:00:00',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -233,15 +255,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Dosen Pengampu'),
+                                                                          'Dosen Pengampu',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' Ardi Mardiana'),
+                                                                          ' Ardi Mardiana',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -249,15 +277,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Nama'),
+                                                                          'Nama',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' Rifa Nurfalah'),
+                                                                          ' Rifa Nurfalah',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -270,10 +304,14 @@ class _UjianPageState extends State<UjianPage> {
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' 19.14.1.0012'),
+                                                                          ' 19.14.1.0012',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -281,15 +319,21 @@ class _UjianPageState extends State<UjianPage> {
                                                                   children: [
                                                                     Expanded(
                                                                       child: Text(
-                                                                          'Fakultas / Prodi'),
+                                                                          'Fakultas / Prodi',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     ),
                                                                     Expanded(
                                                                         flex: 0,
                                                                         child: Text(
-                                                                            ":")),
+                                                                            ":",
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e)))),
                                                                     Expanded(
                                                                       child: Text(
-                                                                          ' FT - Informatika'),
+                                                                          ' FT - Informatika',
+                                                                          style:
+                                                                              TextStyle(color: Color(0xff4e4e4e))),
                                                                     )
                                                                   ],
                                                                 ),
@@ -302,7 +346,9 @@ class _UjianPageState extends State<UjianPage> {
                                                                     children: [
                                                                       Expanded(
                                                                         child: Text(
-                                                                            'Tahun Akademik'),
+                                                                            'Tahun Akademik',
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e))),
                                                                       ),
                                                                       Expanded(
                                                                           flex:
@@ -311,7 +357,9 @@ class _UjianPageState extends State<UjianPage> {
                                                                               Text(":")),
                                                                       Expanded(
                                                                         child: Text(
-                                                                            ' 2020 / 2021 Genap'),
+                                                                            ' 2020 / 2021 Genap',
+                                                                            style:
+                                                                                TextStyle(color: Color(0xff4e4e4e))),
                                                                       )
                                                                     ],
                                                                   ),
@@ -351,7 +399,7 @@ class _UjianPageState extends State<UjianPage> {
                                                                         fontSize:
                                                                             16,
                                                                         color: Color(
-                                                                            0xffffffff),
+                                                                            0xff4e4e4e),
                                                                       ),
                                                                     ),
                                                                   ),
@@ -391,7 +439,7 @@ class _UjianPageState extends State<UjianPage> {
                                                                         fontSize:
                                                                             16,
                                                                         color: Color(
-                                                                            0xffffffff),
+                                                                            0xff4e4e4e),
                                                                       ),
                                                                     ),
                                                                   ),
@@ -572,7 +620,7 @@ class _UjianPageState extends State<UjianPage> {
                                                       style: TextStyle(
                                                         fontSize: 16,
                                                         color:
-                                                            Color(0xffffffff),
+                                                            Color(0xff4e4e4e),
                                                       ),
                                                     ),
                                                   ),
@@ -598,7 +646,7 @@ class _UjianPageState extends State<UjianPage> {
                                                   "Simpan Jawaban",
                                                   style: TextStyle(
                                                     fontSize: 16,
-                                                    color: Color(0xffffffff),
+                                                    color: Color(0xff4e4e4e),
                                                   ),
                                                 ),
                                               ),

@@ -85,7 +85,7 @@ class _RiwayatKartuRencanaStudiPageState
                         Text(
                           'RIWAYAT KRS',
                           style: TextStyle(
-                              fontFamily: 'Segoe UI',
+                              fontFamily: 'Poppins-Bold',
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                               fontSize: _width / 18),
@@ -141,97 +141,201 @@ class _RiwayatKartuRencanaStudiPageState
                                                 children: <TableRow>[
                                                   TableRow(
                                                     children: <Widget>[
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("Tahun Akademik",style: TextStyle(fontWeight: FontWeight.bold)),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("KRS",style: TextStyle(fontWeight: FontWeight.bold),textAlign: TextAlign.center,),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("KSM",style: TextStyle(fontWeight: FontWeight.bold),textAlign: TextAlign.center,),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("KHS",style: TextStyle(fontWeight: FontWeight.bold),textAlign: TextAlign.center,),),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                            "Tahun Akademik",
+                                                            style: TextStyle(
+                                                                fontFamily:
+                                                                    'Poppins-Semi-Bold',
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .bold)),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                          "KRS",
+                                                          style: TextStyle(
+                                                              fontFamily:
+                                                                  'Poppins-Semi-Bold',
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                          "KSM",
+                                                          style: TextStyle(
+                                                              fontFamily:
+                                                                  'Poppins-Semi-Bold',
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                          "KHS",
+                                                          style: TextStyle(
+                                                              fontFamily:
+                                                                  'Poppins-Semi-Bold',
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                   TableRow(
                                                     children: <Widget>[
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("2019/2020 Ganjil"),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                            "2019/2020 Ganjil"),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                   TableRow(
                                                     children: <Widget>[
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("2019/2020 Genap"),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                            "2019/2020 Genap"),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                   TableRow(
                                                     children: <Widget>[
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Text("2020/2021 Ganjil"),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
-                                                      Padding(padding: EdgeInsets.all(5.0), child: Row(
-                                                        children: [
-                                                          Icon(Icons
-                                                              .upload_file),
-                                                          Icon(Icons
-                                                              .remove_red_eye_rounded)
-                                                        ],
-                                                      ),),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Text(
+                                                            "2020/2021 Ganjil"),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsets.all(5.0),
+                                                        child: Row(
+                                                          children: [
+                                                            Icon(Icons
+                                                                .upload_file),
+                                                            Icon(Icons
+                                                                .remove_red_eye_rounded)
+                                                          ],
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                 ],

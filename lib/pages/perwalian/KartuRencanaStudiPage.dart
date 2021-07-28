@@ -76,25 +76,25 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
                     Row(
-                    children: [
-                      InkWell(
-                        onTap: () {
-                          Navigator.of(context).pushNamedAndRemoveUntil(
-                              '/menu', (Route<dynamic> route) => false);
-                        },
-                        child: Icon(Icons.arrow_back_ios_rounded,
-                            size: _width / 15),
-                      ),
-                      Text(
-                        'KARTU RENCANA STUDI',
-                        style: TextStyle(
-                            fontFamily: 'Segoe UI',
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                            fontSize: _width / 18),
-                      ),
-                    ],
-                  ),
+                      children: [
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                '/menu', (Route<dynamic> route) => false);
+                          },
+                          child: Icon(Icons.arrow_back_ios_rounded,
+                              size: _width / 15),
+                        ),
+                        Text(
+                          'KARTU RENCANA STUDI',
+                          style: TextStyle(
+                              fontFamily: 'Poppins-Bold',
+                              color: Color(0xff4e4e4e),
+                              fontWeight: FontWeight.bold,
+                              fontSize: _width / 18),
+                        ),
+                      ],
+                    ),
                     Container(
                       width: _width,
                       child: Padding(
@@ -126,7 +126,10 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                                       child: Row(
                                         children: [
                                           Expanded(
-                                              child: Text("Struktur Data I")),
+                                              child: Text("Struktur Data I",
+                                                  style: TextStyle(
+                                                      color:
+                                                          Color(0xff4e4e4e)))),
                                           Expanded(
                                             flex: -1,
                                             child: InkWell(
@@ -158,7 +161,10 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                                       child: Row(
                                         children: [
                                           Expanded(
-                                              child: Text("Struktur Data II")),
+                                              child: Text("Struktur Data II",
+                                                  style: TextStyle(
+                                                      color:
+                                                          Color(0xff4e4e4e)))),
                                           Expanded(
                                             flex: -1,
                                             child: InkWell(
@@ -189,7 +195,11 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                                           right: 5.0),
                                       child: Row(
                                         children: [
-                                          Expanded(child: Text("Desain UI/UX")),
+                                          Expanded(
+                                              child: Text("Desain UI/UX",
+                                                  style: TextStyle(
+                                                      color:
+                                                          Color(0xff4e4e4e)))),
                                           Expanded(
                                             flex: -1,
                                             child: InkWell(
@@ -221,7 +231,10 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                                       child: Row(
                                         children: [
                                           Expanded(
-                                              child: Text("Logika Matematika")),
+                                              child: Text("Logika Matematika",
+                                                  style: TextStyle(
+                                                      color:
+                                                          Color(0xff4e4e4e)))),
                                           Expanded(
                                             flex: -1,
                                             child: InkWell(
@@ -247,7 +260,6 @@ class _KartuRencanaStudiPageState extends State<KartuRencanaStudiPage> {
                                   ],
                                 ),
                               ),
-
                             ],
                           ),
                         ),

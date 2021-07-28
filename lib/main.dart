@@ -35,7 +35,7 @@ void main() {
   Map<int, Widget> op = {1: Login()};
 
   runApp(MaterialApp(
-    theme: ThemeData(fontFamily: 'Poppins-Regular'),
+    theme: ThemeData(fontFamily: 'Poppins'),
     home: AnimatedSplash(
       imagePath: 'assets/images/logo.png',
       home: Login(),

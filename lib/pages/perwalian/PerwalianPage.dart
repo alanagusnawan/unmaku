@@ -73,8 +73,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                     Text(
                       'PERWALIAN',
                       style: TextStyle(
-                          fontFamily: 'Poppins-Bold',
-                          color: Colors.black,
+                          fontFamily: 'Poppins',
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
                     ),
@@ -113,15 +113,15 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                 padding:
                                                     const EdgeInsets.all(10),
                                                 child: Icon(Icons.person,
-                                                    size: _width / 10),
+                                                    size: _width / 10,
+                                                    color: Color(0xff4e4e4e)),
                                               ),
                                               Expanded(
                                                 child: Text(
                                                   "Kartu Rencana Studi",
                                                   style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Regular',
-                                                      color: Colors.black,
+                                                      fontFamily: 'Poppins',
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -155,9 +155,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                                 child: Text(
                                                   "Riwayat Krs",
                                                   style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Regular',
-                                                      color: Colors.black,
+                                                      fontFamily: 'Poppins',
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -186,8 +185,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                             child: Text(
                                               "Perwalian Online",
                                               style: TextStyle(
-                                                  fontFamily: 'Poppins-Regular',
-                                                  color: Colors.black,
+                                                  fontFamily: 'Poppins',
+                                                  color: Color(0xff4e4e4e),
                                                   fontSize: _width / 22),
                                             ),
                                           ),

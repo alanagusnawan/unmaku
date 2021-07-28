@@ -16,8 +16,9 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Transkrip",
                   style: TextStyle(
-                      fontFamily: 'Poppins-Semi-Bold',
-                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      color: Color(0xff4e4e4e),
+                      fontWeight: FontWeight.bold,
                       fontSize: 20),
                 ),
                 onTap: () {
@@ -32,9 +33,10 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Transkrip Per Semester",
                   style: TextStyle(
-                      fontFamily: 'Poppins-Semi-Bold',
-                      color: Colors.black,
-                      fontSize: 20),
+                      fontFamily: 'Poppins',
+                      color: Color(0xff4e4e4e),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18),
                 ),
                 onTap: () {
                   Navigator.push(context,
@@ -48,9 +50,10 @@ class _TranskripPageState extends State<TranskripPage> {
                 child: Text(
                   "Riwayat Nilai",
                   style: TextStyle(
-                      fontFamily: 'Poppins-Semi-Bold',
-                      color: Colors.black,
-                      fontSize: 20),
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xff4e4e4e),
+                      fontSize: 18),
                 ),
               ),
             ),
@@ -65,7 +68,7 @@ class _TranskripPageState extends State<TranskripPage> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontFamily: 'Poppins-Bold',
-                    color: Colors.black,
+                    color: Color(0xff4e4e4e),
                     fontSize: 20)),
           ));
 
@@ -137,7 +140,7 @@ class _TranskripPageState extends State<TranskripPage> {
                       'TRANSKIP',
                       style: TextStyle(
                           fontFamily: 'Poppins-Bold',
-                          color: Colors.black,
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
                     ),

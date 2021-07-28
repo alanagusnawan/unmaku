@@ -85,14 +85,15 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                             'STATUS KULIAH : SEDANG BERJALAN',
                             style: TextStyle(
                                 fontFamily: 'Poppins-Bold',
-                                color: Colors.black,
+                                color: Color(0xff4e4e4e),
                                 fontWeight: FontWeight.bold,
                                 fontSize: _width / 18),
                           ),
                         ],
                       ),
                     ),
-                    Text("Pertemuan ke-14 Algoritma dan Pemrograman A"),
+                    Text("Pertemuan ke-14 Algoritma dan Pemrograman A",
+                        style: TextStyle(color: Color(0xff4e4e4e))),
                     Container(
                       height: _height / 1.51,
                       width: _width / 1.15,
@@ -143,8 +144,10 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                     ),
                                     onPressed: () {},
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                       children: [
                                         Text(
                                           "Hadir",
@@ -172,8 +175,10 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                     ),
                                     onPressed: () {},
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                       children: [
                                         Text(
                                           "Perbarui Peserta",
@@ -187,7 +192,8 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                               ),
                             ],
                           ),
-                          Text("Jumlah Peserta : 27"),
+                          Text("Jumlah Peserta : 27",
+                              style: TextStyle(color: Color(0xff4e4e4e))),
                           Container(
                             height: _height / 6,
                             width: _width,
@@ -202,22 +208,24 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                               child: Column(
                                 children: [
                                   Row(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         width: _width / 4,
                                         decoration: BoxDecoration(
                                             border: Border(
-                                              right: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                              bottom: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                            )),
+                                          right: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                          bottom: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                        )),
                                         child: Text(
                                           "NPM",
-                                          style:
-                                          TextStyle(fontWeight: FontWeight.bold),
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Color(0xff4e4e4e)),
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
@@ -225,15 +233,16 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                         width: _width / 5,
                                         decoration: BoxDecoration(
                                             border: Border(
-                                              right: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                              bottom: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                            )),
+                                          right: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                          bottom: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                        )),
                                         child: Text(
                                           "NAMA",
-                                          style:
-                                          TextStyle(fontWeight: FontWeight.bold),
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Color(0xff4e4e4e)),
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
@@ -241,15 +250,16 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                         width: _width / 5,
                                         decoration: BoxDecoration(
                                             border: Border(
-                                              right: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                              bottom: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                            )),
+                                          right: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                          bottom: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                        )),
                                         child: Text(
                                           "STATUS",
-                                          style:
-                                          TextStyle(fontWeight: FontWeight.bold),
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Color(0xff4e4e4e)),
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
@@ -257,13 +267,14 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                         width: _width / 5,
                                         decoration: BoxDecoration(
                                             border: Border(
-                                              bottom: BorderSide(
-                                                  width: 1.0, color: Colors.black),
-                                            )),
+                                          bottom: BorderSide(
+                                              width: 1.0, color: Colors.black),
+                                        )),
                                         child: Text(
                                           "NILAI",
-                                          style:
-                                          TextStyle(fontWeight: FontWeight.bold),
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Color(0xff4e4e4e)),
                                           textAlign: TextAlign.center,
                                         ),
                                       ),
@@ -272,26 +283,33 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                   Container(
                                       height: _height / 8,
                                       child: SingleChildScrollView(
-                                      child: Column(
+                                        child: Column(
                                           children: [
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -299,16 +317,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -317,16 +340,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -334,14 +362,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -349,23 +381,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -373,16 +412,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -391,16 +435,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -408,14 +457,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -423,23 +476,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -447,16 +507,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -465,16 +530,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -482,14 +552,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -497,23 +571,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -521,16 +602,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -539,16 +625,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -556,14 +647,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -571,23 +666,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -595,16 +697,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -613,16 +720,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -630,14 +742,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -645,23 +761,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -669,16 +792,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -687,16 +815,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -704,14 +837,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -719,23 +856,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -743,16 +887,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -761,16 +910,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -778,14 +932,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -793,23 +951,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -817,16 +982,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -835,16 +1005,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -852,14 +1027,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -867,23 +1046,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -891,16 +1077,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -909,16 +1100,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -926,14 +1122,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -941,23 +1141,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -965,16 +1172,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -983,16 +1195,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -1000,14 +1217,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -1015,23 +1236,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -1039,16 +1267,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -1057,16 +1290,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -1074,14 +1312,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -1089,23 +1331,30 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                               ],
                                             ),
                                             Row(
-                                              crossAxisAlignment: CrossAxisAlignment.center,
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 Container(
                                                   width: _width / 4,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "19.14.1.0005",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -1113,16 +1362,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "Aa Herdi Prayoga",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -1131,16 +1385,21 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        right: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "H",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                   ),
                                                 ),
@@ -1148,14 +1407,18 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                                   width: _width / 5,
                                                   decoration: BoxDecoration(
                                                       border: Border(
-                                                        bottom: BorderSide(
-                                                            width: 1.0, color: Colors.black),
-                                                      )),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
                                                   child: Text(
                                                     "100",
                                                     style: TextStyle(
-                                                        fontWeight: FontWeight.normal,
-                                                        fontSize: 13.5),
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontSize: 13.5,
+                                                        color:
+                                                            Color(0xff4e4e4e)),
                                                     textAlign: TextAlign.center,
                                                     maxLines: 1,
                                                   ),
@@ -1164,120 +1427,135 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                             ),
                                           ],
                                         ),
-                                      )
-                                  ),],
+                                      )),
+                                ],
                               ),
                             ),
                           ),
-                                Text("Aktifitas Perkuliahan"),
-                                Container(
-                                  width: _width / 1.3,
-                                  child: Padding(
-                                    padding:
-                                    const EdgeInsets.only(top: 10.0, bottom: 5.0),
-                                    child: Card(
-                                      elevation: 8.0,
-                                      shape: RoundedRectangleBorder(
-                                          side: BorderSide(
-                                            color: Colors.white,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius: BorderRadius.circular(8.0)),
-                                      child: Column(
+                          Text("Aktifitas Perkuliahan"),
+                          Container(
+                            width: _width / 1.3,
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.only(top: 10.0, bottom: 5.0),
+                              child: Card(
+                                elevation: 8.0,
+                                shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                      color: Colors.white,
+                                      width: 2.0,
+                                    ),
+                                    borderRadius: BorderRadius.circular(8.0)),
+                                child: Column(
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 5),
+                                      child: Container(
+                                        width: _width / 1.6,
+                                        height: _height / 5,
+                                        decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadius.circular(15.0),
+                                            border: Border.all(
+                                                width: 1.0,
+                                                color: Colors.black)),
+                                        child: TextFormField(
+                                            decoration: InputDecoration(
+                                                hintMaxLines: 2,
+                                                border: InputBorder.none,
+                                                focusedBorder: InputBorder.none,
+                                                enabledBorder: InputBorder.none,
+                                                errorBorder: InputBorder.none,
+                                                disabledBorder:
+                                                    InputBorder.none,
+                                                hintText:
+                                                    " Bagikan apa yang ada di\n pikiranmu...")),
+                                      ),
+                                    ),
+                                    Container(
+                                      width: _width / 1.5,
+                                      height: _height / 15,
+                                      padding:
+                                          EdgeInsets.only(top: 5, bottom: 5),
+                                      child: Row(
                                         children: [
-                                          Padding(padding: EdgeInsets.only(top: 5), child: Container(
-                                            width: _width / 1.6,
-                                            height: _height / 5,
+                                          Container(
+                                            width: _width / 2.1,
                                             decoration: BoxDecoration(
-                                                borderRadius: BorderRadius.circular(15.0),
                                                 border: Border.all(
-                                                    width: 1.0, color: Colors.black)),
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                borderRadius:
+                                                    BorderRadius.horizontal(
+                                                        left: Radius.circular(
+                                                            15.0))),
                                             child: TextFormField(
                                                 decoration: InputDecoration(
-                                                    hintMaxLines: 2,
                                                     border: InputBorder.none,
-                                                    focusedBorder: InputBorder.none,
-                                                    enabledBorder: InputBorder.none,
-                                                    errorBorder: InputBorder.none,
-                                                    disabledBorder: InputBorder.none,
-                                                    hintText:
-                                                    " Bagikan apa yang ada di\n pikiranmu...")),
-                                          ),),
-                                          Container(
-                                            width: _width / 1.5,
-                                            height: _height / 15,
-                                            padding: EdgeInsets.only(top: 5, bottom: 5),
-                                            child: Row(
-                                              children: [
-                                                Container(
-                                                  width: _width / 2.1,
-                                                  decoration: BoxDecoration(
-                                                      border: Border.all(
-                                                          width: 1.0,
-                                                          color: Colors.black),
-                                                      borderRadius:
-                                                      BorderRadius.horizontal(
-                                                          left:
-                                                          Radius.circular(15.0))),
-                                                  child: TextFormField(
-                                                      decoration: InputDecoration(
-                                                          border: InputBorder.none,
-                                                          focusedBorder: InputBorder.none,
-                                                          enabledBorder: InputBorder.none,
-                                                          errorBorder: InputBorder.none,
-                                                          disabledBorder:
-                                                          InputBorder.none,
-                                                          hintText: "  Pilih File")),
-                                                ),
-                                                TextButton(
-                                                  style: TextButton.styleFrom(
-                                                    backgroundColor: Colors.blue,
-                                                    shape: RoundedRectangleBorder(
-                                                      side: BorderSide.none,
-                                                      borderRadius: BorderRadius.only(
-                                                        topRight: Radius.circular(15),
-                                                        bottomRight: Radius.circular(15),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                  onPressed: () {},
-                                                  child: Text(
-                                                    "Unggah",
-                                                    style: TextStyle(
-                                                      fontSize: 16,
-                                                      color: Color(0xffffffff),
-                                                    ),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
+                                                    focusedBorder:
+                                                        InputBorder.none,
+                                                    enabledBorder:
+                                                        InputBorder.none,
+                                                    errorBorder:
+                                                        InputBorder.none,
+                                                    disabledBorder:
+                                                        InputBorder.none,
+                                                    hintText: "  Pilih File")),
                                           ),
-                                          Container(
-                                            width: _width / 4,
-                                            height: _height / 15,
-                                            padding: EdgeInsets.only(top: 5, bottom: 5),
-                                            child: TextButton(
-                                              style: TextButton.styleFrom(
-                                                backgroundColor: Colors.blue,
-                                                shape: RoundedRectangleBorder(
-                                                  borderRadius: BorderRadius.circular(15),
+                                          TextButton(
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(
+                                                side: BorderSide.none,
+                                                borderRadius: BorderRadius.only(
+                                                  topRight: Radius.circular(15),
+                                                  bottomRight:
+                                                      Radius.circular(15),
                                                 ),
                                               ),
-                                              onPressed: () {},
-                                              child: Text(
-                                                "Kirim",
-                                                style: TextStyle(
-                                                  fontSize: 16,
-                                                  color: Color(0xffffffff),
-                                                ),
+                                            ),
+                                            onPressed: () {},
+                                            child: Text(
+                                              "Unggah",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Color(0xffffffff),
                                               ),
                                             ),
                                           ),
                                         ],
                                       ),
                                     ),
-                                  ),),
-                      ],),
+                                    Container(
+                                      width: _width / 4,
+                                      height: _height / 15,
+                                      padding:
+                                          EdgeInsets.only(top: 5, bottom: 5),
+                                      child: TextButton(
+                                        style: TextButton.styleFrom(
+                                          backgroundColor: Colors.blue,
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(15),
+                                          ),
+                                        ),
+                                        onPressed: () {},
+                                        child: Text(
+                                          "Kirim",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            color: Color(0xffffffff),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     )
                   ],
                 ),

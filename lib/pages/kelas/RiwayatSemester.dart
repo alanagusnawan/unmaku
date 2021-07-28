@@ -77,7 +77,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                       'RIWAYAT SEMESTER',
                       style: TextStyle(
                           fontFamily: 'Poppins-Bold',
-                          color: Colors.black,
+                          color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
                     ),
@@ -257,8 +257,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Algoritma & Pemrograman A",
                                                             style: TextStyle(
-                                                                color: Colors
-                                                                    .black,
+                                                                color: Color(
+                                                                    0xff4e4e4e),
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .w600,
@@ -283,8 +283,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                     decoration: BoxDecoration(
                                                         border: Border(
                                                             bottom: BorderSide(
-                                                                color: Colors
-                                                                    .black,
+                                                                color: Color(
+                                                                    0xff4e4e4e),
                                                                 width: 0.1))),
                                                     child: Row(
                                                       children: [
@@ -292,8 +292,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Pendidikan Pancasila A",
                                                             style: TextStyle(
-                                                                color: Colors
-                                                                    .black,
+                                                                color: Color(
+                                                                    0xff4e4e4e),
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .w600,
@@ -327,8 +327,8 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                                           child: Text(
                                                             "Kalkulus I",
                                                             style: TextStyle(
-                                                                color: Colors
-                                                                    .black,
+                                                                color: Color(
+                                                                    0xff4e4e4e),
                                                                 fontWeight:
                                                                     FontWeight
                                                                         .w600,
