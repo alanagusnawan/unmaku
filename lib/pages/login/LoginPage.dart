@@ -118,7 +118,6 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               color: Color(0xff696969),
                               fontSize: 14,
                               fontFamily: 'Poppins'),
-                          controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Nama Pengguna",
                               filled: true,
@@ -184,7 +183,6 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                               color: Color(0xff696969),
                               fontSize: 14,
                               fontFamily: 'Poppins'),
-                          controller: cNpm,
                           decoration: InputDecoration(
                               hintText: "Masukan Teks Dibawah",
                               filled: true,

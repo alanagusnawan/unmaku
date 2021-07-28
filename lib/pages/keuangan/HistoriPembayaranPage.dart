@@ -225,7 +225,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -257,7 +257,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -289,7 +289,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -321,7 +321,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -353,7 +353,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -385,7 +385,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -424,7 +424,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -456,7 +456,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -488,7 +488,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -520,7 +520,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -552,7 +552,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -584,7 +584,7 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -618,26 +618,26 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -655,21 +655,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -687,21 +687,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SKS",
@@ -719,21 +719,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 1.500.000",
@@ -751,21 +751,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2019-03-04",
@@ -783,21 +783,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "H903",
@@ -817,26 +817,26 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -854,21 +854,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -886,21 +886,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SKS",
@@ -918,21 +918,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 750.000",
@@ -950,21 +950,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2019-05-14",
@@ -982,21 +982,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "L085",
@@ -1016,26 +1016,26 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -1053,21 +1053,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -1085,21 +1085,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SKS",
@@ -1117,21 +1117,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 1.500.000",
@@ -1149,21 +1149,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2019-03-04",
@@ -1181,21 +1181,21 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "H903",
@@ -1220,8 +1220,8 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                           Row(
                             children: [
                               Container(
-                                width: _width / 3.5,
-                                height: _height / 20,
+                                width: _width / 3.4,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
@@ -1240,23 +1240,23 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
                                   style: is1
                                       ? TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.blue,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        )
+                                    elevation: 0,
+                                    backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  )
                                       : TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.white,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        ),
+                                    elevation: 0,
+                                    backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  ),
                                   onPressed: () {
                                     is1 = true;
                                     is2 = false;
@@ -1274,23 +1274,23 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
                                   style: is2
                                       ? TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.blue,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        )
+                                    elevation: 0,
+                                    backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  )
                                       : TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.white,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        ),
+                                    elevation: 0,
+                                    backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  ),
                                   onPressed: () {
                                     is1 = false;
                                     is2 = !is2;
@@ -1308,23 +1308,23 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
                                   style: is3
                                       ? TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.blue,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        )
+                                    elevation: 0,
+                                    backgroundColor: Colors.blue,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  )
                                       : TextButton.styleFrom(
-                                          elevation: 0,
-                                          backgroundColor: Colors.white,
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.zero),
-                                        ),
+                                    elevation: 0,
+                                    backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.zero),
+                                  ),
                                   onPressed: () {
                                     is1 = false;
                                     is2 = false;
@@ -1341,8 +1341,8 @@ class _HistoriPembayaranPageState extends State<HistoriPembayaranPage> {
                                 ),
                               ),
                               Container(
-                                width: _width / 3.5,
-                                height: _height / 20,
+                                width: _width / 3.4,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(

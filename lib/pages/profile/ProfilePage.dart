@@ -4,7 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
+import 'package:unmaku/pages/NavBar.dart';
 import 'dart:async';
+
 
 class ProfilePage extends StatefulWidget {
   @override
@@ -31,7 +33,6 @@ class _ProfilePageState extends State<ProfilePage>
     final _height = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      bottomNavigationBar: menuBawah(),
       backgroundColor: Colors.white,
       body: Container(
         height: _height,
@@ -354,74 +355,4 @@ class _ProfilePageState extends State<ProfilePage>
       });
     });
   }
-}
-
-Widget menuBawah() {
-  final menu = BottomNavigationBar(
-    type: BottomNavigationBarType.fixed,
-    items: [
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.home,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Dashboard",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.assignment_rounded,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Perwalian",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.laptop_mac,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Kelas",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.library_books_outlined,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Transkrip",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.date_range_rounded,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Jadwal",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-      BottomNavigationBarItem(
-        icon: Icon(
-          Icons.payment_rounded,
-          color: Colors.grey,
-        ),
-        title: Text(
-          "Keuangan",
-          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.normal),
-        ),
-      ),
-    ],
-  );
-
-  return menu;
 }

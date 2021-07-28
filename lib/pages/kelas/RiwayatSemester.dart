@@ -73,13 +73,25 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      'RIWAYAT SEMESTER',
-                      style: TextStyle(
-                          fontFamily: 'Poppins-Bold',
-                          color: Color(0xff4e4e4e),
-                          fontWeight: FontWeight.bold,
-                          fontSize: _width / 18),
+                    Row(
+                      children: [
+                        InkWell(
+                          onTap: () {
+                            Navigator.of(context).pushNamedAndRemoveUntil(
+                                '/menu', (Route<dynamic> route) => false);
+                          },
+                          child: Icon(Icons.arrow_back_ios_rounded,
+                              size: _width / 15),
+                        ),
+                        Text(
+                          'RIWAYAT SEMESTER',
+                          style: TextStyle(
+                              fontFamily: 'Poppins-Bold',
+                              color: Color(0xff4e4e4e),
+                              fontWeight: FontWeight.bold,
+                              fontSize: _width / 18),
+                        ),
+                      ],
                     ),
                     Container(
                       width: _width,
@@ -98,7 +110,6 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                       Container(
                                         padding:
                                             const EdgeInsets.only(right: 10.0),
-                                        width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2019ganjil
@@ -136,7 +147,6 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                       Container(
                                         padding:
                                             const EdgeInsets.only(right: 10.0),
-                                        width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2019genap
@@ -174,7 +184,6 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                       Container(
                                         padding:
                                             const EdgeInsets.only(right: 10.0),
-                                        width: _width / 2.5,
                                         height: _height / 20,
                                         child: TextButton(
                                           style: is2020ganjil

@@ -64,7 +64,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(top: _height / 20, left: _width / 10),
+                padding: EdgeInsets.only(top: _height / 30, left: _width / 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -112,7 +112,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                         CrossAxisAlignment.center,
                                     children: [
                                       Image.network(
-                                        'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg',
+                                        'https://img.unma.ac.id/images/8CuJw.th.jpg',
                                         height: _height / 5,
                                         fit: BoxFit.fill,
                                       ),
@@ -258,10 +258,10 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                   child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     children: [
                                       Image.network(
-                                        'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg',
+                                        'https://img.unma.ac.id/images/8CuJw.th.jpg',
                                         height: _height / 5,
                                         fit: BoxFit.fill,
                                       ),
@@ -273,175 +273,8 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                         child: Text(
                                           "Pertemuan #1",
                                           style: TextStyle(
-                                              color: Color(0xff4e4e4e)),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsets.all(10),
-                                        child: Column(
-                                          children: [
-                                            Row(
-                                              children: [
-                                                Expanded(
-                                                  child: Text(
-                                                    'Tanggal',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                ),
-                                                Expanded(
-                                                  child: Text(
-                                                    '14 Januari 2021',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                )
-                                              ],
-                                            ),
-                                            Row(
-                                              children: [
-                                                Expanded(
-                                                  child: Text(
-                                                    'Jenis',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                ),
-                                                Expanded(
-                                                  child: Text(
-                                                    'Kuliah',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                )
-                                              ],
-                                            ),
-                                            Row(
-                                              children: [
-                                                Expanded(
-                                                  child: Text(
-                                                    'Jam Mulai',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                ),
-                                                Expanded(
-                                                  child: Text(
-                                                    '13:33:46',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                )
-                                              ],
-                                            ),
-                                            Row(
-                                              children: [
-                                                Expanded(
-                                                  child: Text(
-                                                    'Jam Selesai',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                ),
-                                                Expanded(
-                                                  child: Text(
-                                                    '15:33:46',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                )
-                                              ],
-                                            ),
-                                            Row(
-                                              children: [
-                                                Expanded(
-                                                  child: Text(
-                                                    'Ringkasan',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                ),
-                                                Expanded(
-                                                  child: Text(
-                                                    'Struct',
-                                                    style: TextStyle(
-                                                        color:
-                                                            Color(0xff4e4e4e)),
-                                                  ),
-                                                )
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsets.all(5),
-                                        child: Container(
-                                          width: _width / 5,
-                                          height: _height / 20,
-                                          child: TextButton(
-                                            style: TextButton.styleFrom(
-                                              backgroundColor: Colors.blue,
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius:
-                                                    BorderRadius.circular(15),
-                                              ),
-                                            ),
-                                            onPressed: () {},
-                                            child: Text(
-                                              "Detail",
-                                              style: TextStyle(
-                                                fontSize: 16,
-                                                color: Color(0xff4e4e4e),
-                                              ),
-                                            ),
+                                            color: Color(0xff4e4e4e),
                                           ),
-                                        ),
-                                      )
-                                    ],
-                                  )),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.all(20),
-                            child: Container(
-                              width: _width / 1.7,
-                              child: Card(
-                                  elevation: 8.0,
-                                  shape: RoundedRectangleBorder(
-                                      side: BorderSide(
-                                        color: Colors.transparent,
-                                        width: 2.0,
-                                      ),
-                                      borderRadius: BorderRadius.circular(8.0)),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Image.network(
-                                        'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg',
-                                        height: _height / 5,
-                                        fit: BoxFit.fill,
-                                      ),
-                                      Container(
-                                        alignment: Alignment.center,
-                                        width: _width,
-                                        height: _height / 25,
-                                        color: Colors.blue,
-                                        child: Text(
-                                          "Pertemuan #1",
-                                          style: TextStyle(
-                                              color: Color(0xff4e4e4e)),
                                         ),
                                       ),
                                       Padding(
@@ -541,7 +374,7 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                                               backgroundColor: Colors.blue,
                                               shape: RoundedRectangleBorder(
                                                 borderRadius:
-                                                    BorderRadius.circular(15),
+                                                BorderRadius.circular(15),
                                               ),
                                             ),
                                             onPressed: () {},
@@ -560,155 +393,452 @@ class _DaftarPertemuanPageState extends State<DaftarPertemuanPage> {
                             ),
                           ),
                           Padding(
-                              padding: EdgeInsets.all(20),
-                              child: Container(
-                                width: _width / 1.7,
-                                child: Card(
-                                    elevation: 8.0,
-                                    shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                          color: Colors.transparent,
-                                          width: 2.0,
-                                        ),
-                                        borderRadius:
-                                            BorderRadius.circular(8.0)),
-                                    child: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      children: [
-                                        Image.network(
-                                          'https://simakng.unma.ac.id/files/mahasiswa/large/b637b2d52477e422fbff6ab52e40730e.jpg',
-                                          height: _height / 5,
-                                          fit: BoxFit.fill,
-                                        ),
-                                        Container(
-                                          alignment: Alignment.center,
-                                          width: _width,
-                                          height: _height / 25,
-                                          color: Colors.blue,
-                                          child: Text(
-                                            "Pertemuan #1",
-                                            style: TextStyle(
-                                                color: Color(0xff4e4e4e)),
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                              width: _width / 1.7,
+                              child: Card(
+                                  elevation: 8.0,
+                                  shape: RoundedRectangleBorder(
+                                      side: BorderSide(
+                                        color: Colors.transparent,
+                                        width: 2.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0)),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      Image.network(
+                                        'https://img.unma.ac.id/images/8CuJw.th.jpg',
+                                        height: _height / 5,
+                                        fit: BoxFit.fill,
+                                      ),
+                                      Container(
+                                        alignment: Alignment.center,
+                                        width: _width,
+                                        height: _height / 25,
+                                        color: Colors.blue,
+                                        child: Text(
+                                          "Pertemuan #1",
+                                          style: TextStyle(
+                                            color: Color(0xff4e4e4e),
                                           ),
                                         ),
-                                        Padding(
-                                          padding: EdgeInsets.all(10),
-                                          child: Column(
-                                            children: [
-                                              Row(
-                                                children: [
-                                                  Expanded(
-                                                    child: Text('Tanggal',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text(
-                                                        '14 Januari 2021',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  )
-                                                ],
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Expanded(
-                                                    child: Text('Jenis',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text('Kuliah',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  )
-                                                ],
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Expanded(
-                                                    child: Text('Jam Mulai',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text('13:33:46',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  )
-                                                ],
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Expanded(
-                                                    child: Text('Jam Selesai',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text('15:33:46',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  )
-                                                ],
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Expanded(
-                                                    child: Text('Ringkasan',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  ),
-                                                  Expanded(
-                                                    child: Text('Struct',
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e))),
-                                                  )
-                                                ],
-                                              ),
-                                            ],
-                                          ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(10),
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Tanggal',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('14 Januari 2021',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jenis',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Kuliah',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Mulai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('13:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Selesai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('15:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Ringkasan',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Struct',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                          ],
                                         ),
-                                        Padding(
-                                          padding: EdgeInsets.all(5),
-                                          child: Container(
-                                            width: _width / 5,
-                                            height: _height / 20,
-                                            child: TextButton(
-                                              style: TextButton.styleFrom(
-                                                backgroundColor: Colors.blue,
-                                                shape: RoundedRectangleBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(15),
-                                                ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(5),
+                                        child: Container(
+                                          width: _width / 5,
+                                          height: _height / 20,
+                                          child: TextButton(
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                BorderRadius.circular(15),
                                               ),
-                                              onPressed: () {},
-                                              child: Text(
-                                                "Detail",
-                                                style: TextStyle(
-                                                  fontSize: 16,
-                                                  color: Color(0xff4e4e4e),
-                                                ),
+                                            ),
+                                            onPressed: () {},
+                                            child: Text(
+                                              "Detail",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Color(0xff4e4e4e),
                                               ),
                                             ),
                                           ),
-                                        )
-                                      ],
-                                    )),
-                              )),
+                                        ),
+                                      )
+                                    ],
+                                  )),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                              width: _width / 1.7,
+                              child: Card(
+                                  elevation: 8.0,
+                                  shape: RoundedRectangleBorder(
+                                      side: BorderSide(
+                                        color: Colors.transparent,
+                                        width: 2.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0)),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      Image.network(
+                                        'https://img.unma.ac.id/images/8CuJw.th.jpg',
+                                        height: _height / 5,
+                                        fit: BoxFit.fill,
+                                      ),
+                                      Container(
+                                        alignment: Alignment.center,
+                                        width: _width,
+                                        height: _height / 25,
+                                        color: Colors.blue,
+                                        child: Text(
+                                          "Pertemuan #1",
+                                          style: TextStyle(
+                                            color: Color(0xff4e4e4e),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(10),
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Tanggal',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('14 Januari 2021',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jenis',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Kuliah',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Mulai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('13:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Selesai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('15:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Ringkasan',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Struct',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(5),
+                                        child: Container(
+                                          width: _width / 5,
+                                          height: _height / 20,
+                                          child: TextButton(
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                BorderRadius.circular(15),
+                                              ),
+                                            ),
+                                            onPressed: () {},
+                                            child: Text(
+                                              "Detail",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Color(0xff4e4e4e),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      )
+                                    ],
+                                  )),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                              width: _width / 1.7,
+                              child: Card(
+                                  elevation: 8.0,
+                                  shape: RoundedRectangleBorder(
+                                      side: BorderSide(
+                                        color: Colors.transparent,
+                                        width: 2.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0)),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      Image.network(
+                                        'https://img.unma.ac.id/images/8CuJw.th.jpg',
+                                        height: _height / 5,
+                                        fit: BoxFit.fill,
+                                      ),
+                                      Container(
+                                        alignment: Alignment.center,
+                                        width: _width,
+                                        height: _height / 25,
+                                        color: Colors.blue,
+                                        child: Text(
+                                          "Pertemuan #1",
+                                          style: TextStyle(
+                                            color: Color(0xff4e4e4e),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(10),
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Tanggal',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('14 Januari 2021',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jenis',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Kuliah',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Mulai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('13:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Jam Selesai',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('15:33:46',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Text('Ringkasan',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                ),
+                                                Expanded(
+                                                  child: Text('Struct',
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xff4e4e4e))),
+                                                )
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.all(5),
+                                        child: Container(
+                                          width: _width / 5,
+                                          height: _height / 20,
+                                          child: TextButton(
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.blue,
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                BorderRadius.circular(15),
+                                              ),
+                                            ),
+                                            onPressed: () {},
+                                            child: Text(
+                                              "Detail",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Color(0xff4e4e4e),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      )
+                                    ],
+                                  )),
+                            ),
+                          ),
                         ],
                       ),
                     ),

@@ -143,6 +143,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                         child: Text(
                                           "SEMESTER",
                                           style: TextStyle(
+                                              fontFamily: 'Poppins-Semi-Bold',
                                               fontWeight: FontWeight.bold),
                                           textAlign: TextAlign.center,
                                         ),
@@ -241,7 +242,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -273,7 +274,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -305,7 +306,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -337,7 +338,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -369,7 +370,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -401,7 +402,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -433,7 +434,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -484,7 +485,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -516,7 +517,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -548,7 +549,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -580,7 +581,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -612,7 +613,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -644,7 +645,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -676,7 +677,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
                                             right: BorderSide(
@@ -722,26 +723,26 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -759,21 +760,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -791,21 +792,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SKS",
@@ -823,21 +824,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SISTEM KREDIT SEMESTER :",
@@ -855,21 +856,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 1.430.000",
@@ -887,21 +888,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 500.000",
@@ -919,21 +920,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.center,
+                                            MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 width: _width / 3,
@@ -941,12 +942,12 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                                 child: TextButton(
                                                   style: TextButton.styleFrom(
                                                     backgroundColor:
-                                                        Colors.blue,
+                                                    Colors.blue,
                                                     shape:
-                                                        RoundedRectangleBorder(
+                                                    RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              20),
+                                                      BorderRadius.circular(
+                                                          20),
                                                     ),
                                                   ),
                                                   onPressed: () {},
@@ -965,26 +966,26 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -1002,21 +1003,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -1034,21 +1035,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "DPP",
@@ -1066,21 +1067,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "DPP TAHUN AKADEMIK",
@@ -1098,21 +1099,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 3.000.000",
@@ -1130,21 +1131,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 0",
@@ -1162,21 +1163,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.center,
+                                            MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 width: _width / 3,
@@ -1184,12 +1185,12 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                                 child: TextButton(
                                                   style: TextButton.styleFrom(
                                                     backgroundColor:
-                                                        Colors.grey,
+                                                    Colors.grey,
                                                     shape:
-                                                        RoundedRectangleBorder(
+                                                    RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              20),
+                                                      BorderRadius.circular(
+                                                          20),
                                                     ),
                                                   ),
                                                   onPressed: () {},
@@ -1208,26 +1209,26 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                   ),
                                   Row(
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "2020 / 2021",
@@ -1245,21 +1246,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "GENAP",
@@ -1277,21 +1278,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SKS",
@@ -1309,21 +1310,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "SISTEM KREDIT SEMESTER :",
@@ -1341,21 +1342,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 1.430.000",
@@ -1373,21 +1374,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Rp. 500.000",
@@ -1405,21 +1406,21 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                           )),
                                       Container(
                                           width: _width / 2,
-                                          height: _height / 12,
+                                          height: _height / 10.6,
                                           decoration: BoxDecoration(
                                               border: Border(
-                                            right: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                            bottom: BorderSide(
-                                                width: 1.0,
-                                                color: Colors.black),
-                                          )),
+                                                right: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                                bottom: BorderSide(
+                                                    width: 1.0,
+                                                    color: Colors.black),
+                                              )),
                                           child: Column(
                                             crossAxisAlignment:
-                                                CrossAxisAlignment.center,
+                                            CrossAxisAlignment.center,
                                             mainAxisAlignment:
-                                                MainAxisAlignment.center,
+                                            MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 width: _width / 3,
@@ -1427,12 +1428,12 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                                 child: TextButton(
                                                   style: TextButton.styleFrom(
                                                     backgroundColor:
-                                                        Colors.blue,
+                                                    Colors.blue,
                                                     shape:
-                                                        RoundedRectangleBorder(
+                                                    RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              20),
+                                                      BorderRadius.circular(
+                                                          20),
                                                     ),
                                                   ),
                                                   onPressed: () {},
@@ -1456,8 +1457,8 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                           Row(
                             children: [
                               Container(
-                                width: _width / 3.5,
-                                height: _height / 20,
+                                width: _width / 3.4,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
@@ -1476,7 +1477,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
@@ -1510,7 +1511,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
@@ -1544,7 +1545,7 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                               ),
                               Container(
                                 width: _width / 10,
-                                height: _height / 20,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(
@@ -1577,8 +1578,8 @@ class _HistoriTagianPageState extends State<HistoriTagianPage> {
                                 ),
                               ),
                               Container(
-                                width: _width / 3.5,
-                                height: _height / 20,
+                                width: _width / 3.4,
+                                height: _height / 15,
                                 decoration: BoxDecoration(
                                     border: Border.all(color: Colors.black)),
                                 child: TextButton(

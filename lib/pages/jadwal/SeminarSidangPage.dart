@@ -97,7 +97,7 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                       ],
                     ),
                     Container(
-                        width: _width,
+                        height: _height / 1.62,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -179,1813 +179,1579 @@ class _SeminarSidangPageState extends State<SeminarSidangPage> {
                                 ),
                               ),
                             ),
-                            SingleChildScrollView(
-                              scrollDirection: Axis.vertical,
-                              child: Column(
-                                children: [
-                                  SingleChildScrollView(
-                                    padding:
-                                        EdgeInsets.only(bottom: _height / 50),
-                                    scrollDirection: Axis.horizontal,
-                                    child: Card(
-                                      elevation: 8.0,
-                                      shape: RoundedRectangleBorder(
-                                          side: BorderSide(
-                                            color: Colors.black,
-                                            width: 2.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0)),
-                                      child: Column(
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 10.0),
+                              child: SingleChildScrollView(
+                                scrollDirection: Axis.vertical,
+                                child: Column(
+                                  children: [
+                                    SingleChildScrollView(
+                                      padding:
+                                          EdgeInsets.only(bottom: _height / 50),
+                                      scrollDirection: Axis.horizontal,
+                                      child: Card(
+                                        elevation: 8.0,
+                                        shape: RoundedRectangleBorder(
+                                            side: BorderSide(
+                                              color: Colors.black,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(8.0)),
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "KEGIATAN",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "PRODI",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "JUDUL",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "TEMPAT",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "TANGGAL",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "WAKTU",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                                Container(
+                                                  width: _width / 2,
+                                                  decoration: BoxDecoration(
+                                                      border: Border(
+                                                    right: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                    bottom: BorderSide(
+                                                        width: 1.0,
+                                                        color: Colors.black),
+                                                  )),
+                                                  child: Text(
+                                                    "AKSI",
+                                                    style: TextStyle(
+                                                        fontFamily:
+                                                            'Poppins-Semi-Bold',
+                                                        color:
+                                                            Color(0xff4e4e4e),
+                                                        fontWeight:
+                                                            FontWeight.bold),
+                                                    textAlign: TextAlign.center,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Seminar Draft Penelitian",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Informatika",
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Prototype Satu Unma",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "Berbasis Android",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Ruang Sidang / Daring",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "21/8/2021",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "08:00 WIB - 10:00 WIB",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        Container(
+                                                          width: _width / 3,
+                                                          height: _height / 15,
+                                                          child: TextButton(
+                                                            style: TextButton
+                                                                .styleFrom(
+                                                              backgroundColor:
+                                                                  Colors.blue,
+                                                              shape:
+                                                                  RoundedRectangleBorder(
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            20),
+                                                              ),
+                                                            ),
+                                                            onPressed: () {},
+                                                            child: Text(
+                                                              "Booking",
+                                                              style: TextStyle(
+                                                                fontSize: 16,
+                                                                color: Color(
+                                                                    0xffffffff),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ],
+                                                    )),
+                                              ],
+                                            ),
+                                            Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Seminar Draft Penelitian",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Informatika",
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Prototype Satu Unma",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "Berbasis Android",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Ruang Sidang / Daring",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "21/8/2021",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "08:00 WIB - 10:00 WIB",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        Container(
+                                                          width: _width / 3,
+                                                          height: _height / 15,
+                                                          child: TextButton(
+                                                            style: TextButton
+                                                                .styleFrom(
+                                                              backgroundColor:
+                                                                  Colors.blue,
+                                                              shape:
+                                                                  RoundedRectangleBorder(
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            20),
+                                                              ),
+                                                            ),
+                                                            onPressed: () {},
+                                                            child: Text(
+                                                              "Booking",
+                                                              style: TextStyle(
+                                                                fontSize: 16,
+                                                                color: Color(
+                                                                    0xffffffff),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ],
+                                                    )),
+                                              ],
+                                            ),
+                                            Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Seminar Draft Penelitian",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Informatika",
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Prototype Satu Unma",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "Berbasis Android",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Ruang Sidang / Daring",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "21/8/2021",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "08:00 WIB - 10:00 WIB",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        Container(
+                                                          width: _width / 3,
+                                                          height: _height / 15,
+                                                          child: TextButton(
+                                                            style: TextButton
+                                                                .styleFrom(
+                                                              backgroundColor:
+                                                                  Colors.blue,
+                                                              shape:
+                                                                  RoundedRectangleBorder(
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            20),
+                                                              ),
+                                                            ),
+                                                            onPressed: () {},
+                                                            child: Text(
+                                                              "Booking",
+                                                              style: TextStyle(
+                                                                fontSize: 16,
+                                                                color: Color(
+                                                                    0xffffffff),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ],
+                                                    )),
+                                              ],
+                                            ),
+                                            Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Seminar Draft Penelitian",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Informatika",
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Prototype Satu Unma",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "Berbasis Android",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "Ruang Sidang / Daring",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          "",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "21/8/2021",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          "08:00 WIB - 10:00 WIB",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                          style: TextStyle(
+                                                              color: Color(
+                                                                  0xff4e4e4e)),
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                        Text(
+                                                          " ",
+                                                          textAlign:
+                                                              TextAlign.center,
+                                                        ),
+                                                      ],
+                                                    )),
+                                                Container(
+                                                    width: _width / 2,
+                                                    height: _height / 10.6,
+                                                    decoration: BoxDecoration(
+                                                        border: Border(
+                                                      right: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                      bottom: BorderSide(
+                                                          width: 1.0,
+                                                          color: Colors.black),
+                                                    )),
+                                                    child: Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        Container(
+                                                          width: _width / 3,
+                                                          height: _height / 15,
+                                                          child: TextButton(
+                                                            style: TextButton
+                                                                .styleFrom(
+                                                              backgroundColor:
+                                                                  Colors.blue,
+                                                              shape:
+                                                                  RoundedRectangleBorder(
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            20),
+                                                              ),
+                                                            ),
+                                                            onPressed: () {},
+                                                            child: Text(
+                                                              "Booking",
+                                                              style: TextStyle(
+                                                                fontSize: 16,
+                                                                color: Color(
+                                                                    0xffffffff),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ],
+                                                    )),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Container(
+                                      child: Row(
                                         children: [
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "KEGIATAN",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
+                                          Container(
+                                            width: _width / 3.5,
+                                            height: _height / 20,
+                                            decoration: BoxDecoration(
+                                                border: Border.all(
+                                                    color: Colors.black)),
+                                            child: TextButton(
+                                              style: TextButton.styleFrom(
+                                                backgroundColor: Colors.white,
+                                              ),
+                                              onPressed: () {},
+                                              child: Text(
+                                                "Sebelumnya",
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                  color: is1
+                                                      ? Colors.grey
+                                                      : Colors.black,
                                                 ),
                                               ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "PRODI",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "JUDUL",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "TEMPAT",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "TANGGAL",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "WAKTU",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                              Container(
-                                                width: _width / 2,
-                                                decoration: BoxDecoration(
-                                                    border: Border(
-                                                  right: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                  bottom: BorderSide(
-                                                      width: 1.0,
-                                                      color: Colors.black),
-                                                )),
-                                                child: Text(
-                                                  "AKSI",
-                                                  style: TextStyle(
-                                                      fontFamily:
-                                                          'Poppins-Semi-Bold',
-                                                      color: Color(0xff4e4e4e),
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ),
-                                            ],
+                                            ),
                                           ),
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Seminar Draft Penelitian",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Informatika",
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Prototype Satu Unma",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "Berbasis Android",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Ruang Sidang / Daring",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "21/8/2021",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "08:00 WIB - 10:00 WIB",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      Container(
-                                                        width: _width / 3,
-                                                        height: _height / 15,
-                                                        child: TextButton(
-                                                          style: TextButton
-                                                              .styleFrom(
-                                                            backgroundColor:
-                                                                Colors.blue,
-                                                            shape:
-                                                                RoundedRectangleBorder(
+                                          Container(
+                                            width: _width / 10,
+                                            height: _height / 20,
+                                            decoration: BoxDecoration(
+                                                border: Border.all(
+                                                    color: Colors.black)),
+                                            child: TextButton(
+                                              style: is1
+                                                  ? TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.blue,
+                                                      shape:
+                                                          RoundedRectangleBorder(
                                                               borderRadius:
                                                                   BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                          ),
-                                                          onPressed: () {},
-                                                          child: Text(
-                                                            "Booking",
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Color(
-                                                                  0xffffffff),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  )),
-                                            ],
-                                          ),
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Seminar Draft Penelitian",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Informatika",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Prototype Satu Unma",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "Berbasis Android",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Ruang Sidang / Daring",
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        "",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "21/8/2021",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "08:00 WIB - 10:00 WIB",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      Container(
-                                                        width: _width / 3,
-                                                        height: _height / 15,
-                                                        child: TextButton(
-                                                          style: TextButton
-                                                              .styleFrom(
-                                                            backgroundColor:
-                                                                Colors.blue,
-                                                            shape:
-                                                                RoundedRectangleBorder(
+                                                                      .zero),
+                                                    )
+                                                  : TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.white,
+                                                      shape:
+                                                          RoundedRectangleBorder(
                                                               borderRadius:
                                                                   BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                          ),
-                                                          onPressed: () {},
-                                                          child: Text(
-                                                            "Booking",
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Color(
-                                                                  0xffffffff),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  )),
-                                            ],
+                                                                      .zero),
+                                                    ),
+                                              onPressed: () {
+                                                is1 = true;
+                                                is2 = false;
+                                                is3 = false;
+                                                setState(() {});
+                                              },
+                                              child: Text(
+                                                "1",
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                  color: Color(0xff4e4e4e),
+                                                ),
+                                              ),
+                                            ),
                                           ),
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Seminar Draft Penelitian",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Informatika",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Prototype Satu Unma",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "Berbasis Android",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Ruang Sidang / Daring",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "21/8/2021",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "08:00 WIB - 10:00 WIB",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      Container(
-                                                        width: _width / 3,
-                                                        height: _height / 15,
-                                                        child: TextButton(
-                                                          style: TextButton
-                                                              .styleFrom(
-                                                            backgroundColor:
-                                                                Colors.blue,
-                                                            shape:
-                                                                RoundedRectangleBorder(
+                                          Container(
+                                            width: _width / 10,
+                                            height: _height / 20,
+                                            decoration: BoxDecoration(
+                                                border: Border.all(
+                                                    color: Colors.black)),
+                                            child: TextButton(
+                                              style: is2
+                                                  ? TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.blue,
+                                                      shape:
+                                                          RoundedRectangleBorder(
                                                               borderRadius:
                                                                   BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                          ),
-                                                          onPressed: () {},
-                                                          child: Text(
-                                                            "Booking",
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Color(
-                                                                  0xffffffff),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  )),
-                                            ],
-                                          ),
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Seminar Draft Penelitian",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Informatika",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Prototype Satu Unma",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "Berbasis Android",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Ruang Sidang / Daring",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "21/8/2021",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "08:00 WIB - 10:00 WIB",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      Container(
-                                                        width: _width / 3,
-                                                        height: _height / 15,
-                                                        child: TextButton(
-                                                          style: TextButton
-                                                              .styleFrom(
-                                                            backgroundColor:
-                                                                Colors.blue,
-                                                            shape:
-                                                                RoundedRectangleBorder(
+                                                                      .zero),
+                                                    )
+                                                  : TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.white,
+                                                      shape:
+                                                          RoundedRectangleBorder(
                                                               borderRadius:
                                                                   BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                          ),
-                                                          onPressed: () {},
-                                                          child: Text(
-                                                            "Booking",
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Color(
-                                                                  0xffffffff),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  )),
-                                            ],
+                                                                      .zero),
+                                                    ),
+                                              onPressed: () {
+                                                is1 = false;
+                                                is2 = !is2;
+                                                is3 = false;
+                                                setState(() {});
+                                              },
+                                              child: Text(
+                                                "2",
+                                                style: TextStyle(
+                                                    fontSize: 16,
+                                                    color: Color(0xff4e4e4e)),
+                                              ),
+                                            ),
                                           ),
-                                          Row(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.center,
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Seminar Draft Penelitian",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Informatika",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Prototype Satu Unma",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "Berbasis Android",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "Ruang Sidang / Daring",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        "",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "21/8/2021",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Text(
-                                                        "08:00 WIB - 10:00 WIB",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                        style: TextStyle(
-                                                            color: Color(
-                                                                0xff4e4e4e)),
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                      Text(
-                                                        " ",
-                                                        textAlign:
-                                                            TextAlign.center,
-                                                      ),
-                                                    ],
-                                                  )),
-                                              Container(
-                                                  width: _width / 2,
-                                                  height: _height / 12,
-                                                  decoration: BoxDecoration(
-                                                      border: Border(
-                                                    right: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                    bottom: BorderSide(
-                                                        width: 1.0,
-                                                        color: Colors.black),
-                                                  )),
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      Container(
-                                                        width: _width / 3,
-                                                        height: _height / 15,
-                                                        child: TextButton(
-                                                          style: TextButton
-                                                              .styleFrom(
-                                                            backgroundColor:
-                                                                Colors.blue,
-                                                            shape:
-                                                                RoundedRectangleBorder(
+                                          Container(
+                                            width: _width / 10,
+                                            height: _height / 20,
+                                            decoration: BoxDecoration(
+                                                border: Border.all(
+                                                    color: Colors.black)),
+                                            child: TextButton(
+                                              style: is3
+                                                  ? TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.blue,
+                                                      shape:
+                                                          RoundedRectangleBorder(
                                                               borderRadius:
                                                                   BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                          ),
-                                                          onPressed: () {},
-                                                          child: Text(
-                                                            "Booking",
-                                                            style: TextStyle(
-                                                              fontSize: 16,
-                                                              color: Color(
-                                                                  0xffffffff),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  )),
-                                            ],
+                                                                      .zero),
+                                                    )
+                                                  : TextButton.styleFrom(
+                                                      elevation: 0,
+                                                      backgroundColor:
+                                                          Colors.white,
+                                                      shape:
+                                                          RoundedRectangleBorder(
+                                                              borderRadius:
+                                                                  BorderRadius
+                                                                      .zero),
+                                                    ),
+                                              onPressed: () {
+                                                is1 = false;
+                                                is2 = false;
+                                                is3 = !is3;
+                                                setState(() {});
+                                              },
+                                              child: Text(
+                                                "3",
+                                                style: TextStyle(
+                                                    fontSize: 16,
+                                                    color: Color(0xff4e4e4e)),
+                                              ),
+                                            ),
+                                          ),
+                                          Container(
+                                            width: _width / 3.5,
+                                            height: _height / 20,
+                                            decoration: BoxDecoration(
+                                                border: Border.all(
+                                                    color: Colors.black)),
+                                            child: TextButton(
+                                              style: TextButton.styleFrom(
+                                                backgroundColor: Colors.white,
+                                              ),
+                                              onPressed: () {},
+                                              child: Text(
+                                                "Selanjutnya",
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                  color: is3
+                                                      ? Colors.grey
+                                                      : Colors.black,
+                                                ),
+                                              ),
+                                            ),
                                           ),
                                         ],
                                       ),
-                                    ),
-                                  ),
-                                  Row(
-                                    children: [
-                                      Container(
-                                        width: _width / 3.5,
-                                        height: _height / 20,
-                                        decoration: BoxDecoration(
-                                            border: Border.all(
-                                                color: Colors.black)),
-                                        child: TextButton(
-                                          style: TextButton.styleFrom(
-                                            backgroundColor: Colors.white,
-                                          ),
-                                          onPressed: () {},
-                                          child: Text(
-                                            "Sebelumnya",
-                                            style: TextStyle(
-                                              fontSize: 16,
-                                              color: is1
-                                                  ? Colors.grey
-                                                  : Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      Container(
-                                        width: _width / 10,
-                                        height: _height / 20,
-                                        decoration: BoxDecoration(
-                                            border: Border.all(
-                                                color: Colors.black)),
-                                        child: TextButton(
-                                          style: is1
-                                              ? TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.blue,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                )
-                                              : TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.white,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                ),
-                                          onPressed: () {
-                                            is1 = true;
-                                            is2 = false;
-                                            is3 = false;
-                                            setState(() {});
-                                          },
-                                          child: Text(
-                                            "1",
-                                            style: TextStyle(
-                                              fontSize: 16,
-                                              color: Color(0xff4e4e4e),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      Container(
-                                        width: _width / 10,
-                                        height: _height / 20,
-                                        decoration: BoxDecoration(
-                                            border: Border.all(
-                                                color: Colors.black)),
-                                        child: TextButton(
-                                          style: is2
-                                              ? TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.blue,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                )
-                                              : TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.white,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                ),
-                                          onPressed: () {
-                                            is1 = false;
-                                            is2 = !is2;
-                                            is3 = false;
-                                            setState(() {});
-                                          },
-                                          child: Text(
-                                            "2",
-                                            style: TextStyle(
-                                                fontSize: 16,
-                                                color: Color(0xff4e4e4e)),
-                                          ),
-                                        ),
-                                      ),
-                                      Container(
-                                        width: _width / 10,
-                                        height: _height / 20,
-                                        decoration: BoxDecoration(
-                                            border: Border.all(
-                                                color: Colors.black)),
-                                        child: TextButton(
-                                          style: is3
-                                              ? TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.blue,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                )
-                                              : TextButton.styleFrom(
-                                                  elevation: 0,
-                                                  backgroundColor: Colors.white,
-                                                  shape: RoundedRectangleBorder(
-                                                      borderRadius:
-                                                          BorderRadius.zero),
-                                                ),
-                                          onPressed: () {
-                                            is1 = false;
-                                            is2 = false;
-                                            is3 = !is3;
-                                            setState(() {});
-                                          },
-                                          child: Text(
-                                            "3",
-                                            style: TextStyle(
-                                                fontSize: 16,
-                                                color: Color(0xff4e4e4e)),
-                                          ),
-                                        ),
-                                      ),
-                                      Container(
-                                        width: _width / 3.5,
-                                        height: _height / 20,
-                                        decoration: BoxDecoration(
-                                            border: Border.all(
-                                                color: Colors.black)),
-                                        child: TextButton(
-                                          style: TextButton.styleFrom(
-                                            backgroundColor: Colors.white,
-                                          ),
-                                          onPressed: () {},
-                                          child: Text(
-                                            "Selanjutnya",
-                                            style: TextStyle(
-                                              fontSize: 16,
-                                              color: is3
-                                                  ? Colors.grey
-                                                  : Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ],

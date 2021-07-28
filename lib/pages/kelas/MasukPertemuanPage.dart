@@ -95,7 +95,7 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                     Text("Pertemuan ke-14 Algoritma dan Pemrograman A",
                         style: TextStyle(color: Color(0xff4e4e4e))),
                     Container(
-                      height: _height / 1.51,
+                      height: _height / 1.53,
                       width: _width / 1.15,
                       child: ListView(
                         children: [
@@ -195,7 +195,7 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                           Text("Jumlah Peserta : 27",
                               style: TextStyle(color: Color(0xff4e4e4e))),
                           Container(
-                            height: _height / 6,
+                            height: _height / 5.9,
                             width: _width,
                             child: Card(
                               elevation: 8.0,
@@ -1473,14 +1473,14 @@ class _MasukPertemuanPageState extends State<MasukPertemuanPage> {
                                       ),
                                     ),
                                     Container(
-                                      width: _width / 1.5,
-                                      height: _height / 15,
+                                      width: _width / 1.6,
+                                      height: _height / 14,
                                       padding:
                                           EdgeInsets.only(top: 5, bottom: 5),
                                       child: Row(
                                         children: [
                                           Container(
-                                            width: _width / 2.1,
+                                            width: _width / 2.323,
                                             decoration: BoxDecoration(
                                                 border: Border.all(
                                                     width: 1.0,
