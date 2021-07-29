@@ -112,7 +112,7 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.note_add,
                                                     size: _width / 10,
                                                     color: Color(0xff4e4e4e)),
                                               ),
@@ -148,7 +148,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.view_list,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
@@ -178,7 +179,8 @@ class _PerwalianPageState extends State<PerwalianPage> {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(10),
-                                            child: Icon(Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.supervisor_account,
+                                                color: Color(0xff4e4e4e),
                                                 size: _width / 10),
                                           ),
                                           Expanded(

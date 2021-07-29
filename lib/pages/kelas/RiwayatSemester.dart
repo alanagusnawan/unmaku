@@ -186,7 +186,7 @@ class _RiwayatSemesterPageState extends State<RiwayatSemesterPage> {
                                             const EdgeInsets.only(right: 10.0),
                                         height: _height / 20,
                                         child: TextButton(
-                                          style: is2020ganjil
+                                           style: is2020ganjil
                                               ? TextButton.styleFrom(
                                                   backgroundColor: Colors.green,
                                                   shape: RoundedRectangleBorder(

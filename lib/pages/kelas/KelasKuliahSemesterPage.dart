@@ -19,7 +19,6 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
     final _height = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      bottomNavigationBar: menuBawah(),
       backgroundColor: Colors.white,
       body: Stack(
         overflow: Overflow.visible,
@@ -538,25 +537,4 @@ class _KelasKuliahSemesterState extends State<KelasKuliahSemester> {
       ),
     );
   }
-}
-
-Widget menuBawah() {
-  final menu = BottomNavigationBar(
-    type: BottomNavigationBarType.fixed,
-    items: [
-      BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Dashboard")),
-      BottomNavigationBarItem(
-          icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
-      BottomNavigationBarItem(
-          icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
-      BottomNavigationBarItem(
-          icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
-      BottomNavigationBarItem(
-          icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
-      BottomNavigationBarItem(
-          icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
-    ],
-  );
-
-  return menu;
 }

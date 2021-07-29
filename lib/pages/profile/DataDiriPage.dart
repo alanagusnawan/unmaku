@@ -28,7 +28,6 @@ class _DataDiriPageState extends State<DataDiriPage> {
 
     return Scaffold(
       backgroundColor: Colors.white,
-      bottomNavigationBar: menuBawah(),
       body: Container(
         height: _height,
         child: Stack(
@@ -113,7 +112,7 @@ class _DataDiriPageState extends State<DataDiriPage> {
                           ),
                         ),
                         Container(
-                          padding: EdgeInsets.only(top: _height / 20),
+                          padding: EdgeInsets.only(top: _height / 50),
                           width: _width / 1.3,
                           child: Padding(
                             padding:
@@ -458,27 +457,5 @@ class _DataDiriPageState extends State<DataDiriPage> {
         ),
       ),
     );
-  }
-
-  Widget menuBawah() {
-    final menu = BottomNavigationBar(
-      type: BottomNavigationBarType.fixed,
-      items: [
-        BottomNavigationBarItem(
-            icon: Icon(Icons.home), title: Text("Dashboard")),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.assignment_rounded), title: Text("Perwalian")),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.laptop_mac), title: Text("Kelas")),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.library_books_outlined), title: Text("Transkrip")),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.date_range_rounded), title: Text("Jadwal")),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.payment_rounded), title: Text("Keuangan")),
-      ],
-    );
-
-    return menu;
   }
 }

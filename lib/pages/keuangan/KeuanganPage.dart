@@ -117,7 +117,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10.0),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.payment,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
@@ -125,7 +126,7 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                                   "Histori Tagihan",
                                                   style: TextStyle(
                                                       fontFamily: 'Poppins',
-                                                      color: Colors.black,
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -152,7 +153,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10.0),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.request_quote,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
@@ -160,7 +162,7 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                                   "Invoice",
                                                   style: TextStyle(
                                                       fontFamily: 'Poppins',
-                                                      color: Colors.black,
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -182,7 +184,8 @@ class _KeuanganPageState extends State<KeuanganPage> {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(10.0),
-                                            child: Icon(Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.local_atm,
+                                                color: Color(0xff4e4e4e),
                                                 size: _width / 10),
                                           ),
                                           Expanded(

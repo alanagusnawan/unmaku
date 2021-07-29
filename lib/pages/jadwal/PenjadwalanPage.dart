@@ -116,7 +116,8 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10.0),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.today,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
@@ -124,7 +125,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                                   "Jadwal Kuliah",
                                                   style: TextStyle(
                                                       fontFamily: 'Poppins',
-                                                      color: Colors.black,
+                                                      color: Color(0xff4e4e4e),
                                                       fontSize: _width / 22),
                                                 ),
                                               ),
@@ -146,7 +147,7 @@ class _PenjadwalanPageState extends State<PenjadwalanPage> {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(10.0),
-                                            child: Icon(Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.school, color: Color (0xff4e4e4e),
                                                 size: _width / 10),
                                           ),
                                           Expanded(

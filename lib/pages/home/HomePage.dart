@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                                                   style: TextStyle(
                                                       color: Color(0xff4e4e4e),
                                                       fontFamily:
-                                                          'Poppins-Bold',
+                                                          'Poppins',
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       fontSize: _width / 16),
@@ -143,6 +143,7 @@ class _HomePageState extends State<HomePage> {
                                                   "Semester ganjil 2021-2022",
                                                   textAlign: TextAlign.start,
                                                   style: TextStyle(
+                                                    fontFamily: 'Poppins-Regular',
                                                       color: Color(0xff4e4e4e),
                                                       fontSize: _width / 30),
                                                 ),
@@ -151,6 +152,7 @@ class _HomePageState extends State<HomePage> {
                                                 "UTS akan dilaksanakan :",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
+                                                    fontFamily: 'Poppins-Regular',
                                                     color: Color(0xff4e4e4e),
                                                     fontSize: _width / 30),
                                               ),
@@ -158,6 +160,7 @@ class _HomePageState extends State<HomePage> {
                                                 "14-Maret-2021 s.d 30-Maret-2021",
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
+                                                    fontFamily: 'Poppins-Regular',
                                                     color: Color(0xff4e4e4e),
                                                     fontSize: _width / 30),
                                               ),
@@ -219,7 +222,7 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Color(0xff4e4e4e),
-                                                    fontFamily: 'Poppins-Bold',
+                                                    fontFamily: 'Poppins',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
                                               ),
@@ -232,7 +235,7 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Color(0xff4e4e4e),
-                                                    fontFamily: 'Poppins-Bold',
+                                                    fontFamily: 'Poppins-Regular',
                                                     fontSize: _width / 30),
                                               ),
                                             ),
@@ -241,7 +244,7 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Color(0xff4e4e4e),
-                                                  fontFamily: 'Poppins-Bold',
+                                                  fontFamily: 'Poppins-Regular',
                                                   fontSize: _width / 30),
                                             ),
                                             Text(
@@ -249,7 +252,7 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Color(0xff4e4e4e),
-                                                  fontFamily: 'Poppins-Bold',
+                                                  fontFamily: 'Poppins-Regular',
                                                   fontSize: _width / 30),
                                             ),
                                           ],
@@ -309,7 +312,7 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Color(0xff4e4e4e),
-                                                    fontFamily: 'Poppins-Bold',
+                                                    fontFamily: 'Poppins',
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: _width / 16),
                                               ),
@@ -322,7 +325,7 @@ class _HomePageState extends State<HomePage> {
                                                 textAlign: TextAlign.start,
                                                 style: TextStyle(
                                                     color: Color(0xff4e4e4e),
-                                                    fontFamily: 'Poppins-Bold',
+                                                    fontFamily: 'Poppins-Regular',
                                                     fontSize: _width / 30),
                                               ),
                                             ),
@@ -331,7 +334,7 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Color(0xff4e4e4e),
-                                                  fontFamily: 'Poppins-Bold',
+                                                  fontFamily: 'Poppins-Regular',
                                                   fontSize: _width / 30),
                                             ),
                                             Text(
@@ -339,7 +342,7 @@ class _HomePageState extends State<HomePage> {
                                               textAlign: TextAlign.start,
                                               style: TextStyle(
                                                   color: Color(0xff4e4e4e),
-                                                  fontFamily: 'Poppins-Bold',
+                                                  fontFamily: 'Poppins-Regular',
                                                   fontSize: _width / 30),
                                             ),
                                           ],

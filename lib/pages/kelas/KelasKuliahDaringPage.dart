@@ -117,7 +117,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.all(10.0),
-                                                child: Icon(Icons.person,
+                                                child: Icon(Icons.laptop_mac,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
@@ -147,7 +148,8 @@ class _KelasKuliahDaringPageState extends State<KelasKuliahDaringPage> {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(10.0),
-                                            child: Icon(Icons.wysiwyg_rounded,
+                                            child: Icon(Icons.fact_check,
+                                                color: Color(0xff4e4e4e),
                                                 size: _width / 10),
                                           ),
                                           Expanded(

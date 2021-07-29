@@ -68,6 +68,7 @@ class _TranskripPageState extends State<TranskripPage> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontFamily: 'Poppins-Bold',
+                    fontWeight: FontWeight.bold,
                     color: Color(0xff4e4e4e),
                     fontSize: 20)),
           ));
@@ -139,7 +140,7 @@ class _TranskripPageState extends State<TranskripPage> {
                     Text(
                       'TRANSKIP',
                       style: TextStyle(
-                          fontFamily: 'Poppins-Bold',
+                          fontFamily: 'Poppins',
                           color: Color(0xff4e4e4e),
                           fontWeight: FontWeight.bold,
                           fontSize: _width / 18),
@@ -197,8 +198,9 @@ class _TranskripPageState extends State<TranskripPage> {
                                 Text(
                                   "Lihat",
                                   style: TextStyle(
-                                    fontFamily: 'Poppins-Semi-Bold',
+                                    fontFamily: 'Poppins',
                                     fontSize: 16,
+                                    fontWeight: FontWeight.bold,
                                     color: Color(0xffffffff),
                                   ),
                                 ),
@@ -229,8 +231,9 @@ class _TranskripPageState extends State<TranskripPage> {
                                 Text(
                                   "Cetak",
                                   style: TextStyle(
-                                    fontFamily: 'Poppins-Semi-Bold',
+                                    fontFamily: 'Poppins',
                                     fontSize: 16,
+                                    fontWeight: FontWeight.bold,
                                     color: Color(0xffffffff),
                                   ),
                                 ),

@@ -196,7 +196,8 @@ class _ProfilePageState extends State<ProfilePage>
                                                 Padding(
                                                   padding:
                                                       const EdgeInsets.all(5.0),
-                                                  child: Icon(Icons.work_sharp,
+                                                  child: Icon(Icons.school,
+                                                      color: Color(0xff4e4e4e),
                                                       size: _width / 10),
                                                 ),
                                                 Expanded(
@@ -229,7 +230,8 @@ class _ProfilePageState extends State<ProfilePage>
                                                 padding:
                                                     const EdgeInsets.all(5.0),
                                                 child: Icon(
-                                                    Icons.wysiwyg_rounded,
+                                                    Icons.description,
+                                                    color: Color(0xff4e4e4e),
                                                     size: _width / 10),
                                               ),
                                               Expanded(
